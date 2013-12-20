@@ -3,7 +3,7 @@ body {
 	margin-top: 86px;
 	margin-left:auto;
     margin-right:auto;
-    width: 1000px;
+    width: 1020px;
     font-family: Helvetica, Arial, sans-serif;
 }
 
@@ -23,18 +23,23 @@ img {
 }
 
 .navigationBar {
+	width: 1000px;
 	height: 48px;
 	margin: 0px;
 	padding: 0px;
 	margin-bottom: 56px;
 }
 
-.navigationBarCell {
-	vertical-align: bottom;
-	padding: 0px;
+.title {
+	float: left;
+	width: 204px;
+	height: 48px;
+	margin-right: 140px;
 }
 
 .navigationItem {
+	float: left;
+
 	font-family: Helvetica Neue, sans-serif;
 	font-size: 14px;
 	text-align: left;
@@ -46,7 +51,8 @@ img {
 	width: 130px;
 	height: 33px;
 	padding: 0px;
-
+	margin: 0px;
+	margin-top: 15px;
 
 	border-left: 1px dotted black;
 }
@@ -71,9 +77,16 @@ img {
 	margin-bottom: 30px;
 }
 
-.subHeadlineProjectCell {
-	padding-left: 10px;
-	padding-top: 10px;
+.subHeadlineProjectBox {
+	height: 350px;
+	width: 1000px;
+}
+
+.subHeadlineImage {
+	float: left;
+	width: 660px;
+	height: 350px;
+	padding-right: 20px;
 }
 
 .projectTextBlock {
@@ -91,18 +104,15 @@ img {
 	width: 530px;
 }
 
-#subHeadlineImage {
-	width: 660px;
-	height: 350px;
-}
-
 .projectBox {
 	float: left;
 	position: relative;
+	padding: 0px;
 	padding-top: 34px;
 	margin: 0px;
 	margin-right: 19px;
 	width: 320px;
+	height: 330px;
 }
 
 .projectHeader {
@@ -123,8 +133,9 @@ img {
 }
 
 .projectNotes {
+	position: relative;
+	top: 4px;
 	font-family: Helvetica Neue, sans-serif;
-	line-height: 14px;
 }
 
 .projectCopy {
