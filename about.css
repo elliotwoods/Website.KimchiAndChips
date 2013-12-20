@@ -1,0 +1,28 @@
+p {
+	margin-top: 0px;
+	margin-bottom: 1em;
+}
+
+.aboutText {
+	float: left;
+	color: #363636;
+	font-size: 12px;
+	line-height: 16px;
+	border-bottom: 1px dotted black;
+}
+
+.aboutColumn {
+	float: left;
+	width: 50%;
+}
+
+.aboutTextBlock {
+	padding-right: 50px;
+	padding-bottom: 20px;
+}
+
+.title {
+	float: none;
+	font-size: 16px;
+	color: #a3620a;
+}

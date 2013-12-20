@@ -1,0 +1,67 @@
+.headlineWorkBox {
+	padding: 0px;
+	margin-bottom: 30px;
+}
+
+.subHeadlineWorkBox {
+	height: 350px;
+	width: 1000px;
+}
+
+.subHeadlineImage {
+	float: left;
+	width: 660px;
+	height: 350px;
+	padding-right: 20px;
+}
+
+.workTextBlock {
+	padding-top: 20px;
+	color: black;
+	font-size: 12px;
+}
+
+#headlineImage {
+	width: 1000px;
+	height: 400px;
+}
+
+#headlineTextBlock {
+	width: 530px;
+}
+
+.workBox {
+	float: left;
+	position: relative;
+	padding: 0px;
+	padding-top: 34px;
+	margin: 0px;
+	margin-right: 19px;
+	width: 320px;
+	height: 330px;
+}
+
+.workHeader {
+	color: black;
+}
+
+.workHeader:hover {
+	text-decoration: underline;
+}
+
+.workTitle {
+	font-family: Helvetica Neue, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 0px;
+	line-height: 100%;
+	background-color: #fff200;
+}
+
+.workNotes {
+	font-family: Helvetica Neue, sans-serif;
+}
+
+.workCopy {
+	color: #363636;
+}
