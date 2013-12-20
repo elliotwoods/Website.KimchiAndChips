@@ -1,6 +1,10 @@
 p {
-	margin-top: 0px;
-	margin-bottom: 1em;
+
+}
+
+hr {
+	border-top: none;
+	border-bottom: 1px dotted black;
 }
 
 .aboutText {
@@ -8,7 +12,8 @@ p {
 	color: #363636;
 	font-size: 12px;
 	line-height: 16px;
-	border-bottom: 1px dotted black;
+	
+	width: 100%;
 }
 
 .aboutColumn {
@@ -21,8 +26,18 @@ p {
 	padding-bottom: 20px;
 }
 
-.title {
-	float: none;
+h1 {
 	font-size: 16px;
 	color: #a3620a;
+	font-weight: normal;
+	margin-bottom: -0.5em;
+}
+
+ul {
+	list-style-type: none;
+	font-size: 12px;
+	line-height: 22px;
+	padding-left: 0px;
+	margin-left: 0px;
+	text-indent: 0px;
 }

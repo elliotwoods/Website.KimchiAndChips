@@ -1,3 +1,7 @@
+//--
+//keep navbar in place
+//--
+//
 window.onscroll = function(args) {
     var y = window.pageYOffset;
     var navBar = document.getElementById("navigationBar");
@@ -12,3 +16,24 @@ window.onscroll = function(args) {
     newY += 'px'
     navBar.style.top = newY;
 }
+//
+//--
+
+
+
+//--
+//smooth scrolling to anchors
+//--
+//
+var $root = $('html, body');
+$('a').click(function() {
+    var href = $.attr(this, 'href');
+    $root.animate({
+        scrollTop: $(href).offset().top
+    }, 500, function () {
+        window.location.hash = href;
+    });
+    return false;
+});
+//
+//--
