@@ -1,0 +1,146 @@
+body {
+	padding: 0px;
+	margin-top: 86px;
+	margin-left:auto;
+    margin-right:auto;
+    width: 1000px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a:link {
+	text-decoration:none;
+}
+
+img {
+	display: block;
+}
+
+.cleanTable {
+	padding: 0px;
+	border: 0px;
+	margin: 0px;
+	vertical-align: top;
+}
+
+.navigationBar {
+	height: 48px;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 56px;
+}
+
+.navigationBarCell {
+	vertical-align: bottom;
+	padding: 0px;
+}
+
+.navigationItem {
+	font-family: Helvetica Neue, sans-serif;
+	font-size: 14px;
+	text-align: left;
+
+	color: #636363;
+
+	line-height: 30px;
+	text-indent: 18px;
+	width: 130px;
+	height: 33px;
+	padding: 0px;
+
+
+	border-left: 1px dotted black;
+}
+
+.navigationItem:link {
+	background: #fff;
+	text-decoration: none;
+}
+
+.navigationItem:visited {
+	background: #fff;
+	color: #636363;
+}
+
+.navigationItem:hover {
+	background-color: #bcb9b5;
+	color: #ff0;
+}
+
+.headlineProjectBox {
+	padding: 0px;
+	margin-bottom: 30px;
+}
+
+.subHeadlineProjectCell {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.projectTextBlock {
+	padding-top: 20px;
+	color: black;
+	font-size: 12px;
+}
+
+#headlineImage {
+	width: 1000px;
+	height: 400px;
+}
+
+#headlineTextBlock {
+	width: 530px;
+}
+
+#subHeadlineImage {
+	width: 660px;
+	height: 350px;
+}
+
+.projectBox {
+	float: left;
+	position: relative;
+	padding-top: 34px;
+	margin: 0px;
+	margin-right: 19px;
+	width: 320px;
+}
+
+.projectHeader {
+	color: black;
+}
+
+.projectHeader:hover {
+	text-decoration: underline;
+}
+
+.projectTitle {
+	font-family: Helvetica Neue, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	padding: 0px;
+	line-height: 100%;
+	background-color: #fff200;
+}
+
+.projectNotes {
+	font-family: Helvetica Neue, sans-serif;
+	line-height: 14px;
+}
+
+.projectCopy {
+	color: #363636;
+}
+
+.footer {
+	float: left;
+	width: 100%;
+	font-size: 12px;
+	line-height: 24px;
+
+	border-top: 1px black dotted;
+	padding: 0px;
+	padding-top: 3px;
+
+	margin-top: 50px; 
+	margin-bottom: 100px;
+}
