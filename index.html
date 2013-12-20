@@ -4,9 +4,25 @@
         <meta charset="utf-8" />  
         <title>Kimchi and Chips</title>  
         <link rel="stylesheet" type="text/css" href="defaults.css">
+        <script type="text/javascript">
+        window.onscroll = function(args) {
+            var y = window.pageYOffset;
+            var navBar = document.getElementById("navigationBar");
+            var newY = 0;
+            if (y < 0) {
+                newY = 66;
+            } else if (y < 66) {
+                newY = 66 - y;
+            } else {
+                newY = 0;
+            }
+            newY += 'px'
+            navBar.style.top = newY;
+        }
+        </script>
     </head>  
     <body>
-        <div class="navigationBar">
+        <div id="navigationBar">
         	<img class="title" src="images/common/logo.jpg" width="204" height="48"/>
     		<a href="news.html">
     			<div class="navigationItem">
@@ -19,9 +35,9 @@
     			</div>
             </a>
 		
-            <a href="projects.html">
+            <a href="works.html">
     			<div class="navigationItem">
-    				Projects
+    				Works
     			</div>
             </a>
 		
