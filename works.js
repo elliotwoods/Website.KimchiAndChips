@@ -3,10 +3,9 @@
 //--
 //
 $(document).ready(function() {
-    //if we have a hash, load the lightbox
-    if (window.location.hash) {
-        showLightBox();
-    }
+    log('ready');
+    
+    checkAnchor();
 
     var $root = $('html, body');
     $('a').click(function() {
@@ -18,8 +17,8 @@ $(document).ready(function() {
                 scrollTop: $(href).offset().top
             }, 500, function () {
                 window.location.hash = href;
+                checkAnchor();
             });
-            showLightBox();
         } else {
             hideLightBox();
         }
@@ -40,12 +39,14 @@ $(document).ready(function() {
 
 
 function layoutLightBox() {
+    log('layoutLightBox');
+    
     var top = $('#top');
     var width = $( window ).width() - 200;
     var height = $( window ).height() - 200;
 
-    if (width < 1200) {
-        width = 1200;
+    if (width < 1100) {
+        width = 1100;
     }
     if (height < 400) {
         height = 400;
@@ -63,12 +64,20 @@ function layoutLightBox() {
 //check anchor
 //--
 //
+var validProjects = ["LSS"];
 function checkAnchor() {
-    if (window.location.hash) {
-        if (window.location.hash.length != "#") {
-            showLightBox();
-        }
-    } 
+    log('checkAnchor');
+
+    if (lightBoxVisible) {
+        //stop recursion
+        return;
+    }
+    var hash = window.location.hash;
+    hash = hash.substring(1, hash.length);
+    if (jQuery.inArray(hash, validProjects) != -1) {
+        showLightBox();
+        loadProject(hash);
+    }
 }
 //
 //--
@@ -77,7 +86,13 @@ function checkAnchor() {
 //open/close lightbox
 //--
 //
+var lightBoxVisible = false;
+
 function showLightBox() {
+    log('showLightBox');
+
+    lightBoxVisible = true;
+
     var dim = $('#dim');
     dim.css('visibility', 'visible');
     dim.css('opacity', 0.5);
@@ -92,16 +107,13 @@ function showLightBox() {
 
     var top = $('#top');
     top.css('visibility', 'visible');
-
-    var workName = window.location.hash;
-    $.get('works/' + workName + '/project.xml', function(xml) {
-        $(d).find('image').each(function(){
-            alert($(this));
-        });
-    });
 }
 
+
 function hideLightBox() {
+    log('hideLightBox');
+
+    lightBoxVisible = false;
     var dim = $('#dim');
     dim.css('visibility', 'visible');
     dim.animate({
@@ -112,6 +124,19 @@ function hideLightBox() {
     });
 
     $('#top').css('visibility', 'hidden');
+}
+
+function loadProject(name) {
+    log('loadProject: ' + name);
+    
+    var projectDefinitionPath = "works/" + name + "/project.json";
+    
+    log(projectDefinitionPath);
+
+    $.get(projectDefinitionPath, function(doc) {
+        log(doc);
+        $("#top").text(doc.work.title);
+    }, "json");
 }
 //
 //--
