@@ -51,10 +51,14 @@ function layoutLightBox() {
     if (height < 400) {
         height = 400;
     }
-    top.css("width", width);
+    //top.css("width", width);
     top.css("height", height);
     top.css("margin-left", -width/2);
     top.css("margin-top", -height/2);
+    
+//     var workBoxImageBlock = $('#workBoxImageBlock');
+//     var workBoxTextBlock = $('workBoxTextBlock');
+//     workBoxImageBlock.css("width", width - 360);
 }
 //
 //--
@@ -75,8 +79,8 @@ function checkAnchor() {
     var hash = window.location.hash;
     hash = hash.substring(1, hash.length);
     if (jQuery.inArray(hash, validProjects) != -1) {
-        showLightBox();
         loadProject(hash);
+        showLightBox();
     }
 }
 //
@@ -129,13 +133,37 @@ function hideLightBox() {
 function loadProject(name) {
     log('loadProject: ' + name);
     
-    var projectDefinitionPath = "works/" + name + "/project.json";
+    var projectPath = "works/" + name + "/";
+    var projectDefinitionPath = projectPath + "project.json";
     
     log(projectDefinitionPath);
 
     $.get(projectDefinitionPath, function(doc) {
         log(doc);
-        $("#top").text(doc.work.title);
+        
+        var work = doc.work;
+        
+        var html = '';
+        
+        html += '<span class="workBoxTitle">' + work.title + "</span><br />";
+        html += '<span class="workBoxFormat">' + work.format + "</span><br />";
+        html += '<span class="workBoxYear">' + work.year + "</span><br />";
+        
+        $.each(work.description, function(index, value) {
+           html += '<p>' + value + '</p>'; 
+        });
+        
+        $("#workBoxTextBlock").html(html);
+        
+        
+        html = '';
+        $.each(work.images, function(index, value) {
+            html += '<img class="workBoxImage" src="' + projectPath + value + '" />'; 
+            html += '<div class="workBoxSpacer">&nbsp;</div>'; 
+        });
+        
+        
+        $("#workBoxImageBlock").html(html);
     }, "json");
 }
 //
