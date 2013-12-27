@@ -10,9 +10,10 @@ $(document).ready(function() {
     var $root = $('html, body');
     $('a').click(function() {
         var href = $.attr(this, 'href');
-        if (href == "main") {
+        var workName = href.substring(1, href.length);     
+        if (workName == "main") {
             return true;
-        } else if (href != "#") {
+        } else if (isValidWorkName(workName)) {
             $root.animate({
                 scrollTop: $(href).offset().top
             }, 500, function () {
@@ -33,32 +34,36 @@ $(document).ready(function() {
     $( window ).resize(function() {
         layoutLightBox();
     });
+    
+    $(document).keyup(function(e) {
+        if (e.keyCode == 27) { // esc
+            hideLightBox();
+        }
+    });
 
     layoutLightBox();
 });
-
 
 function layoutLightBox() {
     log('layoutLightBox');
     
     var top = $('#top');
-    var width = $( window ).width() - 200;
-    var height = $( window ).height() - 200;
+    var width = $( window ).width() - 100;
+    var height = $( window ).height() - 100;
 
-    if (width < 1100) {
-        width = 1100;
+    if (width > 780 + 360) {
+        width = 780 + 360;
     }
     if (height < 400) {
         height = 400;
     }
-    //top.css("width", width);
+    
     top.css("height", height);
     top.css("margin-left", -width/2);
     top.css("margin-top", -height/2);
     
-//     var workBoxImageBlock = $('#workBoxImageBlock');
-//     var workBoxTextBlock = $('workBoxTextBlock');
-//     workBoxImageBlock.css("width", width - 360);
+     var workBoxImageBlock = $('#workBoxImageBlock');
+     workBoxImageBlock.css("width", width - 360);
 }
 //
 //--
@@ -68,7 +73,19 @@ function layoutLightBox() {
 //check anchor
 //--
 //
-var validProjects = ["LSS"];
+function isValidWorkName(name) {
+    return jQuery.inArray(name, validWorks) != -1;
+}
+
+function getWorkAnchor() {
+    var href = window.location.hash;
+    if (href.length > 0) {
+        return href.substring(1, href.length);
+    } else {
+        return '';
+    }
+}
+
 function checkAnchor() {
     log('checkAnchor');
 
@@ -76,10 +93,9 @@ function checkAnchor() {
         //stop recursion
         return;
     }
-    var hash = window.location.hash;
-    hash = hash.substring(1, hash.length);
-    if (jQuery.inArray(hash, validProjects) != -1) {
-        loadProject(hash);
+    var workName = getWorkAnchor();
+    if (isValidWorkName(workName)) {
+        loadWork(workName);
         showLightBox();
     }
 }
@@ -130,18 +146,18 @@ function hideLightBox() {
     $('#top').css('visibility', 'hidden');
 }
 
-function loadProject(name) {
-    log('loadProject: ' + name);
+function loadWork(name) {
+    log('loadWork: ' + name);
     
-    var projectPath = "works/" + name + "/";
-    var projectDefinitionPath = projectPath + "project.json";
+    var workPath = "works/" + name + "/";
+    var workDefinitionPath = workPath + "main.json";
     
-    log(projectDefinitionPath);
+    log(workDefinitionPath);
 
-    $.get(projectDefinitionPath, function(doc) {
+    $.get(workDefinitionPath, function(doc) {
         log(doc);
         
-        var work = doc.work;
+        var work = doc;
         
         var html = '';
         
@@ -158,8 +174,7 @@ function loadProject(name) {
         
         html = '';
         $.each(work.images, function(index, value) {
-            html += '<img class="workBoxImage" src="' + projectPath + value + '" />'; 
-            html += '<div class="workBoxSpacer">&nbsp;</div>'; 
+            html += '<img class="workBoxImage" src="' + workPath + value + '" />';
         });
         
         

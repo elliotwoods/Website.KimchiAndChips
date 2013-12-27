@@ -22,7 +22,7 @@ window.onscroll = function(args) {
 
 
 //--
-//keep navbar in place
+//general logging
 //--
 //
 var logAll = true;
