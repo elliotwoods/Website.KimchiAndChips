@@ -10,6 +10,11 @@ $(document).ready(function() {
     var $root = $('html, body');
     $('a').click(function() {
         var href = $.attr(this, 'href');
+        
+        //first check if it's a real link
+        if (href.substring(0,1) != '#') {
+            return true;
+        }
         var workName = href.substring(1, href.length);     
         if (workName == "main") {
             return true;
