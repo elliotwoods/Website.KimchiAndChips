@@ -1,11 +1,6 @@
 <?
 
-$activeArguments = array();
-if (is_array($argv)) {
-	$activeArguments =  array_shift($argv);
-}
-
-$GLOBALS['isLive'] = in_array("--make", $activeArguments);
+$GLOBALS['isLive'] = in_array("--export", $argv);
 
 function varDump($var) {
     echo "<pre>";
