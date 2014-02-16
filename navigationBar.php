@@ -6,7 +6,7 @@ $sections = array("news", "about", "works", "contact", "blog");
 <?
 foreach($sections as $section) {
     ?>
-                <a href="<?= $section ?>.html">
+                <a href="<?= $section . "." . ($isLive ? "html" : "php") ?>">
                     <div class="navigationItem">
                         <?= ucwords($section) ?>
                     </div>

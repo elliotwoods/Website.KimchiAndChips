@@ -1,4 +1,5 @@
 <?php
+require("defaults.php");
 
 $showWarnings = true;
 if(!$showWarnings) {
