@@ -1,0 +1,84 @@
+{
+	"news" : [
+		{
+			"image" : "resonate2014.jpg",
+			"date" : "3-5 April 2014",
+			"title" : "Talks and Exhibition at Resonate 2014",
+			"brief" : [ "Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space. Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space."],
+			"place" : "I don’t know where it takes place.",
+			"moreInfo" : "http://resonate.io/2014/"
+		},
+		{
+			"image" : "df142014.jpg",
+			"date" : "7-14 Feburary 2014",
+			"title" : "Symposium and Workshop at DF14 : The Distortion Field Conference 2014",
+			"brief" : [ "Curated in collaboration between EWHA’s Cross Media Creative Lab, Kimchi and Chips and CreativeApplications.Net, The  「Distortion Field」 objective is to facilitate a productive ‘scenius’ that nurtures creative intersections, exchanges and networks between practitioners in art, media, performance and technology. It aims to describe the effect of audience’s participation upon artist’s intention, the opportunity for audience collaboration within new media creations, and the professional framing of artworks through curation and documentation."],
+			"place" : "Ewha Womans Univ. ECC, Seoul",
+			"moreInfo" : "http://www.thedistortionfield.org/"
+		},
+		{
+			"image" : "instint2013.jpg",
+			"date" : "15, 16 November 2013",
+			"title" : "Talks at INST-INT 2013",
+			"brief" : [ "Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space. Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space."],
+			"place" : "Walker Art Center",
+			"moreInfo" : "http://inst-int.com/"
+		},
+		{
+			"image" : "nabi2013.jpg",
+			"date" : "17, 18 October 2013",
+			"title" : "Exhibition at OPEN CREATIVITY OPEN WORLD",
+			"brief" : [ "<a href=\"http://www.nabi.or.kr/\">ArtCenter Nabi</a> is presenting the exhibition Open Creativity, Open World organized in conjunction with Seoul Conference on Cyberspace 2013 is a presentation of a new creative art world on the basis of open communication, distribution, and participation. And Kimchi and Chips shows the organic relationship between nature and technology through its work Lit Tree" ],
+			"place" : "3F COEX, Hall D Lobby",
+			"moreInfo" : "http://www.nabi.or.kr/english/project/current_read.nab?idx=432"
+		},
+		{
+			"image" : "residency_gumcheon.jpg",
+			"date" : "January-June 2014",
+			"title" : "Resident Artist at Seoul Art Space Gumcheon",
+			"brief" : [ "Kimchi and Chips became the resident artist at Seoul Art Space Gumcheon"],
+			"place" : "333-7 Doksan-dong, Geumcheon-gu, Seoul",
+			"moreInfo" : "http://eng.seoulartspace.or.kr/G02_geumcheon/main.asp"
+		},
+		{
+			"image" : "luxwellington2013.jpg",
+			"date" : "21-24 June 2013",
+			"title" : "Exhibition and Keynote talk at LUX Wellington 2013",
+			"brief" : [ "We are extremely lucky, and very excited, to be able to include Kimchi and Chips as part of this year’s WGTN LUX. This massively talented duo will be presenting at our symposium this weekend and also showing a brand new work – Lit Tree 2013 – as part of our Urban Alive exhibition." ],
+			"place" : "Wellington",
+			"moreInfo" : "http://lux.org.nz"
+		},
+		{
+			"image" : "",
+			"date" : "June 2013",
+			"title" : "Talk at Samsung Group",
+			"brief" : [ "Mimi Son is having a workshop at Samsung." ],
+			"place" : "Seoul",
+			"moreInfo" : "??"
+		},
+		{
+			"image" : "future2013.jpg",
+			"date" : "May 2013",
+			"title" : "Conference at FutureEverything 2013",
+			"brief" : [ "??" ],
+			"place" : "??",
+			"moreInfo" : "http://futureeverything.org/"
+		},
+		{
+			"image" : "kidp.jpg",
+			"date" : "periodical",
+			"title" : "Workshop at KIDP(Korea Institute of Design Promotion)",
+			"brief" : [ "Mimi Son of Kimchi and Chips is having a Service Design Workshop at <a href=\"http://www.kidp.or.kr/\">KICP(Korea Institute of Design Promotion)</a>. This program is targeted to unemployed to train and increase the designer's on-site practival capacity building." ],
+			"place" : "Bundang-gu Seongnam-si",
+			"moreInfo" : "http://www.kidp.or.kr/kmain/read.asp?menuseqnum=59&boardseqnum=11240"
+		},
+		{
+			"image" : "tokyouniv2013.jpg",
+			"date" : "May 2013",
+			"title" : "openFrameworks Workshop at Tokyo University",
+			"brief" : [ "??" ],
+			"place" : "Tokyo",
+			"moreInfo" : "http://www.u-tokyo.ac.jp/"
+		}
+	]
+}
