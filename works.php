@@ -231,16 +231,10 @@ function buildContent($works, $headlineSelection, $subHeadlineSelection) {
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html lang="en">  
     <head>
-        <meta charset="utf-8" />  
-        <title>Kimchi and Chips</title>  
-        <link rel="stylesheet" type="text/css" href="defaults.css">
+<? require("header.php"); ?>
         <link rel="stylesheet" type="text/css" href="works.css">
         <? buildValidWorks($works); ?>
-        <script type="text/javascript" src="javascript/jquery-1.10.2.min.js"></script>
-        <script type="text/javascript" src="javascript/underscore-min.js"></script>
-        <script type="text/javascript" src="essentials.js"></script>
         <script type="text/javascript" src="works.js"></script>
-        
     </head>  
     <body>
         <a href="#">
@@ -257,37 +251,8 @@ function buildContent($works, $headlineSelection, $subHeadlineSelection) {
             </div>
         </div>
         <div id="main">
-            <div id="navigationBar">
-                <img class="title" src="images/common/logo.jpg" width="204" height="48"/>
-                <a href="news.html">
-                    <div class="navigationItem">
-                        News
-                    </div>
-                </a>
-                <a href="about.html">
-                    <div class="navigationItem">
-                        About
-                    </div>
-                </a>
-            
-                <a href="works.html">
-                    <div class="navigationItem">
-                        Works
-                    </div>
-                </a>
-            
-                <a href="contact.html">
-                    <div class="navigationItem">
-                        Contact
-                    </div>
-                </a>
-            
-                <a href="blog/">
-                    <div class="navigationItem">
-                        Blog
-                    </div>
-                </a>
-            </div>
+
+<? require("navigationBar.php"); ?>
 
             <div id="content">
 <?php

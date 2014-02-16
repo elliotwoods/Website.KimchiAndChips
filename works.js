@@ -120,7 +120,7 @@ function showLightBox() {
 
     var dim = $('#dim');
     dim.css('visibility', 'visible');
-    dim.css('opacity', 0.5);
+    dim.css('opacity', '0');
 
     dim.animate({
         opacity:1.0
@@ -128,10 +128,9 @@ function showLightBox() {
 
     });
 
-    dim.css('opacity', '0');
-
     var top = $('#top');
     top.css('visibility', 'visible');
+    $("body").css("overflow", "hidden");
 }
 
 
@@ -149,6 +148,7 @@ function hideLightBox() {
     });
 
     $('#top').css('visibility', 'hidden');
+    $("body").css("overflow", "visible");
 }
 
 function loadWork(name) {

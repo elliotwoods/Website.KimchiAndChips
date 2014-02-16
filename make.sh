@@ -9,5 +9,5 @@ do
 	#say "$phpName file.."
 	#say $htmlName
 
-	php $phpName > $htmlName
+	php $phpName make> $htmlName
 done
