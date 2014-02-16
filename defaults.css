@@ -111,6 +111,11 @@ img {
 	color: #ff0;
 }
 
+.navigationItemSelected {
+	background-color: #bcb9b5;
+	color: #ff0;
+}
+
 .footer {
 	float: left;
 	width: 100%;

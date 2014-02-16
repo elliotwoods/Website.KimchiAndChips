@@ -1,6 +1,7 @@
 <?
 
-$GLOBALS['isLive'] = in_array("--export", $argv);
+$args = is_array($argv) ? $argv : array();
+$GLOBALS['isLive'] = in_array("--export", $args);
 
 function varDump($var) {
     echo "<pre>";
