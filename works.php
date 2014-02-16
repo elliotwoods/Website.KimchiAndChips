@@ -1,15 +1,9 @@
 <?php
 require("defaults.php");
 
-$showWarnings = true;
+$showWarnings = ! $isLive;
 if(!$showWarnings) {
     error_reporting(E_ERROR | E_PARSE);
-}
-
-function varDump($var) {
-    echo "<pre>";
-    var_dump($var);
-    echo "</pre>";
 }
 
 function loadProject($work) {

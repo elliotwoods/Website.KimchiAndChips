@@ -1,4 +1,12 @@
+<?
+$isLive = true;
+?>
 <? require("defaults.php"); ?>
+<?
+$newsString = file_get_contents("./news/main.json");
+$newsJson = json_decode($newsString, true);
+$newsItems = $newsJson["news"];
+?>
 <!DOCTYPE html>  
 <html lang="en">  
     <head>
@@ -11,120 +19,53 @@
 <? require("navigationBar.php"); ?>
             
             <div class="newsHolder">
-                <div class="newsItem newsItemEven">
-                    <img class="newsImage" src="images/news/resonate2014/main.jpg" />
+<?
+$newsItemIndex = 0;
+foreach($newsItems as $newsItem) {
+    $odd = $newsItemIndex % 2 == 1;
+    $class = $odd ? "newsItemOdd" : "newsItemEven";
+?>
+                <div class="newsItem <?= $class ?>">
+                    <img class="newsImage" src="news/<?= $newsItem["image"] ?>" />
                     <div class="newsTextBlock">
                         <span class="newsDate">
-                            3-5 April 2014
+                            <?= $newsItem["date"] ?>
                         </span>
                         <br />
                         <span class="newsTitle">
-                            Talks and Exhibition at Resonate 2014
+                            <?= $newsItem["title"] ?>
                         </span>
                         <br />
+<?
+    foreach($newsItem["brief"] as $paragraph) {
+?>
                         <p>
-                            Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.  Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.
+                            <?= $paragraph ?>
                         </p>
+<?
+    }
+    if (!is_null($newsItem["place"])) {
+?>
                         <p>
-                            Place : I don’t know where it takes place.
+                            Place : <?= $newsItem["place"] ?>
                         </p>
+<?
+    }
+    if (!is_null($newsItem["moreInfo"])) {
+        $url = $newsItem["moreInfo"];
+?>
                         <p>
-                            More Info : <a href="http://resonate.io/2014/">http://resonate.io/2014/</a>
+                            More info : <a href="<?= $url ?>"><?= shortenText($url, 50) ?></a>
                         </p>
+<?
+    }
+?>
                     </div>
                 </div>
-
-                <div class="newsItem newsItemOdd">
-                    <img class="newsImage" src="images/news/instint2013/main.jpg" />
-                    <div class="newsTextBlock">
-                        <span class="newsDate">
-                            15, 16 November 2013
-                        </span>
-                        <br />
-                        <span class="newsTitle">
-                            Talks at INST-INT 2013
-                        </span>
-                        <br />
-                        <p>
-                            Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.  Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.
-                        </p>
-                        <p>
-                            Place : Walker Art Center
-                        </p>
-                        <p>
-                            More Info : <a href="http://inst-int.com/">http://inst-int.com/</a>
-                        </p>
-                    </div>
-                </div> 
-
-                <div class="newsItem newsItemEven">
-                    <img class="newsImage" src="images/news/nabi2013/main.jpg" />
-                    <div class="newsTextBlock">
-                        <span class="newsDate">
-                            15, 16 November 2013
-                        </span>
-                        <br />
-                        <span class="newsTitle">
-                            Talks at INST-INT 2013
-                        </span>
-                        <br />
-                        <p>
-                            Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.  Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.
-                        </p>
-                        <p>
-                            Place : Walker Art Center
-                        </p>
-                        <p>
-                            More Info : <a href="http://inst-int.com/">http://inst-int.com/</a>
-                        </p>
-                    </div>
-                </div>
-
-                <div class="newsItem newsItemOdd">
-                    <img class="newsImage" src="images/news/sasg-residency2014/main.jpg" />
-                    <div class="newsTextBlock">
-                        <span class="newsDate">
-                            15, 16 November 2013
-                        </span>
-                        <br />
-                        <span class="newsTitle">
-                            Talks at INST-INT 2013
-                        </span>
-                        <br />
-                        <p>
-                            Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.  Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.
-                        </p>
-                        <p>
-                            Place : Walker Art Center
-                        </p>
-                        <p>
-                            More Info : <a href="http://inst-int.com/">http://inst-int.com/</a>
-                        </p>
-                    </div>
-                </div> 
-
-                <div class="newsItem newsItemEven">
-                    <img class="newsImage" src="images/news/lux2013/main.jpg" />
-                    <div class="newsTextBlock">
-                        <span class="newsDate">
-                            15, 16 November 2013
-                        </span>
-                        <br />
-                        <span class="newsTitle">
-                            Talks at INST-INT 2013
-                        </span>
-                        <br />
-                        <p>
-                            Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.  Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space.
-                        </p>
-                        <p>
-                            Place : Walker Art Center
-                        </p>
-                        <p>
-                            More Info : <a href="http://inst-int.com/">http://inst-int.com/</a>
-                        </p>
-                    </div>
-                </div> 
+<?
+    $newsItemIndex++;
+}
+?>
             </div>
 
             <div class="footer">

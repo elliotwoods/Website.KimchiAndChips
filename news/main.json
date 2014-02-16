@@ -5,7 +5,7 @@
 			"date" : "3-5 April 2014",
 			"title" : "Talks and Exhibition at Resonate 2014",
 			"brief" : [ "Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space. Kimchi and Chips will be presenting new artwork collaborating with xxxxxxx, that explores time and space."],
-			"place" : "I don’t know where it takes place.",
+			"place" : "Belgrade, Serbia",
 			"moreInfo" : "http://resonate.io/2014/"
 		},
 		{
@@ -53,15 +53,14 @@
 			"date" : "June 2013",
 			"title" : "Talk at Samsung Group",
 			"brief" : [ "Mimi Son is having a workshop at Samsung." ],
-			"place" : "Seoul",
-			"moreInfo" : "??"
+			"place" : "Seoul"
 		},
 		{
 			"image" : "future2013.jpg",
 			"date" : "May 2013",
 			"title" : "Conference at FutureEverything 2013",
 			"brief" : [ "??" ],
-			"place" : "??",
+			"place" : "Manchester",
 			"moreInfo" : "http://futureeverything.org/"
 		},
 		{

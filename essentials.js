@@ -25,9 +25,8 @@ window.onscroll = function(args) {
 //general logging
 //--
 //
-var logAll = true;
 function log(content) {
-    if(logAll){
+    if(!isLive){
         console.log(content);
     }
 }
