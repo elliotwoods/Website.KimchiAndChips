@@ -69,6 +69,13 @@ function layoutLightBox() {
     
      var workBoxImageBlock = $('#workBoxImageBlock');
      workBoxImageBlock.css("width", width - 360);
+     
+//      //resize content
+//      log(top.children('img'));
+//      top.children('img').map(function() {
+//         $(this).css("width", 100);
+//         log($this);
+//      });
 }
 //
 //--
@@ -106,6 +113,7 @@ function checkAnchor() {
 }
 //
 //--
+
 
 //--
 //open/close lightbox
@@ -182,8 +190,10 @@ function loadWork(name) {
             html += '<img class="workBoxImage" src="' + workPath + value + '" />';
         });
         
-        
         $("#workBoxImageBlock").html(html);
+        
+        //strip bottom margin of last
+        $("#workBoxImageBlock > img").last().css("margin-bottom", "0px");
     }, "json");
 }
 //
