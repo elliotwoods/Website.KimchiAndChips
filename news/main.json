@@ -78,6 +78,270 @@
 			"brief" : [ "??" ],
 			"place" : "Tokyo",
 			"moreInfo" : "http://www.u-tokyo.ac.jp/"
+		},
+		{
+			"image" : "MediaArtConference2013.jpg",
+			"date" : "28 Feburary 2013",
+			"title" : "Talk at Media Art Conference, Seoul",
+			"brief" : [ "MediaArt and Money freestyle conference was held in Gallery Loop." ],
+			"place" : "Gallery Loop, Seoul",
+			"moreInfo" : "http://onoffmix.com/event/12504/"
+		},
+		{
+			"image" : "TEDx2013.jpg",
+			"date" : "28 March 2013",
+			"title" : "TEDx University of Manchester",
+			"brief" : [ "TED is a non-profit organization devoted to ‘ideas worth sharing.’ TEDx is an independently organised TED event linked to a specific location, in this case The University of Manchester. Speakers include Professor Clive Agnew, Shahbaz Hussain, Elliot Woods, Professor Julian Dodd and Nancy Elizabeth." ],
+			"place" : "Manchester",
+			"moreInfo" : "http://tedxuniversityofmanchester.wordpress.com"
+		},
+		{
+			"image" : "NODE132013.jpg",
+			"date" : "11 Feburary 2013",
+			"title" : "Workshop and Keynote presentation at NODE 13",
+			"brief" : [ "NODE13 is packed with hands on vvvv workshops where you’ll learn how to build stuff. You’ll get tons of chances to get to know each other and talk about the tools that we use in our everyday creative coding life." ],
+			"place" : "Frankfurt",
+			"moreInfo" : "http://node13.vvvv.org/"
+		},
+		{
+			"image" : "Zimbabwe2013.jpg",
+			"date" : "21 Feburary 2013",
+			"title" : "Workshop at CulturalShift Zimbabwe",
+			"brief" : [ "Culture Shift believes in the creation of new technology tools and products that support the development of emerging creative businesses and cultural organisations around the world." ],
+			"place" : "Zimbabwe",
+			"moreInfo" : "http://cultureshift.beta.gd"
+		},
+		{
+			"image" : "figment2013.jpg",
+			"date" : "Feburary 2013",
+			"title" : "professional VVVV Workshop at Figment Productions",
+			"brief" : [ "??" ],
+			"place" : "Guildford",
+			"moreInfo" : "http://www.figmentproductions.co.uk/"
+		},
+		{
+			"image" : "oslolux2013.jpg",
+			"date" : "7 Feburary 2013",
+			"title" : "Talk at Lux festival",
+			"brief" : [ "Elliot will present Kimchi and Chips’ provocations towards possible visual futures, a brief discussion on sight perception, and the influence of intermediation for visual art projects." ],
+			"place" : "Oslo",
+			"moreInfo" : "http://oslolux.wordpress.com"
+		},
+		{
+			"image" : "",
+			"date" : "November-December 2012",
+			"title" : "Workshop at Korea Design Center",
+			"brief" : [ "??" ],
+			"place" : "Bucheon",
+			"moreInfo" : "http://www.kidp.or.kr/"
+		},
+		{
+			"image" : "screenlab0x022012.jpg",
+			"date" : "November 2012",
+			"title" : "Curation at ScreenLab 0x02",
+			"brief" : [ "ScreenLab 0x02 Residency MediaCityUK" ],
+			"place" : "Salford",
+			"moreInfo" : "http://screenlabseries.tumblr.com"
+		},
+		{
+			"image" : "studentworkshop2012.jpg",
+			"date" : "November 2012",
+			"title" : "Student Workshop, Manchester",
+			"brief" : [ "3D projection-mapping pro Elliot Woods is coming back to the Omniversity to run vvvv Workshops." ],
+			"place" : "Manchester",
+			"moreInfo" : "http://madlab.org.uk/"
+		},
+		{
+			"image" : "rhizomatiks2012.jpg",
+			"date" : "November 2012",
+			"title" : "Talk at Rhizomatiks",
+			"brief" : [ "??" ],
+			"place" : "Tokyo",
+			"moreInfo" : "http://rhizomatiks.com"
+		},
+		{
+			"image" : "smc2012.jpg",
+			"date" : "July 2012",
+			"title" : "Talk at Social Media Cafe",
+			"brief" : [ "SMC_MCR is a monthly meetup for anyone and everyone interested in digital innovation and social media in Manchester. We get together, share ideas and learn from each other." ],
+			"place" : "Manchester",
+			"moreInfo" : "http://socialmediamanchester.net"
+		},
+		{
+			"image" : "sciencegallery2012.jpg",
+			"date" : "June 2012",
+			"title" : "Exhibition at Science Gallery",
+			"brief" : [ "A mahor exhibition and events programme that invites you to adapt a hacker mindset to bend. Tweak and mask-up Dublin's existing urban systems." ],
+			"place" : "Dublin",
+			"moreInfo" : "https://dublin.sciencegallery.com/hackthecity/"
+		},
+		{
+			"image" : "bergngoogle2012.jpg",
+			"date" : "June 2012",
+			"title" : "Research collaboration with BERG & Google Labs",
+			"brief" : [ "Timo, Jack, Joe and Nick – with Chris Lauritzen (then of Google Creative Lab), and Elliot Woods of Kimchi & Chips, started a series of tests to investigate both the interactive and aesthetic qualities of the combination of projection and computervision – which we started to call “Smart Light” internally." ],
+			"place" : "London",
+			"moreInfo" : "http://berglondon.com/blog/2012/12/19/lamps/"
+		},
+		{
+			"image" : "screenlab0x012012.jpg",
+			"date" : "April 2012",
+			"title" : "Curation at ScreenLab 0x01",
+			"brief" : [ "ScreenLab 0x01 residency in MediaCityUK, hosted by the University of Salford and organized by Kit Turner and Elliot Woods." ],
+			"place" : "Salford",
+			"moreInfo" : "https://vimeo.com/screenlabseries"
+		},
+		{
+			"image" : "watermuseum2012.jpg",
+			"date" : "March 2012",
+			"title" : "Exhibition at Water Museum",
+			"brief" : [ "Permanently installed ASSEMBLY in Nakdong river cultural centre gallery in Busan, Republic of Korea" ],
+			"place" : "Busan, South Korea",
+			"moreInfo" : "http://www.riverguide.go.kr/TheARC/river/nakdong_exhibit_artzone.jsp"
+		},
+		{
+			"image" : "siggraph2011.jpg",
+			"date" : "13-15 December 2011",
+			"title" : "Exhibition at SIGGRAPH Asia",
+			"brief" : [ "LIT TREE was installed in the exhibition at SIGGRAPH Asia, Hongkong." ],
+			"place" : "Hong Kong",
+			"moreInfo" : "http://www.siggraph.org/asia2011/"
+		},
+		{
+			"image" : "artncode2011.jpg",
+			"date" : "21-23 October 2011",
+			"title" : "Workshop at Art&&Code, Carnegie Mellon University",
+			"brief" : [ "ART && CODE: DIY 3D Sensing and Visualization was a festival and conference concerned with the artistic, technical, tactical and cultural potentials of low-cost 3D scanning devices — especially, but not exclusively, including the revolutionary Microsoft Kinect sensor." ],
+			"place" : "Pittsburgh",
+			"moreInfo" : "http://artandcode.com/"
+		},
+		{
+			"image" : "tetem2011.jpg",
+			"date" : "24 September - 18 December 2011",
+			"title" : "Exhibition at TETEM Kunstruimte",
+			"brief" : [ "The duo Kimchi and Chips presented the interactive installation Link - playful cityscape of cardboard boxes in which beautiful, funny or memorable stories preserved and can be shared." ],
+			"place" : "Enshede Netherlands",
+			"moreInfo" : "http://www.tetem.nl/"
+		},
+		{
+			"image" : "creators2011.jpg",
+			"date" : "7-10 September 2011",
+			"title" : "Exhibition at The Creators Project",
+			"brief" : [ "Lit Tree is an augmented projection that responds to viewers’ gestures, using plants as volumetric canvases. The installation, made from a cloud of glittering, dancing voxels, was one of the premiere artworks featured at our Seoul Event this past September." ],
+			"place" : "Seoul",
+			"moreInfo" : "http://thecreatorsproject.vice.com/"
+		},
+		{
+			"image" : "seouluniv2011.jpg",
+			"date" : "August 2011",
+			"title" : "Workshop at University of Seoul",
+			"brief" : [ "??" ],
+			"place" : "Seoul",
+			"moreInfo" : "??"
+		},
+		{
+			"image" : "file2011.jpg",
+			"date" : "17 July - 19 August 2011",
+			"title" : "Exhibition at File Festival",
+			"brief" : [ "A Link was installed at File Festival, Sao Paulo" ],
+			"place" : "Sao Paulo, Brazil",
+			"moreInfo" : "http://filefestival.org/"
+		},
+		{
+			"image" : "athens2011.jpg",
+			"date" : "20-22 May 2011",
+			"title" : "Exhibition at Athens Video Art Festival",
+			"brief" : [ "A Link was installed at Athens Video Art Festival" ],
+			"place" : "Athens, Greece",
+			"moreInfo" : "http://www.athensvideoartfestival.gr/"
+		},
+		{
+			"image" : "future2011.jpg",
+			"date" : "11-14 May 2011",
+			"title" : "Exhibition at FutureEverything",
+			"brief" : [ "Lit Tree was installed at FutureEverything Art Exhibition" ],
+			"place" : "Manchester",
+			"moreInfo" : "http://futureeverything.org/"
+		},
+		{
+			"image" : "kaywon2011.jpg",
+			"date" : "Feburary 2011",
+			"title" : "Workshop at Kaywon School of Art and Design",
+			"brief" : [ "??" ],
+			"place" : "Seoul",
+			"moreInfo" : "http://www.kaywon.ac.kr/"
+		},
+		{
+			"image" : "designkorea2010.jpg",
+			"date" : "December 2010",
+			"title" : "Exhibition at Design Korea 2010",
+			"brief" : [ "A Link was installed at Design Korea 2010" ],
+			"place" : "Seoul",
+			"moreInfo" : "http://www.designkorea.or.kr/"
+		},
+		{
+			"image" : "node102010.jpg",
+			"date" : "15-20 November 2010",
+			"title" : "Workshop at NODE 10",
+			"brief" : [ "‘Projecting On The Things’ is a workshop served up by Chris Plant (catweasel) and Elliot Woods (sugokuGENKI) covering techniques and topics on the art of projection mapping." ],
+			"place" : "Frankfurt",
+			"moreInfo" : "http://node10.vvvv.org"
+		},
+		{
+			"image" : "gwangju2010.jpg",
+			"date" : "August 2010",
+			"title" : "Workshop at Gwangju cultural Center",
+			"brief" : [ "??" ],
+			"place" : "Gwangju, Korea",
+			"moreInfo" : "http://www.cct.go.kr/"
+		},
+		{
+			"image" : "bains2010.jpg",
+			"date" : "June 2010",
+			"title" : "Exhibition at Bains Numeriques #5",
+			"brief" : [ "??" ],
+			"place" : "d'Enghien-les-Bains, France",
+			"moreInfo" : "??"
+		},
+		{
+			"image" : "future2010.jpg",
+			"date" : "May 2010",
+			"title" : "Exhibition at FutureEverything",
+			"brief" : [ "??" ],
+			"place" : "Manchester",
+			"moreInfo" : "http://futureeverything.org/"
+		},
+		{
+			"image" : "sangmyung2010.jpg",
+			"date" : "Feburary 2010",
+			"title" : "Workshop at Sangmyung University",
+			"brief" : [ "??" ],
+			"place" : "Seoul",
+			"moreInfo" : "http://www.smu.ac.kr/"
+		},
+		{
+			"image" : "siggraph2009.jpg",
+			"date" : "December 2009",
+			"title" : "Exhibition at SIGGRAPH Asia 2009",
+			"brief" : [ "??" ],
+			"place" : "Yokohama, Japan",
+			"moreInfo" : "??"
+		},
+		{
+			"image" : "ciid2009.jpg",
+			"date" : "September 2009",
+			"title" : "Exhibition at From Adam to Yeves",
+			"brief" : [ "A Jouney, London was installed at From Adam to Yeves." ],
+			"place" : "Copenhagen, Denmark",
+			"moreInfo" : "??"
+		},
+		{
+			"image" : "",
+			"date" : "April 2009",
+			"title" : "Exhibition at Next no.6",
+			"brief" : [ "??" ],
+			"place" : "Aarhus, Denmark",
+			"moreInfo" : "??"
 		}
 	]
 }
