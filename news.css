@@ -30,6 +30,8 @@ a:hover {
 .newsImage {
 	float: left;
 	padding-right: 34px;
+	width: 490px;
+	height: 260px;
 }
 
 .newsTextBlock {
