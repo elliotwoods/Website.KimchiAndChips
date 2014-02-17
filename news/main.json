@@ -25,6 +25,14 @@
 			"moreInfo" : "http://inst-int.com/"
 		},
 		{
+			"image" : "sadi2013.jpg",
+			"date" : "23 October 2013",
+			"title" : "Talk at sadi open lecture",
+			"brief" : [ "Mimi of Kimchi and Chips gave a talk at sadi(samsung art and design institute) open lecture, SOS" ],
+			"place" : "Seoul",
+			"moreInfo" : "https://www.sadi.net/web/www/123"
+		},
+		{
 			"image" : "nabi2013.jpg",
 			"date" : "17, 18 October 2013",
 			"title" : "Exhibition at OPEN CREATIVITY OPEN WORLD",
@@ -47,13 +55,6 @@
 			"brief" : [ "We are extremely lucky, and very excited, to be able to include Kimchi and Chips as part of this year’s WGTN LUX. This massively talented duo will be presenting at our symposium this weekend and also showing a brand new work – Lit Tree 2013 – as part of our Urban Alive exhibition." ],
 			"place" : "Wellington",
 			"moreInfo" : "http://lux.org.nz"
-		},
-		{
-			"image" : "",
-			"date" : "June 2013",
-			"title" : "Talk at Samsung Group",
-			"brief" : [ "Mimi Son is having a workshop at Samsung." ],
-			"place" : "Seoul"
 		},
 		{
 			"image" : "future2013.jpg",
@@ -126,14 +127,6 @@
 			"brief" : [ "Elliot will present Kimchi and Chips’ provocations towards possible visual futures, a brief discussion on sight perception, and the influence of intermediation for visual art projects." ],
 			"place" : "Oslo",
 			"moreInfo" : "http://oslolux.wordpress.com"
-		},
-		{
-			"image" : "",
-			"date" : "November-December 2012",
-			"title" : "Workshop at Korea Design Center",
-			"brief" : [ "??" ],
-			"place" : "Bucheon",
-			"moreInfo" : "http://www.kidp.or.kr/"
 		},
 		{
 			"image" : "screenlab0x022012.jpg",
@@ -333,14 +326,6 @@
 			"title" : "Exhibition at From Adam to Yeves",
 			"brief" : [ "A Jouney, London was installed at From Adam to Yeves." ],
 			"place" : "Copenhagen, Denmark",
-			"moreInfo" : "??"
-		},
-		{
-			"image" : "",
-			"date" : "April 2009",
-			"title" : "Exhibition at Next no.6",
-			"brief" : [ "??" ],
-			"place" : "Aarhus, Denmark",
 			"moreInfo" : "??"
 		}
 	]
