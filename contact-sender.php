@@ -26,7 +26,11 @@
 		// if verification code was correct send the message and show this page
 		mail("info@kimchiandchips.com",
 			'Online Form: '.$subject,
-			$locationDetails . "\n\n" . $message,
+			$message . "
+
+-------------------------------------------------------------------------------
+
+" . $locationDetails,
 			"From: $name <$email>");
 		
 		// delete the cookie so it cannot sent again by refreshing this page
