@@ -18,6 +18,8 @@ img {
 
 #main {
 	/**-webkit-filter: blur(2px); filter: url(#blur-effect-1);**/
+	margin-left:10px;
+	margin-right: 10px;
 }
 
 #dim {
