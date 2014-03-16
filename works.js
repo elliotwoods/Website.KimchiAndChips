@@ -170,17 +170,16 @@ function showLightBox() {
     lightBoxVisible = true;
 
     var dim = $('#dim');
+    var top = $('#top');
+    
     dim.css('visibility', 'visible');
     dim.css('opacity', '0');
-
+    top.css('visibility', 'visible');
+    
     dim.animate({
         opacity:1.0
-    }, 500, function() {
-
-    });
-
-    var top = $('#top');
-    top.css('visibility', 'visible');
+    }, 1000, function() { });  
+    
     $("body").css("overflow", "hidden");
 }
 
@@ -188,21 +187,29 @@ function showLightBox() {
 function hideLightBox() {
     log('hideLightBox');
 
-    lightBoxVisible = false;
+    var top = $('#top');
     var dim = $('#dim');
+    var workBoxImageBlock = $('#workBoxImageBlock');
+    var workBoxTextBlock = $('#workBoxTextBlock');
+    
+    lightBoxVisible = false;
+    
     dim.css('visibility', 'visible');
     dim.animate({
         opacity:0.0
     }, 500, function() {
         dim.css('visibility', 'hidden');
         window.location.hash = 'main'; //jumps to top of page with nothing
+        workBoxImageBlock.html("");
+        workBoxTextBlock.html("");
     });
 
     $("#workBoxImageBlock").children('iframe').map(function() {
         $(this).attr('src', "");
         log(this);
     });
-    $('#top').css('visibility', 'hidden');
+    
+    top.css('visibility', 'hidden');
     $("body").css("overflow", "visible");
 }
 

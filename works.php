@@ -55,7 +55,7 @@ function buildHeadline($work) {
     $paragraphCount = 0;
     if ($description) {
         foreach ($description as $paragraph) {
-            if ($paragraphCount++ > 2) {
+            if ($paragraphCount++ > 0) {
                 break;
             }
             $copy .= "                            <p>
@@ -108,8 +108,13 @@ function buildSubHeadline($work) {
     }
 
     $copy = "";
+    $paragraphCount = 0;
     if ($description) {
+        
         foreach ($description as $paragraph) {
+            if ($paragraphCount++ > 0) {
+                break;
+            }
             $copy .= "                            <p>
                                 " . $paragraph . "
                             </p>
