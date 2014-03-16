@@ -19,10 +19,12 @@ $(document).ready(function() {
         if (workName == "main") {
             return true;
         } else if (isValidWorkName(workName)) {
+            //scroll to the work
             $root.animate({
                 scrollTop: $(href).offset().top
             }, 500, function () {
                 window.location.hash = href;
+                //check where we're at now
                 checkAnchor();
             });
         } else {
@@ -49,33 +51,74 @@ $(document).ready(function() {
     layoutLightBox();
 });
 
+var workImageBlockWidth;
+var workImageBlockVideoHeight;
+
 function layoutLightBox() {
     log('layoutLightBox');
     
     var top = $('#top');
+    var workBoxImageBlock = $('#workBoxImageBlock');
+    var workBoxTextBlock = $('#workBoxTextBlock');
+    
     var width = $( window ).width() - 100;
     var height = $( window ).height() - 100;
 
+    if (width < 720) {
+        //tiny screen
+        width = 720;
+        workImageBlockWidth = width;
+        
+        top.css("height", "100%");
+        top.css("width", "100%"); 
+        top.css("margin-left", 0);
+        top.css("margin-top", 0);
+        top.css("left", 0);
+        top.css("top", 0);
+        top.css("overflow-y", "scroll")
+        
+        workBoxImageBlock.css("width", "100%");
+        workBoxImageBlock.css("margin", "10px");
+        workBoxImageBlock.css("overflow-y", "")
+        
+        workBoxTextBlock.css("padding-top", "30px");
+    } else {
+        //normal screen
+        workImageBlockWidth = width - 360;
+        
+        top.css("height", height);
+        top.css("margin-left", -width/2);
+        top.css("margin-top", -height/2);
+        top.css("left", "50%");
+        top.css("top", "50%");
+        top.css("overflow-y", "")
+        
+        workBoxImageBlock.css("width", workImageBlockWidth);
+        workBoxImageBlock.css("margin", "");
+        workBoxImageBlock.css("overflow-y", "scroll")
+        
+        workBoxTextBlock.css("padding-top", "130px");
+        
+    }
+    
     if (width > 780 + 360) {
         width = 780 + 360;
     }
+    
     if (height < 400) {
         height = 400;
     }
+   
     
-    top.css("height", height);
-    top.css("margin-left", -width/2);
-    top.css("margin-top", -height/2);
+        
     
-     var workBoxImageBlock = $('#workBoxImageBlock');
-     workBoxImageBlock.css("width", width - 360);
-     
-//      //resize content
-//      log(top.children('img'));
-//      top.children('img').map(function() {
-//         $(this).css("width", 100);
-//         log($this);
-//      });
+    
+    
+    workImageBlockVideoHeight = workImageBlockWidth * 9 / 16;
+    //resize content
+    workBoxImageBlock.children('iframe').map(function() {
+        $(this).css("height", workImageBlockVideoHeight);
+    });
 }
 //
 //--
@@ -155,6 +198,10 @@ function hideLightBox() {
         window.location.hash = 'main'; //jumps to top of page with nothing
     });
 
+    $("#workBoxImageBlock").children('iframe').map(function() {
+        $(this).attr('src', "");
+        log(this);
+    });
     $('#top').css('visibility', 'hidden');
     $("body").css("overflow", "visible");
 }
@@ -187,7 +234,13 @@ function loadWork(name) {
         
         html = '';
         $.each(work.images, function(index, value) {
-            html += '<img class="workBoxImage" src="' + workPath + value + '" />';
+            var vimeoTag = "vimeo:";
+            if (value.indexOf(vimeoTag) == 0) {
+                var videoIdentifier = value.substring(vimeoTag.length);
+                html += '<iframe src="//player.vimeo.com/video/' + videoIdentifier + '?color=ffffff" style="width: 100%; height: ' + workImageBlockVideoHeight + 'px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+            } else {
+                html += '<img class="workBoxImage" src="' + workPath + value + '" />';
+            }
         });
         
         $("#workBoxImageBlock").html(html);

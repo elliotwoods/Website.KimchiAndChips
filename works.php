@@ -239,10 +239,10 @@ function buildContent($works, $headlineSelection, $subHeadlineSelection) {
         </a>
         <div id="top">
             <div id="workBoxTextBlock">
-                some stuff goes here
+                
             </div>
             <div id="workBoxImageBlock">
-                image block
+                
             </div>
         </div>
         <div id="main">
