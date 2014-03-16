@@ -14,8 +14,9 @@ foreach($sections as $section) {
                 </div>
 <?
     } else {
+        $pageUrl = $section == "blog" ? "http://blog.kimchiandchips.com" : $section . "." . ($isLive ? "html" : "php");
         ?>
-                <a href="<?= $section . "." . ($isLive ? "html" : "php") ?>">
+                <a href="<?= $pageUrl ?>">
                     <div class="navigationItem">
                         <?= ucwords($section) ?>
                     </div>
