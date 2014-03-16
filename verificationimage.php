@@ -3,7 +3,21 @@
 //  The Web Help .com
 // ----------------------------------------- 
 
+if (!isset($_SERVER['HTTP_REFERER']) or checkValidReferer() === false) die();
+
+function checkValidReferer() {
+  $out = false;
+  $ref = $_SERVER['HTTP_REFERER'];
+  $lh = $_SERVER['HTTP_HOST'];
+  if (stripos($ref,$lh) !== false) $out = true;
+  return $out;
+}
+
 header('Content-type: image/png');
+header("Last-Modified: " . gmdate("D, d M Y H:i:s") . " GMT");
+header("Cache-Control: no-store, no-cache, must-revalidate");
+header("Cache-Control: post-check=0, pre-check=0", false);
+header("Pragma: no-cache");
 
 $width = 110;
 $height = 22;
