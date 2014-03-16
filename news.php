@@ -55,7 +55,7 @@ foreach($newsItems as $newsItem) {
         $url = $newsItem["moreInfo"];
 ?>
                         <p>
-                            More info : <a href="<?= $url ?>"><?= shortenText($url, 50) ?></a>
+                            More info : <a href="<?= $url ?>" target="_blank"><?= shortenText($url, 50) ?></a>
                         </p>
 <?
     }

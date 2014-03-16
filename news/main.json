@@ -28,7 +28,7 @@
 			"image" : "sadi2013.jpg",
 			"date" : "23 October 2013",
 			"title" : "Talk at sadi open lecture",
-			"brief" : [ "Mimi of Kimchi and Chips gave a talk at sadi(samsung art and design institute) open lecture, SOS" ],
+			"brief" : [ "Mimi of Kimchi and Chips gave a talk at sadi(samsung art and design institute) open lecture, SOS." ],
 			"place" : "Seoul",
 			"moreInfo" : "https://www.sadi.net/web/www/123"
 		},
@@ -36,7 +36,7 @@
 			"image" : "nabi2013.jpg",
 			"date" : "17, 18 October 2013",
 			"title" : "Exhibition at OPEN CREATIVITY OPEN WORLD",
-			"brief" : [ "<a href=\"http://www.nabi.or.kr/\">ArtCenter Nabi</a> is presenting the exhibition Open Creativity, Open World organized in conjunction with Seoul Conference on Cyberspace 2013 is a presentation of a new creative art world on the basis of open communication, distribution, and participation. And Kimchi and Chips shows the organic relationship between nature and technology through its work Lit Tree" ],
+			"brief" : [ "<a href=\"http://www.nabi.or.kr/\" target=\"_blank\">ArtCenter Nabi</a> is presenting the exhibition Open Creativity, Open World organized in conjunction with Seoul Conference on Cyberspace 2013 is a presentation of a new creative art world on the basis of open communication, distribution, and participation. And Kimchi and Chips shows the organic relationship between nature and technology through its work Lit Tree." ],
 			"place" : "3F COEX, Hall D Lobby",
 			"moreInfo" : "http://www.nabi.or.kr/english/project/current_read.nab?idx=432"
 		},
@@ -44,7 +44,7 @@
 			"image" : "residency_gumcheon.jpg",
 			"date" : "January-June 2014",
 			"title" : "Resident Artist at Seoul Art Space Gumcheon",
-			"brief" : [ "Kimchi and Chips became the resident artist at Seoul Art Space Gumcheon"],
+			"brief" : [ "Kimchi and Chips became the resident artist at Seoul Art Space Gumcheon."],
 			"place" : "333-7 Doksan-dong, Geumcheon-gu, Seoul",
 			"moreInfo" : "http://eng.seoulartspace.or.kr/G02_geumcheon/main.asp"
 		},
@@ -60,7 +60,7 @@
 			"image" : "future2013.jpg",
 			"date" : "May 2013",
 			"title" : "Conference at FutureEverything 2013",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Manchester",
 			"moreInfo" : "http://futureeverything.org/"
 		},
@@ -68,7 +68,7 @@
 			"image" : "kidp.jpg",
 			"date" : "periodical",
 			"title" : "Workshop at KIDP(Korea Institute of Design Promotion)",
-			"brief" : [ "Mimi Son of Kimchi and Chips is having a Service Design Workshop at <a href=\"http://www.kidp.or.kr/\">KICP(Korea Institute of Design Promotion)</a>. This program is targeted to unemployed to train and increase the designer's on-site practival capacity building." ],
+			"brief" : [ "Mimi Son of Kimchi and Chips is having a Service Design Workshop at <a href=\"http://www.kidp.or.kr/\" target=\"_blank\">KICP(Korea Institute of Design Promotion)</a>. This program is targeted to unemployed to train and increase the designer's on-site practival capacity building." ],
 			"place" : "Bundang-gu Seongnam-si",
 			"moreInfo" : "http://www.kidp.or.kr/kmain/read.asp?menuseqnum=59&boardseqnum=11240"
 		},
@@ -76,7 +76,7 @@
 			"image" : "tokyouniv2013.jpg",
 			"date" : "May 2013",
 			"title" : "openFrameworks Workshop at Tokyo University",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Tokyo",
 			"moreInfo" : "http://www.u-tokyo.ac.jp/"
 		},
@@ -116,7 +116,7 @@
 			"image" : "figment2013.jpg",
 			"date" : "Feburary 2013",
 			"title" : "professional VVVV Workshop at Figment Productions",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Guildford",
 			"moreInfo" : "http://www.figmentproductions.co.uk/"
 		},
@@ -188,7 +188,7 @@
 			"image" : "watermuseum2012.jpg",
 			"date" : "March 2012",
 			"title" : "Exhibition at Water Museum",
-			"brief" : [ "Permanently installed ASSEMBLY in Nakdong river cultural centre gallery in Busan, Republic of Korea" ],
+			"brief" : [ "Permanently installed ASSEMBLY in Nakdong river cultural centre gallery in Busan, Republic of Korea." ],
 			"place" : "Busan, South Korea",
 			"moreInfo" : "http://www.riverguide.go.kr/TheARC/river/nakdong_exhibit_artzone.jsp"
 		},
@@ -236,7 +236,7 @@
 			"image" : "file2011.jpg",
 			"date" : "17 July - 19 August 2011",
 			"title" : "Exhibition at File Festival",
-			"brief" : [ "A Link was installed at File Festival, Sao Paulo" ],
+			"brief" : [ "A Link was installed at File Festival, Sao Paulo." ],
 			"place" : "Sao Paulo, Brazil",
 			"moreInfo" : "http://filefestival.org/"
 		},
@@ -244,7 +244,7 @@
 			"image" : "athens2011.jpg",
 			"date" : "20-22 May 2011",
 			"title" : "Exhibition at Athens Video Art Festival",
-			"brief" : [ "A Link was installed at Athens Video Art Festival" ],
+			"brief" : [ "A Link was installed at Athens Video Art Festival." ],
 			"place" : "Athens, Greece",
 			"moreInfo" : "http://www.athensvideoartfestival.gr/"
 		},
@@ -252,7 +252,7 @@
 			"image" : "future2011.jpg",
 			"date" : "11-14 May 2011",
 			"title" : "Exhibition at FutureEverything",
-			"brief" : [ "Lit Tree was installed at FutureEverything Art Exhibition" ],
+			"brief" : [ "Lit Tree was installed at FutureEverything Art Exhibition." ],
 			"place" : "Manchester",
 			"moreInfo" : "http://futureeverything.org/"
 		},
@@ -260,7 +260,7 @@
 			"image" : "kaywon2011.jpg",
 			"date" : "Feburary 2011",
 			"title" : "Workshop at Kaywon School of Art and Design",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Seoul",
 			"moreInfo" : "http://www.kaywon.ac.kr/"
 		},
@@ -268,7 +268,7 @@
 			"image" : "designkorea2010.jpg",
 			"date" : "December 2010",
 			"title" : "Exhibition at Design Korea 2010",
-			"brief" : [ "A Link was installed at Design Korea 2010" ],
+			"brief" : [ "A Link was installed at Design Korea 2010." ],
 			"place" : "Seoul",
 			"moreInfo" : "http://www.designkorea.or.kr/"
 		},
@@ -284,7 +284,7 @@
 			"image" : "gwangju2010.jpg",
 			"date" : "August 2010",
 			"title" : "Workshop at Gwangju cultural Center",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Gwangju, Korea",
 			"moreInfo" : "http://www.cct.go.kr/"
 		},
@@ -292,15 +292,15 @@
 			"image" : "bains2010.jpg",
 			"date" : "June 2010",
 			"title" : "Exhibition at Bains Numeriques #5",
-			"brief" : [ "??" ],
+			"brief" : [ "A Journey - SEOUL, A Journey - LONDON was installed at Bains Numeriques #5." ],
 			"place" : "d'Enghien-les-Bains, France",
-			"moreInfo" : "??"
+			"moreInfo" : ""
 		},
 		{
 			"image" : "future2010.jpg",
 			"date" : "May 2010",
 			"title" : "Exhibition at FutureEverything",
-			"brief" : [ "??" ],
+			"brief" : [ "A Journey - LONDON was installed at FutureEverything 2010." ],
 			"place" : "Manchester",
 			"moreInfo" : "http://futureeverything.org/"
 		},
@@ -308,7 +308,7 @@
 			"image" : "sangmyung2010.jpg",
 			"date" : "Feburary 2010",
 			"title" : "Workshop at Sangmyung University",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Seoul",
 			"moreInfo" : "http://www.smu.ac.kr/"
 		},
@@ -316,9 +316,9 @@
 			"image" : "siggraph2009.jpg",
 			"date" : "December 2009",
 			"title" : "Exhibition at SIGGRAPH Asia 2009",
-			"brief" : [ "??" ],
+			"brief" : [ "" ],
 			"place" : "Yokohama, Japan",
-			"moreInfo" : "??"
+			"moreInfo" : ""
 		},
 		{
 			"image" : "ciid2009.jpg",
@@ -326,7 +326,7 @@
 			"title" : "Exhibition at From Adam to Yeves",
 			"brief" : [ "A Jouney, London was installed at From Adam to Yeves." ],
 			"place" : "Copenhagen, Denmark",
-			"moreInfo" : "??"
+			"moreInfo" : "http://ciid.dk/2009/08/27/end-of-year-exhibition/"
 		}
 	]
 }
