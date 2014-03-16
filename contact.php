@@ -33,7 +33,7 @@
                 
                 <form action="http://kimchiandchips.us2.list-manage2.com/subscribe/post?u=bbb563a4d4509a1c946a0c998&amp;id=0254b47cee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <span id="contactHeader">Subscribe to our mailing list</span>
-                    <input type="email" value="" name="EMAIL" class="formField" required>
+                    <input type="email" value="" name="EMAIL" class="formField" placeholder="email address" required>
                     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                     <div style="position: absolute; left: -5000px;"><input type="text" name="b_bbb563a4d4509a1c946a0c998_0254b47cee" value=""></div>
                     <div class="clear">
@@ -53,7 +53,7 @@ if ($mailform_sent) {
                     Thank you for your message. We'll be in touch as soon as we can.
                 </p>
                 <p>
-                    Feel free to get in touch on <a href="mailto:info@kimchiandchips.com">info@kimchiandchips.com</a> in future.
+                    You can also email directly to <a href="mailto:info@kimchiandchips.com">info@kimchiandchips.com</a> in future. Speak soon!
                 </p>
 <?
 } else {
@@ -65,7 +65,7 @@ if ($mailform_sent) {
                     <div class="formFieldCaption">Name</div>
                     <input class="formField" type="text" name="name" value="<?= $_POST["name"] ?>" />
                     
-                    <div class="formFieldCaption">E-Mail Address</div>
+                    <div class="formFieldCaption">EMail Address</div>
                     <input class="formField" type="email" name="email" value="<?= $_POST["email"] ?>" />
     
                     <div class="formFieldCaption">Subject</div>

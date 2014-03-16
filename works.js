@@ -237,7 +237,10 @@ function loadWork(name) {
             var vimeoTag = "vimeo:";
             if (value.indexOf(vimeoTag) == 0) {
                 var videoIdentifier = value.substring(vimeoTag.length);
-                html += '<iframe src="//player.vimeo.com/video/' + videoIdentifier + '?color=ffffff" style="width: 100%; height: ' + workImageBlockVideoHeight + 'px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+                var toStrip = unescape('%E2%80%8E');
+                var vimeoUrl = '//player.vimeo.com/video/' + videoIdentifier + '?color=ffffff';
+                vimeoUrl = vimeoUrl.replace("\u200e", '');
+                html += '<iframe src="' + vimeoUrl + '" style="width: 100%; height: ' + workImageBlockVideoHeight + 'px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
             } else {
                 html += '<img class="workBoxImage" src="' + workPath + value + '" />';
             }
