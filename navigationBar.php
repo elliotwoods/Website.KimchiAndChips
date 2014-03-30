@@ -1,6 +1,7 @@
 <?
 $sections = array("news", "about", "works", "contact", "blog");
 ?>
+            <div id="topWhiteBlock"></div>
             <div id="navigationBar">
                 <a href="http://kimchiandchips.com">
                     <img class="title" src="images/common/logo.jpg" width="204" height="48"/>
