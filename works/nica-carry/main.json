@@ -3,8 +3,10 @@
 	"shortTitle": "nica-carry",
 	"format": "Hand bags, Light sensors, Projection",
 	"year": "2009",
-	"summary": "Summary for Nica",
-	"description": ["Text copy for Nica goes here.",
-					"Itself, it hangs abstract and undefined, a set of thin positive elements entangling the dark negative space between. A 2D canvas is reduced from a surface piece into a line segment, but then constructed in another dimension, into a volume. Space becomes canvas. Light creates contrast and order on the lines to articulate digital matter. These digital forms inhabit the interconnected boundaries of space, segmenting visual mass into sprites, actors and scene. The visual gravity of the lines flooding the null space between. Line segments the space in order to suggest a form which is completed by the digital light."],
+	"summary": "Handbag design and interactive installation to launch a new season of accessories for the fashion brand Nica at the Pure London '09 exhibition",
+	"description": ["An interactive installation to launch the new season of handbags for the Nica brand at the Pure women's fashion exhibition in London.",
+		"Kimchi and Chips designed graphics to be used on the bags and an interactive wall to demonstrate the bags at the trade show.",
+		"Visitors to the exhibition stand naturally remove bags from the wall to examine them. The wall reacts to bags being removed with animations relevant to the design of that handbag.",
+		"The project employs Arduino, light sensors and VVVV."],
 	"images": ["vimeo:6007897‎"]
 }

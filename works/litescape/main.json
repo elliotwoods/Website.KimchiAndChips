@@ -3,8 +3,8 @@
 	"shortTitle": "litescape",
 	"format": "Projection, Silicone fibres",
 	"year": "2008",
-	"summary": "Summary for Litescape",
-	"description": ["Text copy for Litescape goes here.",
-					"Itself, it hangs abstract and undefined, a set of thin positive elements entangling the dark negative space between. A 2D canvas is reduced from a surface piece into a line segment, but then constructed in another dimension, into a volume. Space becomes canvas. Light creates contrast and order on the lines to articulate digital matter. These digital forms inhabit the interconnected boundaries of space, segmenting visual mass into sprites, actors and scene. The visual gravity of the lines flooding the null space between. Line segments the space in order to suggest a form which is completed by the digital light."],
+	"summary": "Volumetric installation that uses projectors, materials and mathematical techniques to create digital 3D objects and motion graphics with real world depth and form.",
+	"description": ["Litescape is a 3D projection system based on the original Wiremap project by Albert Hwang. It allows motion graphics and visual information to be represented physically, occupying real world measurable space that is shared with the viewers. The project was realised so that we can develop new types of visual artwork and allow digital graphics to be more tangible and immersive.",
+	"Unlike lenticular, parallax barrier or glasses based 3D screens which create a 3D effect using 2D images, Litescape builds the image using an array of 3D pixels in the real world."],
 	"images": ["vimeo:3822871", "vimeo:1400012"]
 }
