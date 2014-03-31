@@ -226,7 +226,7 @@ function loadWork(name) {
     log('loadWork: ' + name);
     
     var workPath = "works/" + name + "/";
-    var workDefinitionPath = workPath + "main.ƒjson";
+    var workDefinitionPath = workPath + "main.json";
     
     log(workDefinitionPath);
 
