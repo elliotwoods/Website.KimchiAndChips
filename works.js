@@ -7,6 +7,13 @@ $(document).ready(function() {
     
     checkAnchor();
 
+    $(window).hashchange(function() {
+        var hash = window.location.hash;
+        if (hash == "#main") {
+            hideLightBox();
+        }
+    });
+    
     var $root = $('html, body');
     $('a').click(function() {
         var href = $.attr(this, 'href');
@@ -40,6 +47,7 @@ $(document).ready(function() {
 
     $( window ).resize(function() {
         layoutLightBox();
+        log('resize');
     });
     
     $(document).keyup(function(e) {
@@ -47,8 +55,6 @@ $(document).ready(function() {
             hideLightBox();
         }
     });
-
-    layoutLightBox();
 });
 
 var workImageBlockWidth;
@@ -61,39 +67,45 @@ function layoutLightBox() {
     var workBoxImageBlock = $('#workBoxImageBlock');
     var workBoxTextBlock = $('#workBoxTextBlock');
     
-    var width = $( window ).width() - 100;
-    var height = $( window ).height() - 100;
+    var width = window.innerWidth;
+    var height = window.innerHeight;
 
-    if (width < 720) {
+    top.removeClass("topHidden");
+    
+    if (width < 720 || navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
         //tiny screen
-        width = 720;
-        workImageBlockWidth = width;
+        top.removeClass();
+        top.addClass("topScroll");
         
         top.css("height", "100%");
-        top.css("width", "100%"); 
         top.css("margin-left", 0);
         top.css("margin-top", 0);
-        top.css("left", 0);
-        top.css("top", 0);
-        top.css("overflow-y", "scroll")
+        
+        workImageBlockWidth = width;
         
         workBoxImageBlock.css("width", "100%");
+        workBoxImageBlock.css("height", "100%");
         workBoxImageBlock.css("margin", "10px");
         workBoxImageBlock.css("overflow-y", "")
+        workBoxTextBlock.css("overflow-y", "")
         
         workBoxTextBlock.css("padding-top", "30px");
     } else {
         //normal screen
+        top.removeClass();
+        top.addClass("topFloat");
+        
+        width -= 100;
+        height -= 100;
+        
         workImageBlockWidth = width - 360;
         
         top.css("height", height);
         top.css("margin-left", -width/2);
         top.css("margin-top", -height/2);
-        top.css("left", "50%");
-        top.css("top", "50%");
-        top.css("overflow-y", "")
         
         workBoxImageBlock.css("width", workImageBlockWidth);
+        workBoxImageBlock.css("height", "");
         workBoxImageBlock.css("margin", "");
         workBoxImageBlock.css("overflow-y", "scroll")
         
@@ -108,13 +120,8 @@ function layoutLightBox() {
     if (height < 400) {
         height = 400;
     }
-   
     
-        
-    
-    
-    
-    workImageBlockVideoHeight = workImageBlockWidth * 9 / 16;
+    workImageBlockVideoHeight = workImageBlockWidth * 9 / 16 - 10;
     //resize content
     workBoxImageBlock.children('iframe').map(function() {
         $(this).css("height", workImageBlockVideoHeight);
@@ -166,7 +173,9 @@ var lightBoxVisible = false;
 
 function showLightBox() {
     log('showLightBox');
-
+    
+    layoutLightBox();
+    
     lightBoxVisible = true;
 
     var dim = $('#dim');
