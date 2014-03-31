@@ -10,6 +10,7 @@ $(document).ready(function() {
         navBar.css("left", 0);
         navBar.css("border", "none");
         navBar.css("background-image", "url('images/common/white.png')");
+        $("body").scrollTop(66);
     } else {
         window.onscroll = function(args) {
             var y = $(window).scrollTop();
