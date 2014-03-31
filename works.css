@@ -30,6 +30,11 @@
 	width: 530px;
 }
 
+#backButton {
+	margin: 0px;
+	padding-bottom: 30px;
+}
+
 .workBox {
 	float: left;
 	position: relative;

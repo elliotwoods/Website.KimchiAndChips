@@ -237,6 +237,9 @@ function loadWork(name) {
         
         var html = '';
         
+        if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
+            html += '<a href="#main"><img src="images/common/back.png" id="backButton"></a>';
+        }
         html += '<span class="workBoxTitle">' + work.title + "</span><br />";
         html += '<span class="workBoxFormat">' + work.format + "</span><br />";
         html += '<span class="workBoxYear">' + work.year + "</span><br />";
