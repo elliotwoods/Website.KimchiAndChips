@@ -9,7 +9,7 @@ $(document).ready(function() {
 
     $(window).hashchange(function() {
         var hash = window.location.hash;
-        if (hash == "#main") {
+        if (hash == "#main" || hash == "") {
             hideLightBox();
         }
     });
@@ -226,7 +226,7 @@ function loadWork(name) {
     log('loadWork: ' + name);
     
     var workPath = "works/" + name + "/";
-    var workDefinitionPath = workPath + "main.json";
+    var workDefinitionPath = workPath + "main.ƒjson";
     
     log(workDefinitionPath);
 
