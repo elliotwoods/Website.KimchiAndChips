@@ -15,8 +15,8 @@
 		
 		  ga('create', 'UA-11876799-1', 'kimchiandchips.com');
 		  ga('send', 'pageview');
-		
 		</script>
-		var isLive = <?= $GLOBALS['isLive'] ? "true" : "false"; ?>;
+		<script type="text/javascript">
+			var isLive = <?= $GLOBALS['isLive'] ? "true" : "false"; ?>;
 		</script>
 		
