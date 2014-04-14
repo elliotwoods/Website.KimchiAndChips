@@ -9,12 +9,12 @@
 		<script type="text/javascript" src="essentials.js"></script>
 		<script type="text/javascript">
 			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-11876799-1]);
+			_gaq.push(['_setAccount', 'UA-11876799-1']);
 			_gaq.push(['_setDomainName', 'kimchiandchips.com']);
 			_gaq.push(['_setAllowLinker', true]);
 			_gaq.push(['_trackPageview']);
 			_gaq.push(['_setAllowAnchor', true]); 
-			
+
 			(function() {
 			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
