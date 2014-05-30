@@ -1,6 +1,31 @@
 {
 	"news" : [
 		{
+			"image" : "digitalemusion2014.jpg",
+			"date" : "23 - 25 May 2014",
+			"title" : "Workshop at Culture Shift Russia : Digital Emulsion",
+			"brief" : [ "<a href=\"http://futureeverything.org/\" target=\"_blank\">FutureEverything</a> (Manchester's R&D hub for digital culture) and the British Council, in partnership with <a href=\"www.nikola-lenivets.com/artpark/\" target=\"_blank\">Nikola-Lenivets Art Park</a>, are hosting a second Culture Shift/Art Lab on 22-25 May, 2014. The 48-hour hackathon will generate ideas and installation projects for Nikola-Lenivets' big annual New Media Night (which takes place on 5 July 2014)."],
+			"place" : "Nikola-Lenivets, Russia",
+			"moreInfo" : "http://creativeconomy.britishcouncil.org/"
+		},
+		{
+			"image" : "eyeo2014.jpg",
+			"date" : "10 - 13 June 2014",
+			"title" : "workshop at EYEO 2014",
+			"brief" : [ "Kimchi and Chips are speaking in the festival  on Friday with the session named ‘Drawing in the Air’."
+			" Mimi Son and Elliot Woods talk about their ongoing wander between the realms of material and immaterial, creating speculative visual objects which poke at the unpredictable attributes of things when they are touched with technology."],
+			"place" : "McGuire Theater, Minneapolis",
+			"moreInfo" : "http://eyeofestival.com/"
+		},
+		{
+			"image" : "openstudio2014.jpg",
+			"date" : "29 May - 01 June 2014",
+			"title" : "Open Studio at Seoul Art Space Geumcheon",
+			"brief" : [ "Kimchi and Chips present their new work, Sphere Project in Open Studio at Seoul Art Space Geumcheon."],
+			"place" : "Geumcheon, South Korea",
+			"moreInfo" : "http://www.seoulartspace.or.kr/G02_geumcheon/notice.asp"
+		},
+		{
 			"image" : "resonate2014.jpg",
 			"date" : "3-5 April 2014",
 			"title" : "Talks and Exhibition at Resonate 2014",
