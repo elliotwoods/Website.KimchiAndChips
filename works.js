@@ -261,7 +261,7 @@ function loadWork(name) {
             if (value.indexOf(vimeoTag) == 0) {
                 var videoIdentifier = value.substring(vimeoTag.length);
                 var toStrip = unescape('%E2%80%8E');
-                var vimeoUrl = '//player.vimeo.com/video/' + videoIdentifier + '?color=ffffff';
+                var vimeoUrl = '//player.vimeo.com/video/' + videoIdentifier + '?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0';
                 vimeoUrl = vimeoUrl.replace("\u200e", '');
                 html += '<iframe class="workBoxImage" src="' + vimeoUrl + '" style="width: 100%; height: ' + workImageBlockVideoHeight + 'px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
             } else {
