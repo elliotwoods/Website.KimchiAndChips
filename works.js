@@ -252,8 +252,12 @@ function loadWork(name) {
         
         
         html = '';
+        var workItemIndex = 0;
+        var vimeoTag = "vimeo:";
         $.each(work.images, function(index, value) {
-            var vimeoTag = "vimeo:";
+            if (workItemIndex != 0) {
+                html += '<span class="workBoxSpacer">&nbsp;</span>';
+            }
             if (value.indexOf(vimeoTag) == 0) {
                 var videoIdentifier = value.substring(vimeoTag.length);
                 var toStrip = unescape('%E2%80%8E');
@@ -263,6 +267,8 @@ function loadWork(name) {
             } else {
                 html += '<img class="workBoxImage" src="' + workPath + value + '" />';
             }
+
+            workItemIndex++;
         });
         
         $("#workBoxImageBlock").html(html);

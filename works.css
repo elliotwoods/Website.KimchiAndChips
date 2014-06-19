@@ -104,6 +104,13 @@
 
 .workBoxImage {
 	float: right;
-	margin-bottom:20px;
+	margin-bottom:0px;
 	width: 100%;
+}
+
+.workBoxSpacer {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	margin-bottom:0px;
 }
