@@ -1,10 +1,36 @@
 {
 	"news" : [
+	
+
+		{
+			"image" : "scopitone2014.jpg",
+			"date" : "15 - 20 September 2014",
+			"title" : "Exhibition at Scopitone Festival",
+			"brief" : [ "Scopitone is a week-long festival of digital arts and electronic cultures. Held in Nantes every September, it offers a concentrate of today’s musical and digital creativity, mixing music, video, design, interactivity, robotics, architecture and more."],
+			"place" : "Nantes, France",
+			"moreInfo" : "http://scopitone.org/"
+		},
+		{
+			"image" : "davinci2014.jpg",
+			"date" : "3 September - 17 October 2014",
+			"title" : "Exhibition at Da Vinci Idea",
+			"brief" : [ "The 'Da Vinci Idea' selects 10 artists every year and commissions them to create new artistic works. The programme is run by Seoul Art Space Gumcheon, and is a signifant exhibition within the Seoul Foundation for Arts and Culture year."],
+			"place" : "Geumcheon, South Korea",
+			"moreInfo" : "http://www.sfac.or.kr/"
+		},
+		{
+			"image" : "newmedianight2014.jpg",
+			"date" : "5 July 2014",
+			"title" : "Exhibition at New Media Night",
+			"brief" : [ "On 5 July 2014 Nikola-Lenivets art-park will host The Night of New Media, one of the biggest festivals of digital art and music in Russia. Thousands of people will join together for the all-night show to celebrate the possibilities of new media art combined with landscape art-objects in the natural environment of the 650 acre park."],
+			"place" : "Nikola-Lenivets, Russia",
+			"moreInfo" : "http://nikola-lenivets.com/events/?item=174"
+		},
 		{
 			"image" : "eyeo2014.jpg",
 			"date" : "10 - 13 June 2014",
-			"title" : "workshop at EYEO 2014",
-			"brief" : [ "Kimchi and Chips are speak the festival on Friday under the session title ‘Drawing in the Air’.",
+			"title" : "Workshop at EYEO 2014",
+			"brief" : [ "Kimchi and Chips are speaking in the festival on Friday under the session title ‘Drawing in the Air’.",
 			"Mimi Son and Elliot Woods talk about their ongoing wander between the realms of material and immaterial, creating speculative visual objects which poke at the unpredictable attributes of things when they are touched with technology."],
 			"place" : "McGuire Theater, Minneapolis",
 			"moreInfo" : "http://eyeofestival.com/"
@@ -12,7 +38,7 @@
 		{
 			"image" : "openstudio2014.jpg",
 			"date" : "29 May - 01 June 2014",
-			"title" : "Open Studio at Seoul Art Space Geumcheon",
+			"title" : "Open Studio at Seoul Art Space Geumcheon ",
 			"brief" : [ "Kimchi and Chips preview a set of wind paintings. Their latest work draws a boundary between virtual and physical worlds through long exposure photography and a canvas of digitised fabric. This work is previewed at the Open Studio along with works by the other residents of the Seoul Art Space Geumcheon."],
 			"place" : "Geumcheon, South Korea",
 			"moreInfo" : "http://www.seoulartspace.or.kr/G02_geumcheon/notice.asp"
@@ -21,7 +47,7 @@
 			"image" : "digitalemusion2014.jpg",
 			"date" : "23 - 25 May 2014",
 			"title" : "Workshop at Culture Shift Russia : Digital Emulsion",
-			"brief" : [ "<a href=\"http://futureeverything.org/\" target=\"_blank\">FutureEverything</a> (Manchester's R&D hub for digital culture) and the British Council, in partnership with <a href=\"www.nikola-lenivets.com/artpark/\" target=\"_blank\">Nikola-Lenivets Art Park</a>, are hosting a second Culture Shift/Art Lab on 22-25 May, 2014. The 48-hour hackathon will generate ideas and installation projects for Nikola-Lenivets' big annual New Media Night (which takes place on 5 July 2014)."],
+			"brief" : [ "FutureEverything<a href=\"http://futureeverything.org/\" target=\"_blank\">Andreas Müller</a>(Manchester's R&D hub for digital culture) and the British Council, in partnership with Nikola-Lenivets Art Park<a href=\"http://www.nikola-lenivets.com/\" target=\"_blank\">Andreas Müller</a>, are hosting a second Culture Shift/Art Lab on 22-25 May, 2014. The 48-hour hackathon will generate ideas and installation projects for Nikola-Lenivets' big annual New Media Night (which takes place on 5 July 2014)."],
 			"place" : "Nikola-Lenivets, Russia",
 			"moreInfo" : "http://creativeconomy.britishcouncil.org/"
 		},
