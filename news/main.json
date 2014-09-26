@@ -2,9 +2,9 @@
 	"news" : [
 		{
 			"image" : "whanki2014.jpg",
-			"date" : "22 August - November 2014",
+			"date" : "22 August - 31 December 2014",
 			"title" : "Exhibition at Whanki Museum",
-			"brief" : [ "Kimchi and Chips is presenting their work in South Korea in August to be part of Site Whanki Wave, an exhibition of Sound + Light at Whanki Museum in Seoul."],
+			"brief" : [ "Kimchi and Chips invite you to the exhibition Site Whanki Wave, an international collection of works using Sound, Light and Space as their medium. The preview will be on the 22nd August at the magnificent Whanki Museum in Seoul and will be ongoing until 31st December. Kimchi and Chips will be presenting <a href=\"http://www.kimchiandchips.com/works.php#LSS\" target=\"_blank\">「LINE SEGMENTS SPACE, 2013」</a> and <a href=\"http://www.kimchiandchips.com/works.php#link\" target=\"_blank\">「LINK, 2010」</a>."],
 			"place" : "Seoul, Korea",
 			"moreInfo" : "http://whankimuseum.org/"
 		},
@@ -19,10 +19,11 @@
 		{
 			"image" : "davinci2014.jpg",
 			"date" : "3 September - 17 October 2014",
-			"title" : "Exhibition at Da Vinci Idea",
-			"brief" : [ "The 'Da Vinci Idea' is a main exhibition of the Seoul Foundation for Arts and Culture department of Seoul Art Spaces, which Seoul Art Space_Geumcheon has been undertaking since 2010. This program selects ten artistic ideas based on technology annually through an open call for submissions and supports material fee the entire process of art-making, exhibiting, technology consultation and marketing."],
+			"title" : "Exhibition at Da Vinci Creative 2014",
+			"brief" : [ "Kimchi and Chips' Mimi Son is this year's Artistic Director for the 'Da Vinci Creative' festival in collaboration with Seoul Art Space Gumcheon. The programme commissions 10 new works which develop the language for visual and digital media, and culminates in a festival of workshops, exhibition, performances and talks.",
+			"This year will also feature the Asian premier of Kimchi and Chips' 「LIGHT BARRIER, 2014」."],
 			"place" : "Geumcheon, South Korea",
-			"moreInfo" : "http://www.sfac.or.kr/"
+			"moreInfo" : "http://www.davincicreative.org/"
 		},
 		{
 			"image" : "newmedianight2014.jpg",
@@ -54,7 +55,7 @@
 			"image" : "digitalemusion2014.jpg",
 			"date" : "23 - 25 May 2014",
 			"title" : "Workshop at Culture Shift Russia : Digital Emulsion",
-			"brief" : [ "FutureEverything<a href=\"http://futureeverything.org/\" target=\"_blank\">Andreas Müller</a>(Manchester's R&D hub for digital culture) and the British Council, in partnership with Nikola-Lenivets Art Park<a href=\"http://www.nikola-lenivets.com/\" target=\"_blank\">Andreas Müller</a>, are hosting a second Culture Shift/Art Lab on 22-25 May, 2014. The 48-hour hackathon will generate ideas and installation projects for Nikola-Lenivets' big annual New Media Night (which takes place on 5 July 2014)."],
+			"brief" : [ "<a href=\"http://futureeverything.org/\" target=\"_blank\">FutureEverything</a>(Manchester's R&D hub for digital culture) and the British Council, in partnership with <a href=\"http://www.nikola-lenivets.com/\" target=\"_blank\">Nikola-Lenivets Art Park</a>, are hosting a second Culture Shift/Art Lab on 22-25 May, 2014. The 48-hour hackathon will generate ideas and installation projects for Nikola-Lenivets' big annual New Media Night (which takes place on 5 July 2014)."],
 			"place" : "Nikola-Lenivets, Russia",
 			"moreInfo" : "http://creativeconomy.britishcouncil.org/"
 		},
