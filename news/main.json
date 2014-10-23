@@ -1,6 +1,14 @@
 {
 	"news" : [
 		{
+			"image" : "space2014.jpg",
+			"date" : "October 2014",
+			"title" : "Press Release at SPACE Magazine",
+			"brief" : [ "Monthly magazine SPACE was first founded in November 1966 and has been one of the top architectural magazines in Korea ever since. SPACE deals with cities, cultures, and art in relation to architecture.",
+			"They are introducing <a href=\"http://www.kimchiandchips.com/works.html#lightbarrier\" target=\"_blank\">「Light Barrier, 2014」</a> in Imagineer section, 'Drawing Multilayered Time and Space with light' written by Dooeun Choi, independent curator."],
+			"moreInfo" : "http://www.kimchiandchips.com//files/Light%20Barrier/LightBarrier_Space.pdf"
+		},
+		{
 			"image" : "signal2014.jpg",
 			"date" : "16 - 19 October 2014",
 			"title" : "Exhibition at SIGNAL Festival",
