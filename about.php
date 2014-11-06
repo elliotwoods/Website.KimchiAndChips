@@ -73,6 +73,14 @@
                         Selected Exhibitions
                     </h1>
                     <p>
+                        <i>LINE SEGMENTS SPACE, LINK</i>, Site Whanki_WAVE / Whanki Museum, Seoul, August 2014<br />
+                        <i>LIGHT BARRIER</i>, Da Vinci Creative 2014 / Gumcheon Art Factory, Seoul, September 2014<br />
+                        <i>LIGHT BARRIER</i>, SIGNAL Festival / Prague, October 2014<br />
+                        <i>LINE SEGMENTS SPACE</i>, Scopitone Festival / Nantes, September 2014<br />
+                        <i>LIGHT BARRIER</i>, New Media Night / Nikola-Lenivets Art Park, Russia, July 2014<br />
+                        <i>LUNAR SURFACE</i>, Open Studio_Friendship toward Strangers / Gumcheon Art Factory, Seoul, May 2014<br />
+                        <i>LINE SEGMENTS SPACE</i>, Resonate 2014 / Belgrade, April 2014<br />
+                        <i>LIT TREE</i>, Open Creativity Open World / Samsung COEX, Seoul, October 2013<br />
                         <i>LINE SEGMENTS SPACE</i>, Da Vinci Idea Exhibition / Gumcheon Art Factory, Seoul, September 2013<br />
                         <i>LIT TREE</i>, Open Creativity, Open World / COEX Seoul, October 2013<br />
                         <i>LIT TREE</i>, Lux Light Festival / Wellington New Zealand, June 2013<br />
