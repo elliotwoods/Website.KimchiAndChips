@@ -85,7 +85,7 @@
                         <i>LIT TREE</i>, Open Creativity, Open World / COEX Seoul, October 2013<br />
                         <i>LIT TREE</i>, Lux Light Festival / Wellington New Zealand, June 2013<br />
                         <i>ASSEMBLY</i>, Water Museum / Busan South Korea / 2012-Permanent<br />
-                        <i>A JOURNEY DUBLIN, Hack the City, Science Gallery / Dublin Ireland, June 2012<br />
+                        <i>A JOURNEY DUBLIN</i>, Hack the City, Science Gallery / Dublin Ireland, June 2012<br />
                         <i>LIT TREE</i>, SIGGRAPH Asia / Hong Kong, December 2011<br />
                         <i>LINK</i>, TETEM Kunstruimte / Enschede Netherlands, September 2011<br />
                         <i>LIT TREE</i>, The Creators Project / Seoul, September 2011<br />
