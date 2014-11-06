@@ -404,9 +404,9 @@
 			"image" : "siggraph2009.jpg",
 			"date" : "December 2009",
 			"title" : "Exhibition at SIGGRAPH Asia 2009",
-			"brief" : [ "Litescape installed at SIGGRAPH Asia 2009" ],
+			"brief" : [ "Litescape installed at SIGGRAPH Asia 2009, Yokohama" ],
 			"place" : "Yokohama, Japan",
-			"moreInfo" : ""
+			"moreInfo" : "http://www.siggraph.org/s2009/"
 		},
 		{
 			"image" : "ciid2009.jpg",
