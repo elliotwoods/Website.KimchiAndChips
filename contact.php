@@ -21,7 +21,7 @@
                     춘의테크노파크 2차 202동<br />
                     1204호
                 </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3165.2822098595625!2d126.7877955!3d37.5012616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b62b15237472f%3A0xab5782b63f04303d!2z7LaY7J2Y7YWM7YGs64W47YyM7YGsMuywqOq0gOumrOyGjA!5e0!3m2!1sen!2s!4v1392608003293" width="422" height="422" frameborder="0" style="border:0"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3165.2657021070913!2d126.787449!3d37.501650999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b62b1550910e3%3A0x8be20b8a8029428c!2sKimchi+and+Chips!5e0!3m2!1sen!2suk!4v1414983820883" width="422" height="422" frameborder="0" style="border:0"></iframe>
                 
                 <!-- Begin MailChimp Signup Form -->
                 <br /><br />
