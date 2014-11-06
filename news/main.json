@@ -125,6 +125,14 @@
 			"moreInfo" : "http://eng.seoulartspace.or.kr/G02_geumcheon/main.asp"
 		},
 		{
+			"image" : "davinci2013.jpg",
+			"date" : "11 September - 15 October 2013",
+			"title" : "Exhibition at 2013 Davinci Idea",
+			"brief" : [ "Kimchi and Chips present a new work, Line Segments Space at the exhibition 'The Blue Hour : Boundary between Functions and aesthetics', Seoul Art Space Geumcheon." ],
+			"place" : "Seoul Art Space Gumcheon, Seoul",
+			"moreInfo" : "http://blog.naver.com/sas_g"
+		},
+		{
 			"image" : "luxwellington2013.jpg",
 			"date" : "21 - 24 June 2013",
 			"title" : "Exhibition and Keynote talk at LUX Wellington 2013",
@@ -396,7 +404,7 @@
 			"image" : "siggraph2009.jpg",
 			"date" : "December 2009",
 			"title" : "Exhibition at SIGGRAPH Asia 2009",
-			"brief" : [ "" ],
+			"brief" : [ "Litescape installed at SIGGRAPH Asia 2009" ],
 			"place" : "Yokohama, Japan",
 			"moreInfo" : ""
 		},
