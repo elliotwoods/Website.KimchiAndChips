@@ -62,7 +62,6 @@ foreach($newsItems as $newsItem) {
 <a href="<?= $url ?>" target="_blank"><?= shortenText($url, 50) ?></a>
 <?
         }
-<?
     }
 ?>
                     </div>
