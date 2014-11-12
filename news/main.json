@@ -31,7 +31,8 @@
 			"title" : "Exhibition at Scopitone Festival",
 			"brief" : [ "Scopitone is a week-long festival of digital arts and electronic cultures. Held in Nantes every September, it offers a concentrate of today’s musical and digital creativity, mixing music, video, design, interactivity, robotics, architecture and more."],
 			"place" : "Nantes, France",
-			"moreInfo" : "http://scopitone.org/"
+			"moreInfo" : "http://scopitone.org/",
+			"http://scopitone.org/"
 		},
 		{
 			"image" : "davinci2014.jpg",
