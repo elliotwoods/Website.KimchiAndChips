@@ -52,12 +52,19 @@ foreach($newsItems as $newsItem) {
 <?
     }
     if (!is_null($newsItem["moreInfo"])) {
-        $url = $newsItem["moreInfo"];
+        $moreInfoURLS = $newsItem["moreInfo"];
+        if (!is_array($moreInfoURLS)) {
+            $moreInfoURLS = array($moreInfoURLS);
+        }
 ?>
                         <p>
-                            More info : <a href="<?= $url ?>" target="_blank"><?= shortenText($url, 50) ?></a>
-                        </p>
+                            More info :
 <?
+        foreach($moreInfoURLS as $moreInfoURL) {
+?>
+<a href="<?= $moreInfoURL ?>" target="_blank"><?= shortenText($moreInfoURL, 50) ?></a><br />
+<?
+        }
     }
 ?>
                     </div>
