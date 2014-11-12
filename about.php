@@ -82,7 +82,6 @@
                         <i>LINE SEGMENTS SPACE</i>, Resonate 2014 / Belgrade, April 2014<br />
                         <i>LIT TREE</i>, Open Creativity Open World / Samsung COEX, Seoul, October 2013<br />
                         <i>LINE SEGMENTS SPACE</i>, Da Vinci Idea Exhibition / Gumcheon Art Factory, Seoul, September 2013<br />
-                        <i>LIT TREE</i>, Open Creativity, Open World / COEX Seoul, October 2013<br />
                         <i>LIT TREE</i>, Lux Light Festival / Wellington New Zealand, June 2013<br />
                         <i>ASSEMBLY</i>, Water Museum / Busan South Korea / 2012-Permanent<br />
                         <i>A JOURNEY DUBLIN</i>, Hack the City, Science Gallery / Dublin Ireland, June 2012<br />
