@@ -1,6 +1,15 @@
 {
 	"news" : [
 		{
+			"image" : "mab14.jpg",
+			"date" : "19 - 22 November 2014",
+			"title" : "Awarded from Media Architecture Biennale 2014",
+			"brief" : [ "For the second time, Media Architecture Biennale Awards were given will to outstanding projects at the intersection of architecture, media and interaction design. This happened at an award ceremony at Aarhus City Hall on November 21, 2014. Three projects were nominated in each of the five categories.",
+			"Winning project in Spatial Media Art category is Kimchi and Chips’ latest work, <a href=\"http://www.kimchiandchips.com/works.html#lightbarrier\" target=\"_blank\">「Light Barrier, 2014」</a>. Other nominees in this category were SPINE by Kollision, Human Being by The Constitute."],
+			"place" : "Aarhus, Denmark",
+			"moreInfo" : "http://mab14.mediaarchitecture.org/"
+		},
+			{
 			"image" : "space2014.jpg",
 			"date" : "October 2014",
 			"title" : "Published Feature at SPACE Magazine",
