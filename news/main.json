@@ -1,7 +1,42 @@
 {
 	"news" : [
 		{
-			"image" : "mab14.jpg",
+			"image" : "strp2015.jpg",
+			"date" : "20 - 29 March 2015",
+			"title" : "Exhibition at STRP Biennale 2015",
+			"brief" : [ "Between 20 and 29 March, the industrial halls of the Klokgebouw in Eindhoven, TheNetherlands, will be filled with hybrid forms of art, technology and music. In the exhibition, which is significantly bigger than previous editions, visitors are encouraged to explore the boundaries between the many screens that shape our view of the world around us. The exhibition, titled SCREEN ON | NO SCREEN, is the visual counterpart of the cutting-edge Dance Night and the sold out concert of Underworld, that are also taking place at STRP Biennial 2015."],
+			"place" : "Eindhoven, Netherlands",
+			"moreInfo" : "http://strp.nl/"
+		},
+		{
+			"image" : "MW2015.jpg",
+			"date" : "8 - 11 April 2015",
+			"title" : "Conference at Museums and the Web 2015",
+			"brief" : [ "Museums and the Web is an annual conference featuring advanced research and exemplary applications of digital practice for cultural, natural and scientific heritage. The products of our meetings and conversations – the MW proceedings, Best of the Web archives and discussion Forum – are an unparalleled resource for museum workers, technologists, students and researchers that grows every year.",
+			"Kimchi and Chips is presenting 'Digital Emulsion' in this conference. This workshop invites participants to practise Digital Emulsion techniques, a process which encompasses projection mapping and 3D scanning in order to create semi-material objects. We will learn new possibilities for drawing in the air, and ways to develop interesting volumetric canvases."],
+			"place" : "Chicago, USA",
+			"moreInfo" : "http://mw2015.museumsandtheweb.com/"
+		},
+		{
+			"image" : "jmaf2015.jpg",
+			"date" : "4 - 15 February 2015",
+			"title" : "Awarded from Japan Media Arts Festival",
+			"brief" : [ "The Japan Media Arts Festival is a comprehensive festival of Media Arts that honors outstanding works in the four divisions of Art, Entertainment, Animation, and Manga, as well as providing a platform for appreciation of Award-winning Works.",
+			"For the 18th festival, we received a number of 3,853 works from 71 countries and regions, including 1,818 entries from abroad. <a href=\"http://www.kimchiandchips.com/works.html#lightbarrier\" target=\"_blank\">「Light Barrier, 2014」</a> was selected in jury selection"],
+			"place" : "Tokyo, Japan",
+			"moreInfo" : "http://j-mediaarts.jp/"
+		},
+		{
+			"image" : "jeju2014.jpg",
+			"date" : "19 December 2014 - 25 January 2015",
+			"title" : "Exhibition at Jeju Museum of Art",
+			"brief" : [ "Jeju Museum of Art presents a outstanding exhibition, 'From Moment to Moment' in December 2014. This exhibition will unfold aspects of visual perception and cognition which have been developed more colorfully in the perse spectra of today’s media environment, exhibiting aspects of 20st century contemporary art that have borrowed or applied features of optical art. This will be a significant opportunity for spectators to seek new perception and meaning by experiencing a fantasy world beyond the limits of visual perception.",
+			"Kimchi and Chips present a new version of Line Segmnets Space, 「Composite Signal, 2015」 at the exhibition 'From Moment to Moment', Jeju Museum of Arts."],
+			"place" : "Jeju, Korea",
+			"moreInfo" : "http://jmoa.jeju.go.kr/"
+		},
+		{
+			"image" : "mab2014.jpg",
 			"date" : "19 - 22 November 2014",
 			"title" : "Awarded from Media Architecture Biennale 2014",
 			"brief" : [ "For the second time, Media Architecture Biennale Awards were given will to outstanding projects at the intersection of architecture, media and interaction design. This happened at an award ceremony at Aarhus City Hall on November 21, 2014. Three projects were nominated in each of the five categories.",
@@ -106,7 +141,7 @@
 			"image" : "instint2013.jpg",
 			"date" : "15, 16 November 2013",
 			"title" : "Talks at INST-INT 2013",
-			"brief" : [ "Kimchi and Chips present a talk on their Digital Emulsion research at the INST-INT symposium. A gathering focused on sharing insights + experiences from the field of interactive installation"],
+			"brief" : [ "Kimchi and Chips present a talk on their Digital Emulsion research at the INST-INT symposium. A gathering focused on sharing insights + experiences from the field of interactive installation."],
 			"place" : "Walker Art Center, Minneapolis",
 			"moreInfo" : "http://inst-int.com/"
 		},
