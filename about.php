@@ -73,6 +73,7 @@
                         Selected Exhibitions
                     </h1>
                     <p>
+                        <i>LIGHT BARRIER</i>, STRP Biennale / Eindhoven, March 2015<br />
                         <i>COMPOSITE SIGNAL</i>, From Moment To Moment / Jeju Museum of Art, Jeju, December 2014<br />
                         <i>LIGHT BARRIER</i>, Signal Festival / Prague, October 2014<br />
                         <i>LINE SEGMENTS SPACE, LINK</i>, Site Whanki_WAVE / Whanki Museum, Seoul, August 2014<br />
