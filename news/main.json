@@ -7,8 +7,8 @@
 			"brief" : [ "NODE is a meeting of international designers, creative coders, digital artists, and creative minds that explores boundary-pushing approaches to technology, digital art and culture. The biennial festival assembles interdisciplinary people who transcend the borders between art, design, and programming.",
 			"Elliot Woods of Kimchi and Chips is having a workshop ‘Ways of Seeing (with Computers)’ in this forum. This workshop introduces Rulr, an open source node-based tool for calibrating artistic devices with the physical world."],
 			"place" : "Frankfurt, Germany",
-			"moreInfo" : "http://node15.vvvv.org/",
-			"http://node15.vvvv.org/program/workshop/ways-seeing-computers"
+			"moreInfo" : ["http://node15.vvvv.org/",
+			"http://node15.vvvv.org/program/workshop/ways-seeing-computers"]
 		},
 		{
 			"image" : "resonate2015.jpg",
@@ -18,8 +18,8 @@
 			"Kimchi and Chips’ lecture is held on Saturday, 18th of April 12pm in Kolarac main hall.",
 			"Elliot Woods of Kimchi and Chips is having workshop named ‘Rulr’. This workshop introduces Rulr, an application for calibrating artistic devices with the physical world."],
 			"place" : "Belgrade, Serbia",
-			"moreInfo" : "http://resonate.io/2015",
-			"http://resonate.io/2015/education/rulr/"
+			"moreInfo" : ["http://resonate.io/2015",
+			"http://resonate.io/2015/education/rulr/"]
 		},
 		{
 			"image" : "strp2015.jpg",
