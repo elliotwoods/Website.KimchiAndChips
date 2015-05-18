@@ -5,10 +5,9 @@
 			"date" : "27 April - 3 May 2015",
 			"title" : "Workshop at Node 15 Forum for Digital Arts",
 			"brief" : [ "The biennial festival NODE – Forum for Digital Arts gathers designers, creative coders, digital artists and creatives of the digital media scene since 2008.",
-			"Elliot Woods of Kimchi and Chips is having a workshop ‘Ways of Seeing (with Computers)’ in this forum. This workshop introduces Rulr, an open source node-based tool for calibrating artistic devices with the physical world."],
+			"Elliot Woods of Kimchi and Chips is having a workshop <a href=\"http://node15.vvvv.org/program/workshop/ways-seeing-computers\" target=\"_blank\">'Ways of Seeing (with Computers)'</a> in this forum. This workshop introduces Rulr, an open source node-based tool for calibrating artistic devices with the physical world."],
 			"place" : "Frankfurt, Germany",
-			"moreInfo" : ["http://node15.vvvv.org/",
-			"http://node15.vvvv.org/program/workshop/ways-seeing-computers"]
+			"moreInfo" : ["http://node15.vvvv.org/"]
 		},
 		{
 			"image" : "resonate2015.jpg",
@@ -52,7 +51,7 @@
 			"date" : "19 December 2014 - 25 January 2015",
 			"title" : "Exhibition at Jeju Museum of Art",
 			"brief" : [ "Jeju Museum of Art presents a outstanding exhibition, 'From Moment to Moment' in December 2014. This exhibition will unfold aspects of visual perception and cognition which have been developed more colorfully in the perse spectra of today’s media environment, exhibiting aspects of 20st century contemporary art that have borrowed or applied features of optical art.",
-			"Kimchi and Chips present a new version of Line Segmnets Space, 「Composite Signal, 2015」 at the exhibition 'From Moment to Moment', Jeju Museum of Arts."],
+			"Kimchi and Chips present a new version of Line Segmnets Space, 「480 Lines, 2015」 at the exhibition 'From Moment to Moment', Jeju Museum of Arts."],
 			"place" : "Jeju, Korea",
 			"moreInfo" : "http://jmoa.jeju.go.kr/"
 		},
@@ -78,7 +77,7 @@
 			"date" : "16 - 19 October 2014",
 			"title" : "Exhibition at SIGNAL Festival",
 			"brief" : [ "SIGNAL | Prague Light Festival is the largest showcase of light art and emerging technologies in the Czech Republic. It is also the most-visited cultural event. Its first edition attracted almost 250,000 visitors.",
-			"SIGNAL festival presents a brand new installation from Korean-British duo Kimchi and Chips. In their latest work, the Light Barrier, they create phantoms of light in the air, crossing millions of calibrated beams. The light installation creates floating graphic objects which animate through space as they do through time."],
+			"SIGNAL festival presents a brand new installation from Korean-British duo Kimchi and Chips. In their latest work, <a href=\"http://www.kimchiandchips.com/works.html#lightbarrier\" target=\"_blank\">「Light Barrier, 2014」</a>, they create phantoms of light in the air, crossing millions of calibrated beams. The light installation creates floating graphic objects which animate through space as they do through time."],
 			"place" : "Prague, Czech Republic",
 			"moreInfo" : "http://www.signalfestival.com/"
 		},
@@ -104,7 +103,7 @@
 			"date" : "3 September - 17 October 2014",
 			"title" : "Exhibition at Da Vinci Creative 2014",
 			"brief" : [ "Kimchi and Chips' Mimi Son is this year's Artistic Director for the 'Da Vinci Creative' festival in collaboration with Seoul Art Space Gumcheon. The programme commissions 10 new works which develop the language for visual and digital media, and culminates in a festival of workshops, exhibition, performances and talks.",
-			"This year will also feature the Asian premier of Kimchi and Chips' 「LIGHT BARRIER, 2014」."],
+			"This year will also feature the Asian premier of Kimchi and Chips' <a href=\"http://www.kimchiandchips.com/works.html#lightbarrier\" target=\"_blank\">「Light Barrier, 2014」</a>."],
 			"place" : "Geumcheon, South Korea",
 			"moreInfo" : "http://www.davincicreative.org/"
 		},
@@ -113,7 +112,7 @@
 			"date" : "5 July 2014",
 			"title" : "Exhibition at New Media Night",
 			"brief" : [ "On 5 July 2014 Nikola-Lenivets art-park will host The Night of New Media, one of the biggest festivals of digital art and music in Russia. Hundreds of people will join together for the all-night show to celebrate the possibilities of new media art combined with landscape art-objects in the natural environment of the 650 acre park.",
-			"As part of The Night of New Media, British Council Russia will present two large-scale installations. British multimedia artists Kimchi and Chips will take part with their #Light Barrier, and the winning Russian team from the Culture Shift Russia: Digital Emulsion workshop will create a light show with cinematic elements entitled HIDDEN."],
+			"As part of The Night of New Media, British Council Russia will present two large-scale installations. British multimedia artists Kimchi and Chips will take part with their <a href=\"http://www.kimchiandchips.com/works.html#lightbarrier\" target=\"_blank\">「Light Barrier, 2014」</a>, and the winning Russian team from the Culture Shift Russia: Digital Emulsion workshop will create a light show with cinematic elements entitled HIDDEN."],
 			"place" : "Nikola-Lenivets, Russia",
 			"moreInfo" : "http://nikola-lenivets.com/events/?item=174"
 		},
