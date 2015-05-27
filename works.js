@@ -173,10 +173,11 @@ function checkAnchor() {
         // it's a work
         loadWork(workName);
         showLightBox();
-    } else if (workFilesExists(workName)) {
+    } else if (workName.length > 1 && workFilesExists(workName)) {
         // it's a hidden work
         loadWork(workName);
         showLightBox();
+        log('hidden work')
     }
 }
 //
