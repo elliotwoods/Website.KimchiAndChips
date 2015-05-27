@@ -148,6 +148,19 @@ function getWorkAnchor() {
     }
 }
 
+function urlExists(url) {
+    var http = new XMLHttpRequest();
+    http.open('HEAD', url, false);
+    http.send();
+    return http.status!=404;
+}
+
+function workFilesExists(name) {
+    var workPath = "works/" + name + "/";
+    var workDefinitionPath = workPath + "main.json";
+    return urlExists(workDefinitionPath);
+}
+
 function checkAnchor() {
     log('checkAnchor');
 
@@ -157,6 +170,11 @@ function checkAnchor() {
     }
     var workName = getWorkAnchor();
     if (isValidWorkName(workName)) {
+        // it's a work
+        loadWork(workName);
+        showLightBox();
+    } else if (workFilesExists(workName)) {
+        // it's a hidden work
         loadWork(workName);
         showLightBox();
     }
