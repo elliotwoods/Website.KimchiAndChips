@@ -1,6 +1,16 @@
 {
 	"news" : [
 		{
+			"image" : "codedmatter(s)2015.jpg",
+			"date" : "26 May 2015",
+			"title" : "Awarded from Prix Ars Electronica 2015",
+			"brief" : [ "Next week, FIBER presents Coded Matters; a new event exploring the explosion of digital processes taking place in hybrid art, design and music and the ripples this causes. The ninth edition of the Coded Matter(s) series : High Fidelity will take place at the Brakke Grond centre on June 18th.",
+			"At this edition of the Coded Matter(s) Elliot will give a keynote presentation on the work and research of the studio, along with a 2-day workshop on the new Rulr toolkit."],
+			"place" : "Amsterdam, Netherlands",
+			"moreInfo" : ["http://www.codedmatters.nl/event/high-fidelity",
+			"http://www.codedmatters.nl/workshop/ways-of-seeing-with-computers-rulr-workshop/"]
+		},
+		{
 			"image" : "prixars2015.jpg",
 			"date" : "26 May 2015",
 			"title" : "Awarded from Prix Ars Electronica 2015",
