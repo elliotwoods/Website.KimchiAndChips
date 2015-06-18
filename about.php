@@ -52,13 +52,7 @@
                             Mimi Son
                         </h1>
                         <p>
-                            Mimi Son studied Interaction Design at Copenhagen Institute of Interaction Design since finished her MA degree of Interaction Design at the Landsdown Centre of Middlesex University in London. She has been teaching Interactive Storytelling at Kaywon School of Art and Design (Korea) for six years and has been working as an art director in her own studio.
-                        </p>
-                        <p>
-                            Her artwork has been exhibited in Seoul, Tokyo, Barcelona and Arhus in Denmark. She is currently researching emotional and tangible interaction for future life and the effects of technology from a creative approach.
-                        </p>
-                        <p>
-                            She is interested in exploring her surroundings with her eyes shining before creating something interactive and funny based on narrative snippets from her life. She loves to play with art and nature as well as technology, which all lead her into a creative world.
+                            Mimi son is media artist.
                         </p>
                     </div>
 
