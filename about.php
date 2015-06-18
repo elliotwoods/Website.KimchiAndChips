@@ -52,7 +52,7 @@
                             Mimi Son
                         </h1>
                         <p>
-                            Mimi Son is media artist.
+                            Mimi Son is a Media Artist who was born and raised in Seoul.
                         </p>
                     </div>
 
