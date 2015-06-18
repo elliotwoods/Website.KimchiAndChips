@@ -52,7 +52,7 @@
                             Mimi Son
                         </h1>
                         <p>
-                            Mimi son is media artist.
+                            Mimi Son is media artist.
                         </p>
                     </div>
 
