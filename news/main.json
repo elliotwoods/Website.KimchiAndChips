@@ -1,6 +1,15 @@
 {
 	"news" : [
 		{
+			"image" : "incinerator.jpg",
+			"date" : "July 2015",
+			"title" : "Exhibition at Bucheon Incinerator",
+			"brief" : [ "「Lunar Surface, The Incinerator」continues Kimchi and Chips’ series experimenting the fragile realm which crosses reality and virtuality, existence and absence. A virtual moon will hang and evolve within the decommissioned incinerator bunker which will soon be turned into a cultural space.",
+			"Selected artists include Kimchi and Chips, <a href=\"http://www.phantasian.com/\" target=\"_blank\">Byeong Ji Hoon</a>, <a href=\"http://hybe.org/\" target=\"_blank\">HYBE</a>, <a href=\"http://www.kimkichul.com/\" target=\"_blank\">Ki Chul Kim</a>, Bi Ho Ryu, and 14 other artists."],
+			"place" : "Bucheon, Korea",
+			"moreInfo" : ["http://www.bcf.or.kr/Board/Notice.aspx?Mode=r&ArticleId=12622"]
+		},
+		{
 			"image" : "beyondthedisplay.jpg",
 			"date" : "May 2015",
 			"title" : "Published Feature at Beyond the Display",
