@@ -52,7 +52,16 @@
                             Mimi Son
                         </h1>
                         <p>
-                            Mimi Son is a Media Artist who was born and raised in Seoul.
+                            Mimi Son was born in Seoul where currently she lives and works. She remembers her vivid childhood fascinated by father’s painting and musical talent which led her into experimenting with materials and drawing.
+                        </p>
+                        <p>
+                            An obsession with geometry and Buddhist philosophy inspires her to articulate space and time from various perspectives. This continuous experiment has allowed her to create installation that aims to depict an intersection of art and technology, material and immaterial, real and virtual, presence and absence.
+                        </p>
+                        <p>
+                            Over the past decade she has worked as a designer, professor, storyteller, curator, and artistic director in various countries and institutions. She co-founded Kimchi and Chips with Elliot Woods in 2009.
+                        </p>
+                        <p>
+                            She completed her master degree on Digital Media Art and Design at Middlesex University and Interaction Design at CIID. She is currently the Adjunct Professor at Ewha Womans University in Seoul and mostly working in her studio, Kimchi and Chips. 
                         </p>
                     </div>
 
