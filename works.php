@@ -181,7 +181,7 @@ function buildOtherWork($work) {
                 <div class="workBox">
                     <a id="<?= $work ?>"></a>
                     <a href="#<?= $work ?>">
-                        <img src="works/<?= $work ?>/front.jpg" />
+                        <img src="works/<?= $work ?>/front.jpg" width="320" height="200"/>
                     </a>
                     <div class="workTextBlock">
                         <a href="#<?= $work ?>">
