@@ -96,6 +96,14 @@
 	font-size: 16px;
 }
 
+
+.workBoxSectionTitle {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	float: right;
+	margin-top: 20px;
+}
+
 .workBoxFormat {
 }
 

@@ -272,7 +272,9 @@ function loadWork(name) {
         
         html = '';
         var workItemIndex = 0;
+
         var vimeoTag = "vimeo:";
+        var titleTag = "title:";
         $.each(work.images, function(index, value) {
             if (workItemIndex != 0) {
                 html += '<span class="workBoxSpacer">&nbsp;</span>';
@@ -283,6 +285,9 @@ function loadWork(name) {
                 var vimeoUrl = '//player.vimeo.com/video/' + videoIdentifier + '?color=ffffff&amp;title=0&amp;byline=0&amp;portrait=0';
                 vimeoUrl = vimeoUrl.replace("\u200e", '');
                 html += '<iframe class="workBoxImage" src="' + vimeoUrl + '" style="width: 100%; height: ' + workImageBlockVideoHeight + 'px;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>';
+            } else if (value.indexOf(titleTag) == 0) {
+                var titleText = value.substring(titleTag.length);
+                html += '<span class="workBoxSectionTitle">' + titleText + '</span>';
             } else {
                 html += '<img class="workBoxImage" src="' + workPath + value + '" />';
             }
