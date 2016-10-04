@@ -1,6 +1,10 @@
 <?
 
-$args = is_array($argv) ? $argv : array();
+$args = array();
+if(isset($argv)) {
+  $args = $argv;
+}
+
 $GLOBALS['isLive'] = in_array("--export", $args);
 
 function varDump($var) {

@@ -1,17 +1,97 @@
 <?php
 require("defaults.php");
+require("Parsedown.php");
 
+//variables
+$works = array(); // array of Work classes
+$headlineSelection = "";
+$subHeadlineSelection = "";
+//
 $showWarnings = ! $isLive;
-if(!$showWarnings) {
-    error_reporting(E_ERROR | E_PARSE);
+
+class Work {
+    public $shortTitle;
+
+	public $title;
+	public $summary;
+    public $format;
+    public $year;
+    public $city;
+    public $description = "";
+    public $brief = "";
+
+    public function load($shortTitle) {
+		$Parsedown = new Parsedown();
+
+        $this->shortTitle = $shortTitle;
+
+	    $folder = "./works/" . $shortTitle . "/";
+
+	    $jsonString = file_get_contents($folder . "main.json");
+	    $json = json_decode($jsonString, true);
+
+	    if(array_key_exists("title", $json)) {
+	        $this->title = $json["title"];
+	    }
+		if(array_key_exists("summary", $json)) {
+	        $this->summary = $json["summary"];
+	    }
+	    if(array_key_exists("format", $json)) {
+	        $this->format = $json["format"];
+	    }
+	    if(array_key_exists("year", $json)) {
+	        $this->year = $json["year"];
+	    }
+	    if(array_key_exists("city", $json)) {
+	        $this->city = $json["city"];
+	    }
+	    if(array_key_exists("description", $json)) {
+	        //old style description as array of paragraphs with html formatting
+	        $paragraphCount = 0;
+	        $this->description = "";
+	        foreach ($json["description"] as $paragraph) {
+	            $this->description .= "                            <p>
+	                              " . $paragraph . "
+	                          </p>
+	                          ";
+	        }
+	    } else if(file_exists($folder . "description.md")){
+	        //try and load markdown
+	        $descriptionMarkdown = file_get_contents($folder . "description.md");
+	        $this->description = $Parsedown->text($descriptionMarkdown);
+	    }
+	    if(array_key_exists("brief", $json)) {
+	        $this->brief = "<p>" . $json["brief"] . "</p>";
+	    } else if (file_exists($folder . "brief.md")) {
+	        //try and load markdown
+			$briefMarkdown = file_get_contents($folder . "brief.md");
+			$this->brief = $Parsedown->text($briefMarkdown);
+	    } else {
+	        //use first paragraph of description
+
+	        if(array_key_exists("description", $json)) {
+	            //old format in json
+	            //brief is just first paragraph
+	            if(count($json["description"]) >= 1) {
+	                $this->brief = "<p>" . $json["description"][0] . "</p>";
+	            }
+			} else {
+				//try to pull first paragraph from formatted description
+				$paragraphs = explode("</p>", $this->description);
+				if(count($paragraphs) >= 1) {
+					$this->brief = $paragraphs[0] + "</p>";
+				} else {
+					$this->brief = $this->description;
+				}
+
+				$this->brief = strip_tags($this->description);
+			}
+		}
+	}
 }
 
-function loadProject($work) {
-    $workStringURI = "./works/" . $work . "/main.json";
-    $workString = file_get_contents($workStringURI);
-    $workJson = json_decode($workString, true);
-
-    return $workJson;
+if(!$showWarnings) {
+    error_reporting(E_ERROR | E_PARSE);
 }
 
 function buildValidWorks($works) {
@@ -24,56 +104,46 @@ function buildValidWorks($works) {
             print ', ';
         }
         $first = false;
-        
-        print '"' . $work . '"';
+
+        print '"' . $work->shortTitle . '"';
     }
     ?>];
     </script>
 <?php
 }
 
+function buildNotes($work) {
+	$notes = "";
+	if(isset($work->format)) {
+		$nodes = $work->format;
+	}
+	if(isset($work->city) || isset($work->year)) {
+		if(!empty($notes)) {
+			$notes .= "<br />";
+		}
+
+		if (isset($work->city)) {
+			$notes .= " " . $work->city;
+		}
+		if (isset($work->year)) {
+			$notes .= " " . $work->year;
+		}
+	}
+	return $notes;
+}
+
 function buildHeadline($work) {
-    $workJson = loadProject($work);
-    $title = $workJson["title"];
-    $format = $workJson["format"];
-    $year = $workJson["year"];
-    $city = $workJson["city"];
-    $description = $workJson["description"];
-
-    $notes = $format;
-    if ($city || $year) {
-        $notes .= "<br />";
-        if ($city) {
-            $notes .= " " . $city;
-        }
-        if ($year) {
-            $notes .= " " . $year;
-        }
-    }
-
-    $copy = "";
-    $paragraphCount = 0;
-    if ($description) {
-        foreach ($description as $paragraph) {
-            if ($paragraphCount++ > 0) {
-                break;
-            }
-            $copy .= "                            <p>
-                                " . $paragraph . "
-                            </p>
-            ";
-        }
-    }
+	$notes = buildNotes($work);
 ?>
                 <div class="headlineWorkBox">
-                    <a id="<?= $work ?>"></a>
-                    <a href="#<?= $work ?>">
-                       <img id="headlineImage" src="works/<?= $work ?>/headline.jpg" />
+                    <a id="<?= $work->shortTitle ?>"></a>
+                    <a href="#<?= $work->shortTitle ?>">
+                       <img id="headlineImage" src="works/<?= $work->shortTitle ?>/headline.jpg" />
                     </a>
                     <div class="workTextBlock" id="headlineTextBlock">
-                        <a href="#<?= $work ?>">
+                        <a href="#<?= $work->shortTitle ?>">
                             <div class="workHeader">
-                                    <span class="workTitle"><?= $title ?></span>
+                                    <span class="workTitle"><?= $work->title ?></span>
                                     <br />
                                     <span class="workNotes">
                                         <?= $notes ?>
@@ -81,7 +151,7 @@ function buildHeadline($work) {
                             </div>
                         </a>
                         <div class="workCopy">
-                            <?= $copy ?>
+                            <?= $work->brief ?>
                         </div>
                     </div>
                 </div>
@@ -89,47 +159,16 @@ function buildHeadline($work) {
 }
 
 function buildSubHeadline($work) {
-    $workJson = loadProject($work);
-    $title = $workJson["title"];
-    $format = $workJson["format"];
-    $year = $workJson["year"];
-    $city = $workJson["city"];
-    $description = $workJson["description"];
-
-    $notes = $format;
-    if ($city || $year) {
-        $notes .= "<br />";
-        if ($city) {
-            $notes .= " " . $city;
-        }
-        if ($year) {
-            $notes .= " " . $year;
-        }
-    }
-
-    $copy = "";
-    $paragraphCount = 0;
-    if ($description) {
-        
-        foreach ($description as $paragraph) {
-            if ($paragraphCount++ > 0) {
-                break;
-            }
-            $copy .= "                            <p>
-                                " . $paragraph . "
-                            </p>
-            ";
-        }
-    }
+    $notes = buildNotes($work);
 ?>
                 <div class="subHeadlineWorkBox">
-                    <a id="<?= $work ?>"></a>
-                    <a href="#<?= $work ?>">
-                        <img class="subHeadlineImage" src="works/<?= $work ?>/subHeadline.jpg" />
-                        <div class="workTextBlock">
-                            <a href="#<?= $work ?>">
+                    <a id="<?= $work->shortTitle ?>"></a>
+                    <a href="#<?= $work->shortTitle ?>">
+                        <img class="subHeadlineImage" src="works/<?= $work->shortTitle ?>/subHeadline.jpg" />
+                        <div class="workTextBlock" style="height:350px;">
+                            <a href="#<?= $work->shortTitle ?>">
                                 <div class="workHeader">
-                                        <span class="workTitle"><?= $title ?></span>
+                                        <span class="workTitle"><?= $work->title ?></span>
                                         <br />
                                         <span class="workNotes">
                                             <?= $notes ?>
@@ -137,7 +176,7 @@ function buildSubHeadline($work) {
                                 </div>
                             </a>
                             <div class="workCopy">
-                                <?= $copy ?>
+                                <?= $work->brief ?>
                             </div>
                         </div>
                     </a>
@@ -149,7 +188,7 @@ function buildOtherWorks($works) {
     foreach ($works as $work) {
         try
         {
-            buildOtherWork($work);    
+            buildOtherWork($work);
         }
         catch (Exception $exception)
         {
@@ -158,35 +197,17 @@ function buildOtherWorks($works) {
 }
 
 function buildOtherWork($work) {
-    $workJson = loadProject($work);
-    $title = $workJson["title"];
-    $format = $workJson["format"];
-    $year = $workJson["year"];
-    $city = $workJson["city"];
-    $description = $workJson["description"];
-
-    $notes = $format;
-    if ($city || $year) {
-        $notes .= "<br />";
-        if ($city) {
-            $notes .= " " . $city;
-        }
-        if ($year) {
-            $notes .= " " . $year;
-        }
-    }
-
-    $summary = $workJson["summary"];
+	$notes = buildNotes($work);
 ?>
                 <div class="workBox">
-                    <a id="<?= $work ?>"></a>
-                    <a href="#<?= $work ?>">
-                        <img src="works/<?= $work ?>/front.jpg" />
+                    <a id="<?= $work->shortTitle ?>"></a>
+                    <a href="#<?= $work->shortTitle ?>">
+                        <img src="works/<?= $work->shortTitle ?>/front.jpg" />
                     </a>
                     <div class="workTextBlock">
-                        <a href="#<?= $work ?>">
+                        <a href="#<?= $work->shortTitle ?>">
                             <div class="workHeader">
-                                    <span class="workTitle"><?= $title ?></span>
+                                    <span class="workTitle"><?= $work->title ?></span>
                                     <br />
                                     <span class="workNotes">
                                         <?= $notes ?>
@@ -195,7 +216,7 @@ function buildOtherWork($work) {
                         </a>
                         <div class="workCopy">
                             <p>
-                                <?= $summary ?>
+                                <?= $work->summary ?>
                             </p>
                         </div>
                     </div>
@@ -203,39 +224,45 @@ function buildOtherWork($work) {
 <?
 }
 
-function stripWorks(&$works, $work) {
-    $key = array_search($work, $works);
-    if($key !== false) {
-        unset($works[$key]);
-    }
+function stripWorks($works, $work) {
+	unset($works[$work]);
+	return $works;
 }
-
-$worksString = file_get_contents("./works/main.json");
-$worksJson = json_decode($worksString, true);
-
-$works = $worksJson["works"];
-$headlineSelection = $worksJson["headline"];
-$subHeadlineSelection = $worksJson["subHeadline"];
 
 function buildContent($works, $headlineSelection, $subHeadlineSelection) {
-    buildHeadline($headlineSelection);
-    buildSubHeadline($subHeadlineSelection);
+    buildHeadline($works[$headlineSelection]);
+    buildSubHeadline($works[$subHeadlineSelection]);
 
-    
-    stripWorks($works, $headlineSelection);
-    stripWorks($works, $subHeadlineSelection);
+	$otherWorks = $works;
+    $otherWorks = stripWorks($otherWorks, $headlineSelection);
+    $otherWorks = stripWorks($otherWorks, $subHeadlineSelection);
 
-    buildOtherWorks($works);
+    buildOtherWorks($otherWorks);
 }
+
+$mainJsonString = file_get_contents("./works/main.json");
+$mainJson = json_decode($mainJsonString, true);
+
+$workShortTitles = $mainJson["works"];
+
+$works = array();
+foreach($workShortTitles as $workShortTitle) {
+    $works[$workShortTitle] = new Work();
+    $works[$workShortTitle]->load($workShortTitle);
+}
+
+$headlineSelection = $mainJson["headline"];
+$subHeadlineSelection = $mainJson["subHeadline"];
+
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">  
+<html lang="en">
     <head>
 <? require("header.php"); ?>
         <link rel="stylesheet" type="text/css" href="works.css">
         <? buildValidWorks($works); ?>
         <script type="text/javascript" src="works.js"></script>
-    </head>  
+    </head>
     <body>
         <a href="#">
             <div id="dim">
@@ -244,10 +271,16 @@ function buildContent($works, $headlineSelection, $subHeadlineSelection) {
         </a>
         <div id="top">
             <div id="workBoxTextBlock">
-                
+				<div id="workBoxDetailsBlock">
+
+				</div>
+				<div id="workBoxDescriptionBlock">
+
+				</div>
             </div>
+
             <div id="workBoxImageBlock">
-                
+
             </div>
         </div>
         <div id="main">

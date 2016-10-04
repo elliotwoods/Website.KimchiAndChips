@@ -1,14 +1,14 @@
 <? require("defaults.php"); ?>
-<!DOCTYPE html>  
-<html lang="en">  
+<!DOCTYPE html>
+<html lang="en">
     <head>
 <? require("header.php"); ?>
         <link rel="stylesheet" type="text/css" href="contact.css">
-    </head>  
+    </head>
     <body>
         <div id="main">
-        
-<? require("navigationBar.php"); ?>            
+
+<? require("navigationBar.php"); ?>
             <div id="contactColumn1">
                 <span id="contactHeader">Address</span>
                 <p>
@@ -22,7 +22,7 @@
                     1204호
                 </p>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3165.2657021070913!2d126.787449!3d37.501650999999995!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b62b1550910e3%3A0x8be20b8a8029428c!2sKimchi+and+Chips!5e0!3m2!1sen!2suk!4v1414983820883" width="422" height="422" frameborder="0" style="border:0"></iframe>
-                
+
                 <!-- Begin MailChimp Signup Form -->
                 <br /><br />
                 <style type="text/css">
@@ -30,7 +30,7 @@
                     /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
                        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                 </style>
-                
+
                 <form action="http://kimchiandchips.us2.list-manage2.com/subscribe/post?u=bbb563a4d4509a1c946a0c998&amp;id=0254b47cee" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                     <span id="contactHeader">Subscribe to our mailing list</span>
                     <input type="email" value="" name="EMAIL" class="formField" placeholder="email address" required>
@@ -40,13 +40,24 @@
                         <input type="submit" class="formSubmit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe">
                     </div>
                 </form>
-                
+
                 <!--End mc_embed_signup-->
             </div>
-            
+
             <div id="contactColumn2">
                 <span id="contactHeader">Contact us</span>
 <?
+$mailform_sent = isset($mailform_sent) ? $mailform_sent : false;
+$mailform_failed_verification = isset($mailform_failed_verification) ? $mailform_failed_verification : false;
+
+function getPreviousVariable($name) {
+	if(array_key_exists($name, $_POST)) {
+		return $_POST[$name];
+	} else {
+		return "";
+	}
+}
+
 if ($mailform_sent) {
 ?>
                 <p>
@@ -59,41 +70,41 @@ if ($mailform_sent) {
 } else {
 ?>
                 <p>
-                    Use the boxes below to send a message to us. We're always open to making new friends.
+                    Use the boxes below to send a message to us. We'll get back to you as quick as we can.
                 </p>
                 <form action="contact-sender.php" method="post" name="form1" id="form1">
                     <div class="formFieldCaption">Name</div>
-                    <input class="formField" type="text" name="name" value="<?= $_POST["name"] ?>" />
-                    
+                    <input class="formField" type="text" name="name" value="<? echo getPreviousVariable("name") ?>" />
+
                     <div class="formFieldCaption">EMail Address</div>
-                    <input class="formField" type="email" name="email" value="<?= $_POST["email"] ?>" />
-    
+                    <input class="formField" type="email" name="email" value="<? echo getPreviousVariable("email") ?>" />
+
                     <div class="formFieldCaption">Subject</div>
-                    <input class="formField" type="text" name="subject" value="<?= $_POST["subject"] ?>" />
-                    
+                    <input class="formField" type="text" name="subject" value="<? echo getPreviousVariable("subject") ?>" />
+
                     <div class="formFieldCaption">Verification code</div>
                     <div class="verificationArea">
                         <img class="formVerificationImage" src="verificationimage.php?<?php echo rand(0,9999);?>" alt="Verification code" />
                         <div class="dottedConnection"></div>
-                        <input class="formField formVerificationField" type="text" name="verification" placeholder="####" 
+                        <input class="formField formVerificationField" type="text" name="verification" placeholder="####"
                         <?= $mailform_failed_verification ? " style=\"background: #fcc;\"" : "" ?>
                         />
                     </div>
                     <div class="formNotes">
-                        Robots are great, but they don't make good pen pals.<br />
+                        Robots are interesting, but they don't make great friends (yet).<br />
                         Please type out the code you see so we can tell that you're human.</br >
                     </div>
-                    
+
                     <div class="formFieldCaption">Message</div>
-                    <textarea class="formField formMessageArea" name="message"><?= $_POST["message"] ?></textarea>
-                    
+                    <textarea class="formField formMessageArea" name="message"><? echo getPreviousVariable("message") ?></textarea>
+
                 <input class="formSubmit" type="submit" value="SEND" />
                 </form>
 <?
 }
 ?>
             </div>
-            
+
             <div class="footer">
             	KIMCHI and CHIPS
             </div>

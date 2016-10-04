@@ -7,17 +7,17 @@ $newsString = file_get_contents("./news/main.json");
 $newsJson = json_decode($newsString, true);
 $newsItems = $newsJson["news"];
 ?>
-<!DOCTYPE html>  
-<html lang="en">  
+<!DOCTYPE html>
+<html lang="en">
     <head>
 <? require("header.php"); ?>
         <link rel="stylesheet" type="text/css" href="news.css">
-    </head>  
+    </head>
     <body>
         <div id="main">
-        
+
 <? require("navigationBar.php"); ?>
-            
+
             <div class="newsHolder">
 <?
 $newsItemIndex = 0;
@@ -44,7 +44,7 @@ foreach($newsItems as $newsItem) {
                         </p>
 <?
     }
-    if (!is_null($newsItem["place"])) {
+    if (isset($newsItem["place"])) {
 ?>
                         <p>
                             Place : <?= $newsItem["place"] ?>

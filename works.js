@@ -4,7 +4,7 @@
 //
 $(document).ready(function() {
     log('ready');
-    
+
     checkAnchor();
 
     $(window).hashchange(function() {
@@ -13,16 +13,16 @@ $(document).ready(function() {
             hideLightBox();
         }
     });
-    
+
     var $root = $('html, body');
     $('a').click(function() {
         var href = $.attr(this, 'href');
-        
+
         //first check if it's a real link
         if (href.substring(0,1) != '#') {
             return true;
         }
-        var workName = href.substring(1, href.length);     
+        var workName = href.substring(1, href.length);
         if (workName == "main") {
             return true;
         } else if (isValidWorkName(workName)) {
@@ -49,7 +49,7 @@ $(document).ready(function() {
         layoutLightBox();
         log('resize');
     });
-    
+
     $(document).keyup(function(e) {
         if (e.keyCode == 27) { // esc
             hideLightBox();
@@ -62,65 +62,67 @@ var workImageBlockVideoHeight;
 
 function layoutLightBox() {
     log('layoutLightBox');
-    
+
     var top = $('#top');
     var workBoxImageBlock = $('#workBoxImageBlock');
     var workBoxTextBlock = $('#workBoxTextBlock');
-    
+	var workBoxDetailsBlock = $('#workBoxDetailsBlock');
+	var workBoxDescriptionBlock = $('#workBoxDescriptionBlock');
+
     var width = window.innerWidth;
     var height = window.innerHeight;
 
     top.removeClass("topHidden");
-    
+
     if (width < 720 || navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
         //tiny screen
         top.removeClass();
         top.addClass("topScroll");
-        
+
         top.css("height", "100%");
         top.css("margin-left", 0);
         top.css("margin-top", 0);
-        
+
         workImageBlockWidth = width;
-        
+
         workBoxImageBlock.css("width", "100%");
         workBoxImageBlock.css("height", "100%");
         workBoxImageBlock.css("margin", "10px");
         workBoxImageBlock.css("overflow-y", "")
         workBoxTextBlock.css("overflow-y", "")
-        
+
         workBoxTextBlock.css("padding-top", "30px");
     } else {
         //normal screen
         top.removeClass();
         top.addClass("topFloat");
-        
+
         width -= 100;
         height -= 100;
-        
+
         workImageBlockWidth = width - 360;
-        
+
         top.css("height", height);
         top.css("margin-left", -width/2);
         top.css("margin-top", -height/2);
-        
+
         workBoxImageBlock.css("width", workImageBlockWidth);
         workBoxImageBlock.css("height", "");
         workBoxImageBlock.css("margin", "");
         workBoxImageBlock.css("overflow-y", "scroll")
-        
+
         workBoxTextBlock.css("padding-top", "130px");
-        
+
     }
-    
+
     if (width > 780 + 360) {
         width = 780 + 360;
     }
-    
+
     if (height < 400) {
         height = 400;
     }
-    
+
     workImageBlockVideoHeight = workImageBlockWidth * 9 / 16 - 10;
     //resize content
     workBoxImageBlock.children('iframe').map(function() {
@@ -152,7 +154,11 @@ function urlExists(url) {
     var http = new XMLHttpRequest();
     http.open('HEAD', url, false);
     http.send();
-    return http.status!=404;
+    var success = http.status!=404;
+    if(!success) {
+        log("Failed to load  : " + url);
+    }
+    return success;
 }
 
 function workFilesExists(name) {
@@ -169,6 +175,10 @@ function checkAnchor() {
         return;
     }
     var workName = getWorkAnchor();
+	if(workName == "main") {
+		workName = "";
+	}
+
     if (isValidWorkName(workName)) {
         // it's a work
         loadWork(workName);
@@ -192,22 +202,22 @@ var lightBoxVisible = false;
 
 function showLightBox() {
     log('showLightBox');
-    
+
     layoutLightBox();
-    
+
     lightBoxVisible = true;
 
     var dim = $('#dim');
     var top = $('#top');
-    
+
     dim.css('visibility', 'visible');
     dim.css('opacity', '0');
     top.css('visibility', 'visible');
-    
+
     dim.animate({
         opacity:1.0
-    }, 1000, function() { });  
-    
+    }, 1000, function() { });
+
     $("body").css("overflow", "hidden");
 }
 
@@ -218,10 +228,12 @@ function hideLightBox() {
     var top = $('#top');
     var dim = $('#dim');
     var workBoxImageBlock = $('#workBoxImageBlock');
-    var workBoxTextBlock = $('#workBoxTextBlock');
-    
+	var workBoxTextBlock = $('#workBoxTextBlock');
+	var workBoxDetailsBlock = $('#workBoxDetailsBlock');
+	var workBoxDescriptionBlock = $('#workBoxDescriptionBlock');
+
     lightBoxVisible = false;
-    
+
     dim.css('visibility', 'visible');
     dim.animate({
         opacity:0.0
@@ -229,47 +241,55 @@ function hideLightBox() {
         dim.css('visibility', 'hidden');
         window.location.hash = 'main'; //jumps to top of page with nothing
         workBoxImageBlock.html("");
-        workBoxTextBlock.html("");
+        workBoxDetailsBlock.html("");
+		workBoxDescriptionBlock.html("");
     });
 
     $("#workBoxImageBlock").children('iframe').map(function() {
         $(this).attr('src', "");
         log(this);
     });
-    
+
     top.css('visibility', 'hidden');
     $("body").css("overflow", "visible");
 }
 
 function loadWork(name) {
     log('loadWork: ' + name);
-    
+
     var workPath = "works/" + name + "/";
     var workDefinitionPath = workPath + "main.json";
-    
+
     log(workDefinitionPath);
 
     $.get(workDefinitionPath, function(doc) {
-        log(doc);
-        
         var work = doc;
-        
+
         var html = '';
-        
+
         if (navigator.userAgent.match(/(iPod|iPhone|iPad)/)) {
             html += '<a href="#main"><img src="images/common/back.png" id="backButton"></a>';
         }
         html += '<span class="workBoxTitle">' + work.title + "</span><br />";
         html += '<span class="workBoxFormat">' + work.format + "</span><br />";
         html += '<span class="workBoxYear">' + work.year + "</span><br />";
-        
-        $.each(work.description, function(index, value) {
-           html += '<p>' + value + '</p>'; 
-        });
-        
-        $("#workBoxTextBlock").html(html);
-        
-        
+
+		$("#workBoxDetailsBlock").html(html);
+
+		html = "";
+		if("description" in work) {
+			$.each(work.description, function(index, value) {
+			   html += '<p>' + value + '</p>';
+			});
+			$("#workBoxDescriptionBlock").html(html);
+		} else {
+			$.get(workPath + "description.md", function(doc) {
+				var showdownConvertor = new showdown.Converter();
+				var html = showdownConvertor.makeHtml(doc);
+				$("#workBoxDescriptionBlock").html(html);
+			});
+		}
+
         html = '';
         var workItemIndex = 0;
 
@@ -294,9 +314,9 @@ function loadWork(name) {
 
             workItemIndex++;
         });
-        
+
         $("#workBoxImageBlock").html(html);
-        
+
         //strip bottom margin of last
         $("#workBoxImageBlock > img").last().css("margin-bottom", "0px");
     }, "json");

@@ -1,5 +1,19 @@
 {
-	"works": ["lunarsurface", "lightbarriersecondedition", "483lines", "lightbarrier", "LSS", "assembly", "littree", "link", "journey-dublin", "journey-seoul", "journey-london", "litescape", "nica-carry", "everydayobjects"],
-	"headline" : "lunarsurface",
+	"works": ["483linessecondedition",
+		"lightbarriersecondedition",
+		"lunarsurface",
+		"483lines",
+		"lightbarrier",
+		"LSS",
+		"assembly",
+		"littree",
+		"link",
+		"journey-dublin",
+		"journey-seoul",
+		"journey-london",
+		"litescape",
+		"nica-carry",
+		"everydayobjects"],
+	"headline" : "483linessecondedition",
 	"subHeadline" : "lightbarriersecondedition"
 }

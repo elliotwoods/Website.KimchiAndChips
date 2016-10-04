@@ -1,26 +1,26 @@
 <? require("defaults.php"); ?>
-<!DOCTYPE html>  
-<html lang="en">  
+<!DOCTYPE html>
+<html lang="en">
     <head>
 <? require("header.php"); ?>
         <link rel="stylesheet" type="text/css" href="about.css">
-    </head>  
+    </head>
     <body>
         <div id="main">
-        
+
 <? require("navigationBar.php"); ?>
-            
+
             <div class="aboutText">
                 <div class="aboutColumn">
                     <div class="aboutTextBlock">
                         <p>
-                            Kimchi and Chips is a Seoul based art studio founded by Elliot Woods (UK) and Mimi Son (South Korea). They are known for discovering novel interactions involving people and media materials, discovering new technical and artistic paradigms. 
+                            Kimchi and Chips is a Seoul based art studio founded by Elliot Woods (UK) and Mimi Son (South Korea). They are known for discovering novel interactions involving people and media materials, discovering new technical and artistic paradigms.
                         </p>
                         <p>
-                            They formed in 2009 to combine the disciplines of code, form, material, concept and mechanism. They create installations and dialogues which have been exhibited on four continents. 
+                            They formed in 2009 to combine the disciplines of code, form, material, concept and mechanism. They create installations and dialogues which have been exhibited on four continents.
                         </p>
                         <p>
-                            They create an emulsion of imagined reality within our physical world, in order to develop natural interactions between people, nature and the possibilities of the digital network. 
+                            They create an emulsion of imagined reality within our physical world, in order to develop natural interactions between people, nature and the possibilities of the digital network.
                         </p>
                         <p>
                             김치앤칩스는 런던과 서울에 둥지를 튼 디자인 아트 스튜디오입니다.
@@ -61,7 +61,7 @@
                             Over the past decade she has worked as a designer, professor, storyteller, curator, and artistic director in various countries and institutions. She co-founded Kimchi and Chips with Elliot Woods in 2009.
                         </p>
                         <p>
-                            She completed her master degree on Digital Media Art and Design at Middlesex University and Interaction Design at CIID. She is currently the Adjunct Professor at Ewha Womans University in Seoul and mostly working in her studio, Kimchi and Chips. 
+                            She completed her master degree on Digital Media Art and Design at Middlesex University and Interaction Design at CIID. She is currently the Adjunct Professor at Ewha Womans University in Seoul and mostly working in her studio, Kimchi and Chips.
                         </p>
                     </div>
 
@@ -76,7 +76,12 @@
                         Selected Exhibitions
                     </h1>
                     <p>
-                        <i>LIGHT BARRIER</i>, STRP Biennale / Eindhoven, March 2015<br />
+						<i>LIGHT BARRIER THIRD EDITION</i>, Asian Cultural Center, Gwangju, June 2016<br />
+						<i>LUNAR SURFACE</i>, Seoul Artspace Geumcheon, June 2016<br />
+						<i>483 LINES SECOND EDITION</i>, ACT Festival, Gwangju, November 2015<br />
+						<i>LIGHT BARRIER SECOND EDITION</i>, TodaysArt Tokyo, September 2015<br />
+						<i>LUNAR SURFACE</i>, Bucheon Incinerator, July 2015<br />
+                        <i>LIGHT BARRIER SECOND EDITION</i>, STRP Biennale / Eindhoven, March 2015<br />
                         <i>483 LINES</i>, From Moment To Moment / Jeju Museum of Art, Jeju, December 2014<br />
                         <i>LIGHT BARRIER</i>, Signal Festival / Prague, October 2014<br />
                         <i>LINE SEGMENTS SPACE, LINK</i>, Site Whanki_WAVE / Whanki Museum, Seoul, August 2014<br />
