@@ -8,4 +8,4 @@ Curated by HOLO<br />
 Commissioned by Asian Cultural Centre, Gwangju <br />
 Sound design by Junghoon Pi <br />
 Videography by Kimchi and Chips <br />
-Thanks to Soyoung Lee, Yoona Yang <br />
+Thanks to Julian Ott, the students of Yonsei digital media design course, Soyoung Lee, Yoona Yang, Jin-Yo Mok, Filip Visnjic <br />
