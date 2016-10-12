@@ -1,5 +1,5 @@
 16,000 x 2,500 x 10,000 WHD
 
-A second edition of the 483 Lines work commissioned by the ACT Festival, Gwangju 2015. Using Kevlar rope with 5000kg of tension, each string element becomes a high contrast infinitesimal white streak within a darkened space, each highly parallel to each other creating one dimensional moire phenomena.
+Two scenes of 483 lines face each other. Constructed from kevlar rope tensioned to 5000kg, the audience sees highly parallel lines which constrast against the darkened space they stand in and panoramic moire patterns. As with the previous edition, projection is used to address each line with digital pixels, which allows for visual matter to be constructed within the volume of string.
 
-As with the previous edition, projection is used to address each line with visual content, allowing for visual mass to be constructed from highlighted regions within the volume of string.
+This second edition of the 483 Lines was commissioned by the ACT Festival, Gwangju 2015, and continues to celebrate and interpret the non-imaging aspects of analogue image formats.
