@@ -4,7 +4,8 @@ Two scenes of kevlar rope face one another tensioned to 5000kg. The audience is 
 
 This second edition of the 483 Lines was commissioned by the ACT Festival, Gwangju 2015, continuing to celebrate and interpret the non-constructive aspects of the NTSC television format.
 
-Commissioned by Asian Cultural Centre, Gwangju
-Sound design by Junghoon Pi
-Videography by Kimchi and Chips
-Thanks to Soyoung Lee, Yoona Yang
+Curated by HOLO<br />
+Commissioned by Asian Cultural Centre, Gwangju <br />
+Sound design by Junghoon Pi <br />
+Videography by Kimchi and Chips <br />
+Thanks to Soyoung Lee, Yoona Yang <br />
