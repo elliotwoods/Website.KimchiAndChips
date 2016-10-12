@@ -1,1 +1,1 @@
-Revisiting the analogue image with two opposing scenes of 483 lines tensioned to 5000kg, the signal artifacts become a stream of visual mass within panoramic moire.
+The second edition of 483 lines revisits the non-imaging phenomena of analogue television, presenting two opposing scenes of 483 lines tensioned to 5000kg. The signal artefacts become a stream of visual mass within a panorama of moire. 
