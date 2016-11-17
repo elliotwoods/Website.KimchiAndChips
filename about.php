@@ -14,13 +14,10 @@
                 <div class="aboutColumn">
                     <div class="aboutTextBlock">
                         <p>
-                            Kimchi and Chips is a Seoul based art studio founded by Elliot Woods (UK) and Mimi Son (South Korea). They are known for discovering novel interactions involving people and media materials, discovering new technical and artistic paradigms.
+                            Kimchi and Chips is a Seoul based art studio founded by Elliot Woods (UK) and Mimi Son (South Korea). The studio creates actions which superimpose material and immaterial modes of existence, suggesting new technical and artistic attitudes. These actions actualise fictional realities as physical experiences, often employing digital light and computation to manipulate physical space.
                         </p>
                         <p>
-                            They formed in 2009 to combine the disciplines of code, form, material, concept and mechanism. They create installations and dialogues which have been exhibited on four continents.
-                        </p>
-                        <p>
-                            They create an emulsion of imagined reality within our physical world, in order to develop natural interactions between people, nature and the possibilities of the digital network.
+                            They formed in 2009 to combine the disciplines of code, form, material, concept and mechanism. Since then, they have created installations and dialogues which have been exhibited on four continents, developing natural interactions between people, nature and the possibilities of the digital network.
                         </p>
                         <p>
                             김치앤칩스는 런던과 서울에 둥지를 튼 디자인 아트 스튜디오입니다.
