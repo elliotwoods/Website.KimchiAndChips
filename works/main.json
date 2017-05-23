@@ -1,5 +1,6 @@
 {
-	"works": ["483linessecondedition",
+	"works": ["lightbarrierthirdedition",
+		"483linessecondedition",
 		"lightbarriersecondedition",
 		"lunarsurface",
 		"483lines",
@@ -14,6 +15,6 @@
 		"litescape",
 		"nica-carry",
 		"everydayobjects"],
-	"headline" : "483linessecondedition",
-	"subHeadline" : "lightbarriersecondedition"
+	"headline" : "lightbarrierthirdedition",
+	"subHeadline" : "483linessecondedition"
 }
