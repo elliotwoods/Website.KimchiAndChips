@@ -1,1 +1,4 @@
-The second edition of 483 lines revisits the non-imaging phenomena of analogue television, presenting two opposing scenes of 483 lines tensioned to 5000kg. The signal artefacts become a stream of visual mass within a panorama of moire. 
+The Light Barrier series by studio Kimchi and Chips create volumetric drawings
+in the air using hundreds of calibrated video projections. These projects merge
+in a field of fog to create graphic objects that animate through physical space
+as they do in time.
