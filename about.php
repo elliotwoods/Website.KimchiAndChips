@@ -33,12 +33,7 @@
                             Elliot Woods
                         </h1>
                         <p>
-                            Elliot Woods is a digital media artist, technologist, curator, educator from Manchester UK. He creates provocations towards future interactions between humans and socio-visual design technologies (principally projectors, cameras and graphical computation). Towards this goal, Elliot co-founded Kimchi and Chips, an experimental art / design / technology studio based in Seoul. He is known for transforming a tree into an addressable array of voxels and for throwing augmented fireballs.
-                        </p>
-                        <p>
-                            He is a curator of the ScreenLab Residency and ScreenLab Conference programmes, which develop digital media arts practice, and encourage the dialogue between digital and contemporary art cultures.
-                        </p>
-                            He applies his academic background in physics to produce sense-able interfaces with abstract systems, whilst applying a methodical approach to artistic enquiry.
+                            Elliot Woods (UK) is a digital media artist from Manchester. He tests possible futures between humans and visual design technologies (e.g. cameras, projectors, computation). Towards this goal, Elliot co-founded Kimchi and Chips, an experimental art studio based in Seoul with Mimi Son. He applies his academic studies in physics to produce sense-able phenomena from abstract domains.
                         </p>
                         <p>
                             Elliot is a contributor to the openFrameworks project (a ubiquitous toolkit for creative coding), and an open source contributor to the VVVV platform. His code is available open source and for free on GitHub.
