@@ -1,0 +1,1 @@
+<button onclick="topFunction()" id="myBtn" title="Go to top"> &#8648 </button>

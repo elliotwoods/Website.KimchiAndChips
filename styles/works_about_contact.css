@@ -1,0 +1,136 @@
+/* Works, About */
+
+
+.works_name{
+    padding-bottom: 10px;
+}
+
+
+.description{
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 16%;
+    background-color: #ececec80;
+}
+
+
+.description_title{
+    position: absolute;
+}
+
+.description_detail{
+    position: relative;
+    padding-left: 33.7%;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 98; /* Sit on top */
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0px;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-color: #ffffff; /* Fallback color */
+    background-color: #ffffff80; /* Black w/ opacity */
+    border: none;
+    outline: none;
+    overflow-y: scroll;
+}
+
+.modal-content {
+    position: fixed;
+    display: block;
+    z-index: 98;
+    width: 100%;
+    padding-left:16%;
+    padding-right:0%;
+    border: none;
+    outline: none;
+    overflow-y: scroll;
+}
+
+.close {
+    position: fixed;
+    bottom: 110px;
+    z-index:99;
+    left: 7%;
+    color: #000000;
+    cursor: pointer;
+    padding: 0px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+/* Archive */
+
+#year_detail{
+    margin-left: 43%;
+    margin-right: 0%;
+}
+
+#year_detail_hidden{
+    display: none;
+}
+
+.archives{
+    cursor:pointer;
+    display: none;
+}
+
+/* Contact */
+
+.description_nobg{
+    display:flex;
+    width: 100%;
+    padding-top: 0px;
+    padding-left: 16%;
+    padding-right: 4%;
+}
+
+.formField {
+    width: 220px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+    line-height: 1.95;
+    text-align: left;
+    color: #000000;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom-width: 0.5px;
+    height: 12.5px;
+    border-bottom-color: #ececec
+}
+
+.formSubmit {
+    border: none;
+    text-decoration: underline;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.5px;
+    line-height: 1.95;
+    text-align: left;
+    color: #000000
+}

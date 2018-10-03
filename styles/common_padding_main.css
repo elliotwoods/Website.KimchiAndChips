@@ -1,0 +1,344 @@
+/* Common */
+
+
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+
+.header{  
+    display: flex;
+    position:fixed;
+    z-index: 90;
+    width: 60%;
+    padding-right:16px;
+}
+
+.top-logo{
+    padding-top: 38px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 18px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.top-navi{
+    display: flex;
+    width: 100%;
+    padding-top: 50px;
+    margin-right: 8px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    background-image: linear-gradient(to right,rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0));
+}
+
+.top-works,
+.top-about,
+.top-archive{
+    padding-right:42px;
+}
+
+@media screen and (max-width: 600px) {
+    .logo{
+        height: 44px;
+        margin-top: 4px;
+    }
+        
+    .top-logo{
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .top-navi{
+        display: inline-block;
+        min-width:200px;
+        padding-top: 40px;    
+    }
+
+    .top-works,
+    .top-about,
+    .top-archive{
+        padding-right:40px;
+    }
+
+    .top-archive{
+        padding-right: 29px
+    }
+}
+
+.mainbody{
+    padding-top: 80px;
+
+    width: 100%;
+}
+
+
+.footer{
+    width: 100%;
+    padding-top: 60px;
+    padding-right: 4%;  
+    background-color: #ececec80;
+}
+
+.footer_nocolor{
+    width: 100%;
+    padding-top: 60px;
+    padding-right: 4%;  
+}
+
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 110px; /* Place the button at the bottom of the page */
+    left: 7%; /* Place the button 7% from the right */
+    z-index: 4; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 0px; /* Some padding */
+    background-color: transparent;
+    transition: opacity .5s, visibility .5s; /* transition effect. not necessary */
+}
+
+
+
+
+/* padding */
+
+.padding-159{
+    height: 159px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-120{
+    height: 120px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-100{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-80{
+    height: 80px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-60{
+    height: 60px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-50{
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+
+.padding-30{
+    height: 30px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-15{
+    height: 15px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-10{
+    height: 10px;
+    width: 100%;
+    display: block;
+}
+
+
+.padding-5{
+    height: 5px;
+    width: 100%;
+    display: block;
+}
+
+.padding-1{
+    height: 1px;
+    display: block;
+    margin-left: 16%;
+    padding-right: 0%;
+    margin-right: 0%;
+    background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 0));
+
+}
+
+.padding-1-noleft{
+    height: 1px;
+    display: block;
+    padding-right: 0%;
+    margin-right: 0%;
+    background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 0));
+}
+
+.othertext_center{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    padding-left: 41.7%;
+    padding-right: 33.6%;
+}
+
+/* main */
+
+.main_image{
+    width: 100%;
+    padding-left:16%;
+    padding-right:8%;
+}
+
+.full_image{
+    width: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+
+
+.works_01 {
+    position: relative;
+    padding-left: 0%;
+    padding-right: 8%;
+    margin-left: 16%;
+    margin-right: 0%;
+}
+
+.works_02{
+    position: relative;
+    float: left;
+    width: 55.7%;
+    padding-left: 0%;
+    padding-right: 8%;
+    margin-left: 16%;
+    margin-right: 0%;
+}
+
+.works_03{
+    position: relative;
+    float: right;
+    width: 58.4%;
+    padding-left: 0%;
+    padding-right: 8%;
+    margin-left: 16%;
+    margin-right: 0%;
+}
+
+.threeCol{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-left: 0%;
+    padding-right: 8%;
+    margin-left: 16%;
+    margin-right: 0%;
+}
+
+.leftwork, 
+.centerwork, 
+.rightwork{
+    width: 32.5%;
+}
+
+
+.main-name{
+    position: absolute;
+    padding-top: 10px;
+    color: #000000;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .7s, visibility .7s; /* transition effect. not necessary */
+}
+  
+
+.works_01:hover .main-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+.works_02:hover .main-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+.works_03:hover .main-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+.leftwork:hover .main-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+.centerwork:hover .main-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+.rightwork:hover .main-name {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .main_image{
+        display: block;
+        position: relative;
+        width: 96%;
+        padding-right:8%;
+    }
+    
+
+    .works_02,
+    .works_03{
+        display: block;
+        position: relative;
+        float: none;
+        width: 80%;
+        padding-right: 4%;
+    }
+
+    .threeCol{
+        display: block;
+        position: relative;
+        width: 80%;
+        padding-right: 4%;
+    }
+
+    .leftwork,
+    .centerwork,
+    .rightwork{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .othertext_center{
+        display: block;
+        position: relative;
+        width: 96%;
+        padding-left: 16%;
+        padding-right:8%;
+    }
+
+}
