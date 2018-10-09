@@ -143,8 +143,8 @@
 
 .text_kr{
     font-family: 'Gothic A1', sans-serif;
-    font-size: 16px;
-    font-weight: 300;
+    font-size: 15px;
+    font-weight: 200;
     font-style: normal;
     font-stretch: normal;
     line-height: 1.8;
@@ -172,7 +172,7 @@
     .text_kr{
         font-family: 'Gothic A1', sans-serif;
         font-size: 14px;
-        font-weight: 300;
+        font-weight: 200;
         font-style: normal;
         font-stretch: normal;
         line-height: 2;

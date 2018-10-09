@@ -1,6 +1,11 @@
 <?php
 
-include(dirname(__DIR__).'../main.php');
+if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+	include(dirname(__DIR__).'../main.php');
+}
+else {
+	include(dirname(__DIR__).'/main.php');
+}
 
 function render_work_begin() {
 	render_snippet('html_begin');
@@ -11,6 +16,7 @@ function render_work_begin() {
 }
 
 function render_work_end() {
+	render_snippet('footer');
 	render_snippet('body_end');
 	render_snippet('html_end');
 }

@@ -22,7 +22,8 @@
 
 .description_detail{
     position: relative;
-    padding-left: 33.7%;
+    padding-left: 30.5%;
+    padding-right: 8%;
 }
 
 .modal {
@@ -133,4 +134,74 @@
     line-height: 1.95;
     text-align: left;
     color: #000000
+}
+
+
+@media screen and (max-width: 620px) {
+
+    .main_image{
+        display: block;
+        position: relative;
+        width: 96%;
+        padding-right: 4%;
+    }
+    
+
+    .works_02,
+    .works_03{
+        display: block;
+        position: relative;
+        float: none;
+        width: 80%;
+        padding-right: 4%;
+    }
+
+    .threeCol{
+        display: block;
+        position: relative;
+        width: 80%;
+        padding-right: 4%;
+    }
+
+    .leftwork,
+    .centerwork,
+    .rightwork{
+        width: 100%;
+        padding-bottom: 5px;
+    }
+
+    .othertext_center{
+        display: block;
+        position: relative;
+        width: 96%;
+        padding-left: 16%;
+        padding-right:8%;
+    }
+
+    .description{
+        display: block;
+        position: relative;
+        width: 100%;
+        padding-top: 100px;
+        padding-left: 0px;
+        background-color: #ececec80;
+    }
+    
+    
+    .description_title{
+        display: block;
+        position: relative;
+        float: none;
+        width: 80%;
+        padding-right: 4%;
+    }
+    
+    .description_detail{
+        display: block;
+        position: relative;
+        float: none;
+        width: 80%;
+        padding-right: 4%;
+    }
+
 }

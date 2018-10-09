@@ -226,7 +226,7 @@ body {
 .works_02{
     position: relative;
     float: left;
-    width: 55.7%;
+    width: 58.4%;
     padding-left: 0%;
     padding-right: 8%;
     margin-left: 16%;
@@ -245,6 +245,7 @@ body {
 
 .threeCol{
     display: inline-flex;
+    position: relative;
     justify-content: space-between;
     padding-left: 0%;
     padding-right: 8%;
@@ -306,7 +307,7 @@ body {
         display: block;
         position: relative;
         width: 96%;
-        padding-right:8%;
+        padding-right: 4%;
     }
     
 
