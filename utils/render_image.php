@@ -98,7 +98,7 @@ function render_image($url, $parameter_string = "") {
 		$pyramid_width = floor($pyramid_width);
 	} while ($pyramid_width > 256);
 	
-	echo '<img src="' . $url . '" ' . $parameter_string . '/>';
+	echo '<img src="' . $url . '" class="fadeInOnLoad" ' . $parameter_string . '/>';
 	echo "</picture>";
 }
 ?>

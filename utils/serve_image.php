@@ -26,7 +26,7 @@ if (!file_exists($cache_asset_path)) {
 		, $target_width, $target_height
 		, $source_image_resolution[0], $source_image_resolution[1]);
 	
-	imagejpeg($target_image, $cache_asset_path, 95);
+	imagejpeg($target_image, $cache_asset_path, 90);
 }
 
 header('Content-Type: image/jpeg');

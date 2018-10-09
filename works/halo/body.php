@@ -217,9 +217,8 @@
 	<div class="padding-80"></div>
 
 	<div class="works_01">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://www.youtube.com/embed/q7nzL44CfF0?rel=0&amp;controls=0&amp;showinfo=0"
-			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
-			 mozallowfullscreen allowfullscreen></iframe>
+		<div style="padding:56.25% 0 0 0;position:relative;">
+			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/q7nzL44CfF0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 		</div>
 	</div>
 

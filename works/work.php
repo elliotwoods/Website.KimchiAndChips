@@ -10,6 +10,7 @@ else {
 function render_work_begin() {
 	render_snippet('html_begin');
 	render_snippet('head');
+	render_snippet('fade_in_on_load_head');
 	render_snippet('body_begin');
 	render_snippet('top_button');
 	render_snippet('navigation_bar');
@@ -18,6 +19,7 @@ function render_work_begin() {
 function render_work_end() {
 	render_snippet('footer');
 	render_snippet('body_end');
+	render_snippet('fade_in_on_load_foot');
 	render_snippet('html_end');
 }
 
