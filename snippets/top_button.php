@@ -18,3 +18,18 @@
 		document.documentElement.scrollTop = 0;
 	}
 </script>
+<style>
+#goToTopButton {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 110px; /* Place the button at the bottom of the page */
+	left: 7%; /* Place the button 7% from the right */
+	z-index: 4; /* Make sure it does not overlap */
+	border: none; /* Remove borders */
+	outline: none; /* Remove outline */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 0px; /* Some padding */
+	background-color: transparent;
+	transition: opacity .5s, visibility .5s; /* transition effect. not necessary */
+}
+</style>
