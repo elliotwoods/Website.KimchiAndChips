@@ -17,31 +17,55 @@ function render_contact_end() {
 }
 
 function handle_mailform() {
-	var_dump($_POST);
 	if(array_key_exists('g-recaptcha-response', $_POST)) {
 		$sender_name = stripslashes($_POST["name"]);
 		$sender_email = stripslashes($_POST["email"]);
 		$sender_message = stripslashes($_POST["message"]);
 
-		$url = "https://www.google.com/recaptcha/api/siteverify";
-		$response = $_POST["g-recaptcha-response"];
+		$verifyURL = "https://www.google.com/recaptcha/api/siteverify";
+		$g_response = $_POST["g-recaptcha-response"];
 		$secret = "6LcwLXYUAAAAAJXpZNGt7m739EEYNzbFo30i0fod";
 
-		$data = array(
-			'secret' => $secret,
-			'response' => $response,
-			'remoteip' => $_SERVER['REMOTE_ADDR']
+		$post_data = http_build_query(
+			array(
+				'secret' => $secret,
+				'response' => $g_response,
+				'remoteip' => (isset($_SERVER["HTTP_CF_CONNECTING_IP"]) ? $_SERVER["HTTP_CF_CONNECTING_IP"] : $_SERVER['REMOTE_ADDR'])
+			)
 		);
 
-		$ch = curl_init($url);
-		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);  
-		curl_setopt($ch, CURLOPT_POST, true);
-		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
-		$verifyResponse = curl_exec($ch);
-		curl_close($ch);
-	
-		$recaptchaResponse = json_decode($verifyResponse);
+		if(function_exists('curl_init') && function_exists('curl_setopt') && function_exists('curl_exec')) {
+			// Use cURL to get data 10x faster than using file_get_contents or other methods
+			$ch =  curl_init($verifyURL);
+				curl_setopt($ch, CURLOPT_POST, 1);
+				curl_setopt($ch, CURLOPT_POSTFIELDS, $post_data);
+				curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+				curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+				curl_setopt($ch, CURLOPT_HTTPAUTH, CURLAUTH_BASIC);
+				curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5);
+				curl_setopt($ch, CURLOPT_TIMEOUT, 5);
+				curl_setopt($ch, CURLOPT_HTTPHEADER, array('Accept: application/json', 'Content-type: application/x-www-form-urlencoded'));
+				$response = curl_exec($ch);
+			curl_close($ch);
+		} else {
+			// If server not have active cURL module, use file_get_contents
+			$opts = array('http' =>
+				array(
+					'method'  => 'POST',
+					'header'  => 'Content-type: application/x-www-form-urlencoded',
+					'content' => $post_data
+				)
+			);
+			$context  = stream_context_create($opts);
+			$response = file_get_contents($verifyURL, false, $context);
+		}
+
+		$result = json_decode($response);
+		var_dump($result);
+
+		if (!$result->success) {
+			throw new Exception('Gah! CAPTCHA verification failed. Please email me directly at: jstark at jonathanstark dot com', 1);
+		}
 
 		var_dump($recaptchaResponse);
 	}
