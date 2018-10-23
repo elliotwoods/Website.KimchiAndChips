@@ -68,6 +68,9 @@ function handle_mailform() {
 				throw new Exception("reCAPTCHA failed to identify you as a human.");
 			}
 		}
+		catch(Exception $e) {
+			var_dump($e);
+		}
 	}
 }
 
