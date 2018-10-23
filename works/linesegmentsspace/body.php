@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LINE SEGMENTS SPACE </div>
-		<div class="year_location_materials"> 2013. Seoul. <br> Digital Emulsion, Nylon string </div>
+		<div class="year_location_materials"> 2013. Seoul. <br> Digital emulsion, nylon string </div>
 	</div>
 	<div class="padding-80"></div>
 

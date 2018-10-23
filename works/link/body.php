@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LINK </div>
-		<div class="year_location_materials"> 2010. <br> Cardboard boxes, Projection Mapping </div>
+		<div class="year_location_materials"> 2010. <br> Cardboard boxes, projection mapping </div>
 	</div>
 	<div class="padding-80"></div>
 

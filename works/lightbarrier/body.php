@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIGHT BARRIER </div>
-		<div class="year_location_materials"> 2014. <br> Convex mirrors, Projection, Scanning </div>
+		<div class="year_location_materials"> 2014. <br> Convex mirrors, projection, scanning </div>
 	</div>
 	<div class="padding-80"></div>
 

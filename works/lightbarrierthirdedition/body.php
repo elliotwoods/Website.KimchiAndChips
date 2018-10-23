@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIGHT BARRIER THIRD EDITION </div>
-		<div class="year_location_materials"> 2016. Asian Cultural Centre, Gwangju. <br> Concave mirrors, Projection, Haze, Scanning </div>
+		<div class="year_location_materials"> 2016. Asian Cultural Centre, Gwangju. <br> Concave mirrors, projection, haze, scanning </div>
 	</div>
 	<div class="padding-80"></div>
 

@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> 483 LINES SECOND EDITION </div>
-		<div class="year_location_materials"> 2015. Asian Cultural Centre, Gwangju. <br> Kevlar  string(1.5mm  thickness,  16m  length), Projection <br> 16,000 x 2,500 x 10,000 WHD </div>
+		<div class="year_location_materials"> 2015. Asian Cultural Centre, Gwangju. <br> Kevlar string(1.5mm thickness, 16m length), projection <br> 16,000 x 2,500 x 10,000 WHD </div>
 	</div>
 	<div class="padding-80"></div>
 

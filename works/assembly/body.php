@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> ASSEMBLY </div>
-		<div class="year_location_materials"> 2012, Permanent. Busan. <br> Digital Emulsion, Acrylic blocks, Steel </div>
+		<div class="year_location_materials"> 2012, Permanent. Busan. <br> Digital emulsion, acrylic blocks, steel </div>
 	</div>
 	<div class="padding-80"></div>
 

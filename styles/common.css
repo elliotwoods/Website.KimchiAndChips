@@ -1,0 +1,29 @@
+#cookie_policy {
+	position: fixed;
+	width: 30%;
+	bottom: 0px;
+	right:0px;
+
+	padding: 10px;
+	float: none;
+
+	background: white;
+	opacity: 0.9;
+	
+	color: black;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 10.5px;
+
+	z-index: 1000;
+	visibility: hidden;
+}
+
+#accept_cookies_button {
+	background-color: black;
+	color: white;
+	display: inline-block;
+	text-align: center;
+	padding: 5px 10px;
+	margin: 5px;
+	border: none;
+}

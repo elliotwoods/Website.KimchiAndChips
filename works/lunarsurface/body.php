@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LUNAR SURFACE </div>
-		<div class="year_location_materials"> 2014, 2015. Bucheon Incinerator, Bucheon. <br> Digital photo print 1500 x 1000mm, Live scanning installation [dimensions variable] <br> In collaboration with photographer Eunyoung Kim. </div>
+		<div class="year_location_materials"> 2014, 2015. Bucheon Incinerator, Bucheon. <br> Digital photo print 1500 x 1000mm, live scanning installation [dimensions variable] <br> In collaboration with photographer Eunyoung Kim. </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -136,6 +136,7 @@
 	</div>
 
 	<div class="padding-100"></div>
+	<div class="padding-1"></div>
 
 	<!-- Ackhowledgements -->
 

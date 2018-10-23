@@ -121,7 +121,7 @@ body {
     margin-left: 0%;
     padding-right: 0%;
     margin-right: 0%;
-    background-color: #414141;
+    background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 1));
 
 }
 
@@ -156,8 +156,6 @@ body {
     padding-right: 0%;
     padding-top: 0%;
     padding-bottom: 0%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 

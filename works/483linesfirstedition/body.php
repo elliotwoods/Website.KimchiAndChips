@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> 483 LINES FIRST EDITION </div>
-		<div class="year_location_materials"> 2014. Jeju Museum of Art, Jeju. <br> Nylon string, Projection </div>
+		<div class="year_location_materials"> 2014. Jeju Museum of Art, Jeju. <br> Nylon string, projection </div>
 	</div>
 	<div class="padding-80"></div>
 

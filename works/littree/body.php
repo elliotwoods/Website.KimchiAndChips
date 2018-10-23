@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIT TREE </div>
-		<div class="year_location_materials"> 2011. <br> Natural tree, Digital Emulsion </div>
+		<div class="year_location_materials"> 2011. <br> Natural tree, digital emulsion </div>
 	</div>
 	<div class="padding-80"></div>
 

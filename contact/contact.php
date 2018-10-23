@@ -16,8 +16,35 @@ function render_contact_end() {
 	render_snippet('html_end');
 }
 
-$doc_path = realpath(getcwd());
-$works_path = realpath(__DIR__);
-$work_url_path = '/contact/' . str_replace($contact_path . DIRECTORY_SEPARATOR, '', $doc_path) . '/';
+function handle_mailform() {
+	var_dump($_POST);
+	if(array_key_exists('g-recaptcha-response', $_POST)) {
+		$sender_name = stripslashes($_POST["name"]);
+		$sender_email = stripslashes($_POST["email"]);
+		$sender_message = stripslashes($_POST["message"]);
+
+		$url = "https://www.google.com/recaptcha/api/siteverify";
+		$response = $_POST["g-recaptcha-response"];
+		$secret = "6LcwLXYUAAAAAJXpZNGt7m739EEYNzbFo30i0fod";
+
+		$data = array(
+			'secret' => $secret,
+			'response' => $response,
+			'remoteip' => $_SERVER['REMOTE_ADDR']
+		);
+
+		$ch = curl_init($url);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);  
+		curl_setopt($ch, CURLOPT_POST, true);
+		curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query($data));
+		$verifyResponse = curl_exec($ch);
+		curl_close($ch);
+	
+		$recaptchaResponse = json_decode($verifyResponse);
+
+		var_dump($recaptchaResponse);
+	}
+}
 
 ?>

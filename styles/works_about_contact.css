@@ -132,7 +132,9 @@
 }
 
 .formField {
-	width: 220px;
+	width: 300px;
+	height: 1.5em;
+
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 12.5px;
 	font-weight: 300;
@@ -142,12 +144,20 @@
 	line-height: 1.95;
 	text-align: left;
 	color: #000000;
+
 	border-top:none;
 	border-left: none;
 	border-right: none;
 	border-bottom-width: 0.5px;
-	height: 12.5px;
 	border-bottom-color: #ececec
+}
+
+.subscribeField {
+	width: 220px;
+}
+
+.formTextArea {
+	height: 8em;
 }
 
 .formSubmit {

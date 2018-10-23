@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIGHT BARRIER SECOND EDITION </div>
-		<div class="year_location_materials"> 2015. Einthoven. <br> Concave mirrors, Projection, Scanning </div>
+		<div class="year_location_materials"> 2015. Einthoven. <br> Concave mirrors, projection, scanning </div>
 	</div>
 	<div class="padding-80"></div>
 
