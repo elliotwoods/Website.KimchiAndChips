@@ -1,0 +1,89 @@
+#tag_cloud {
+	position: absolute;
+	top: 162px;
+	left: 16%;
+	width: 150px;
+	z-index: 10;
+	background: white;
+}
+.tag_category {
+	text-transform: capitalize;
+}
+.tag_category_title {
+	display: block;
+	font-size: 12.5px;
+	padding-top: 2em;
+}
+.tag {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 10.5px;
+	line-height: 1.4em;
+	border-left:1px black solid;
+	border-right: 1px black solid;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 8px;
+	padding-right: 8px;
+	margin-left: 0px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	display: inline-block;
+	text-transform: none;
+	
+}
+.tag:link {
+	color: black;
+}
+.tag:hover {
+	color: black;
+	background: #ccc;
+	text-decoration: none;
+	transition: 0.4s;
+}
+.tag:visited {
+	color: black;
+}
+.tag:active {
+	color: black;
+}
+
+.tag_selected {
+	background: black;
+	color: white;
+}
+.tag_selected:link {
+}
+.tag_selected:hover {
+	background: #333;
+	color: white;
+}
+.tag_selected:visited {
+	color: white;
+}
+.tag_selected:active {
+	color:white;
+}
+
+.archive_item {
+
+}
+
+.archive_item_tags {
+
+}
+
+
+@media screen and (max-width: 740px) {
+	
+	#tag_cloud{
+		display: block;
+		position: relative;
+		top: 135px;
+		float: none;
+		width: 80%;
+		padding-right: 4%;
+		padding-bottom: 100px;
+	}
+
+}

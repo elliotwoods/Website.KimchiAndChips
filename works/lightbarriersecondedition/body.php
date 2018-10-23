@@ -14,10 +14,10 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
-	<img src="<?= $work_url_path ?>main.jpg" alt="lightbarrier second edition main" style="width:100%">
+	<?= render_image("main.jpg", 'alt="light barrier second edition main" style="width:100%"') ?>
 </div>
 
 
@@ -60,30 +60,31 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02">
-		<img src="<?= $work_url_path ?>installation_01.jpg" alt="01" style="width:100%">
+		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-30"></div>
 
 	<div class="works_03">
-		<img src="<?= $work_url_path ?>audience_01.jpg" alt="02" style="width:100%">
+		<?= render_image("audience_01.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
 
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>audience_02.jpg" alt="03" style="width:100%">
+		<?= render_image("audience_02.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>audience_03.jpg" alt="04" style="width:100%">
+		<?= render_image("audience_03.jpg", 'alt="04" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>installation_02.jpg" alt="05" style="width:100%">
+		<?= render_image("installation_02.jpg", 'alt="05" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-100"></div>
+	<div class="padding-1"></div>
 
 	<!-- Ackhowledgements -->
 
@@ -127,6 +128,9 @@
 			<div class="padding-100"></div>
 		</div>
 	</div>
+</div>
+<div class="currentOuter">
+	<div class="current">| LIGHT BARRIER SECOND EDITION | 2015. Einthoven.</div>
 </div>
 
 

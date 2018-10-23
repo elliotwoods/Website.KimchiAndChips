@@ -14,10 +14,10 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
-	<img src="<?= $work_url_path ?>main.jpg" alt="lightbarrier third edition main" style="width:100%">
+	<?= render_image("main.jpg", 'alt="lightbarrier third edition main" style="width:100%"') ?>
 </div>
 
 
@@ -72,7 +72,7 @@
 	<div class="padding-80"></div>
 
 	<div class="works_03">
-		<img src="<?= $work_url_path ?>installation_front.jpg" alt="01" style="width:100%">
+		<?= render_image("installation_front.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
@@ -90,14 +90,15 @@
 	<div class="padding-80"></div>
 
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>audience.jpg" alt="02" style="width:100%">
+		<?= render_image("audience.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>installation_back.jpg" alt="03" style="width:100%">
+		<?= render_image("installation_back.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-100"></div>
+	<div class="padding-1"></div>
 
 	<!-- Ackhowledgements -->
 
@@ -143,5 +144,8 @@
 			<div class="padding-100"></div>
 		</div>
 	</div>
+</div>
+<div class="currentOuter">
+	<div class="current">| LIGHT BARRIER THIRD EDITION | 2018. 2016. Asian Cultural Centre, Gwangju.</div>
 </div>
 

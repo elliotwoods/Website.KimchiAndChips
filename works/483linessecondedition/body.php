@@ -14,10 +14,10 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
-	<img src="<?= $work_url_path ?>main.jpg" alt="483 lines second edition main" style="width:100%">
+	<?= render_image("main.jpg", 'alt="483 lines second edition main" style="width:100%"') ?>
 </div>
 
 
@@ -25,7 +25,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> 483 LINES SECOND EDITION </div>
-		<div class="year_location_materials"> 2015. Asian Cultural Centre, London. <br> Kevlar  string(1.5mm  thickness,  16m  length), Projection <br> 16,000 x 2,500 x 10,000 WHD </div>
+		<div class="year_location_materials"> 2015. Asian Cultural Centre, Gwangju. <br> Kevlar  string(1.5mm  thickness,  16m  length), Projection <br> 16,000 x 2,500 x 10,000 WHD </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -57,19 +57,19 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02">
-		<img src="<?= $work_url_path ?>installation_01.jpg" alt="01" style="width:100%">
+		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-30"></div>
 
 	<div class="works_03">
-		<img src="<?= $work_url_path ?>installation_02.jpg" alt="02" style="width:100%">
+		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
 
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>installation_03.jpg" alt="03" style="width:100%">
+		<?= render_image("installation_03.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
@@ -78,29 +78,30 @@
 	
     <div class="threeCol">  
         <div class="leftwork">
-			<img src="<?= $work_url_path ?>process_01.jpg" alt="04" style="width:100%">
+			<?= render_image("process_01.jpg", 'alt="04" style="width:100%"') ?>
         </div>
         <div class="centerwork">
-			<img src="<?= $work_url_path ?>process_02.jpg" alt="05" style="width:100%">
+			<?= render_image("process_02.jpg", 'alt="05" style="width:100%"') ?>
         </div>
         <div class="rightwork">
-			<img src="<?= $work_url_path ?>process_03.jpg" alt="06" style="width:100%">
+			<?= render_image("process_03.jpg", 'alt="06" style="width:100%"') ?>
 		</div>
 	</div>
 	<div class="padding-10"></div>
 	<div class="threeCol">  
 		<div class="leftwork">
-			<img src="<?= $work_url_path ?>process_04.jpg" alt="07" style="width:100%">
+			<?= render_image("process_04.jpg", 'alt="07" style="width:100%"') ?>
         </div>
         <div class="centerwork">
-			<img src="<?= $work_url_path ?>process_05.jpg" alt="08" style="width:100%">
+			<?= render_image("process_05.jpg", 'alt="08" style="width:100%"') ?>
         </div>
         <div class="rightwork">
-			<img src="<?= $work_url_path ?>process_06.jpg" alt="09" style="width:100%">
+			<?= render_image("process_06.jpg", 'alt="09" style="width:100%"') ?>
 		</div>
     </div>
 
 	<div class="padding-100"></div>
+	<div class="padding-1"></div>
 
 	<!-- Ackhowledgements -->
 
@@ -149,4 +150,6 @@
 		</div>
 	</div>
 </div>
-
+<div class="currentOuter">
+	<div class="current">| 483 LINES SECOND EDITION | 2015. Asian Cultural Centre, Gwangju.</div>
+</div>

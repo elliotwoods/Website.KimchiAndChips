@@ -1,9 +1,5 @@
-	<style>
-		.fadeInOnLoad {
-
-		}
-
-		.fadeInOnLoad_dimmed {
-			opacity: 0.0;
-		}
-	</style>
+<script>
+var styleSheet = $("<style></style>");
+styleSheet.html('.fadeInOnLoad { opacity : 0.0; }');
+$('head').append(styleSheet);
+</script>

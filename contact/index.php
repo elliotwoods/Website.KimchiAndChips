@@ -1,5 +1,7 @@
 <?php
 
+$page_name = "contact";
+
 include './contact.php';
 
 render_contact_begin();

@@ -89,13 +89,12 @@ function render_image($url, $parameter_string = "") {
 			$pyramid_url = $url;
 		}
 		else {
-			$pyramid_url = $url_to_fetch_script . "?url=" . urlencode($abs_url) . '&width=' . $pyramid_width;
+			$pyramid_url = $url_to_fetch_script . "?url=" . urlencode($abs_url) . '&width=' . floor($pyramid_width);
 		}
 
-		echo '<source media="(min-width: ' . ($pyramid_width / 2) .  'px)" srcset="' . $pyramid_url . '">' . "\n";
+		echo '<source media="(min-width: ' . floor($pyramid_width * 3 / 4) .  'px)" srcset="' . $pyramid_url . '">' . "\n";
 
-		$pyramid_width /= 2;
-		$pyramid_width = floor($pyramid_width);
+		$pyramid_width = $pyramid_width / sqrt(2);
 	} while ($pyramid_width > 256);
 	
 	echo '<img src="' . $url . '" class="fadeInOnLoad" ' . $parameter_string . '/>';

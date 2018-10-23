@@ -14,10 +14,10 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
-	<img src="<?= $work_url_path ?>main.jpg" alt="lunar surface main" style="width:100%">
+	<?= render_image("main.jpg", 'alt="lunar surface main" style="width:100%"') ?>
 </div>
 
 
@@ -61,13 +61,13 @@
 
 	<div class="threeCol">
 		<div class="leftwork">
-			<img id="myImg" src="<?= $work_url_path ?>incinerator_01.jpg" alt="01" style="width:100%">
+			<?= render_image("incinerator_01.jpg", 'alt="01" style="width:100%"') ?>
 		</div>
 		<div class="centerwork">
-			<img src="<?= $work_url_path ?>incinerator_02.jpg" alt="02" style="width:100%">
+			<?= render_image("incinerator_02.jpg", 'alt="02" style="width:100%"') ?>
 		</div>
 		<div class="rightwork">
-			<img src="<?= $work_url_path ?>incinerator_03.jpg" alt="03" style="width:100%">
+			<?= render_image("incinerator_03.jpg", 'alt="03" style="width:100%"') ?>
 		</div>
 	</div>
 
@@ -93,10 +93,10 @@
 
     <div class="threeCol">  
         <div class="leftwork">
-			<img src="<?= $work_url_path ?>exhibition_01.jpg" alt="01" style="width:100%">
+			<?= render_image("exhibition_01.jpg", 'alt="01" style="width:100%"') ?>
         </div>
         <div class="centerwork">
-			<img src="<?= $work_url_path ?>exhibition_02.jpg" alt="02" style="width:100%">
+			<?= render_image("exhibition_02.jpg", 'alt="02" style="width:100%"') ?>
         </div>
         <div class="rightwork">
         </div>
@@ -105,17 +105,17 @@
 	<div class="padding-5"></div>   
 
 	<div class="works_03">
-		<img src="<?= $work_url_path ?>exhibition_03.jpg" alt="03" style="width:100%">
+		<?= render_image("exhibition_03.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
 
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>lunar_2015_01.jpg" alt="04" style="width:100%">
+		<?= render_image("lunar_2015_01.jpg", 'alt="04" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>lunar_2015_02.jpg" alt="05" style="width:100%">
+		<?= render_image("lunar_2015_02.jpg", 'alt="05" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
@@ -125,13 +125,13 @@
 	
     <div class="threeCol">  
         <div class="leftwork">
-			<img src="<?= $work_url_path ?>lunar_2014_01.jpg" alt="06" style="width:100%">
+			<?= render_image("lunar_2014_01.jpg", 'alt="06" style="width:100%"') ?>
         </div>
         <div class="centerwork">
-			<img src="<?= $work_url_path ?>lunar_2014_02.jpg" alt="07" style="width:100%">
+			<?= render_image("lunar_2014_02.jpg", 'alt="07" style="width:100%"') ?>
         </div>
         <div class="rightwork">
-			<img src="<?= $work_url_path ?>lunar_2014_03.jpg" alt="08" style="width:100%">
+			<?= render_image("lunar_2014_03.jpg", 'alt="08" style="width:100%"') ?>
         </div>
 	</div>
 
@@ -173,5 +173,6 @@
 		</div>
 	</div>
 </div>
-
-
+<div class="currentOuter">
+	<div class="current">| LUNAR SURFACE | 2014, 2015. Bucheon Incinerator, Bucheon.</div>
+</div>

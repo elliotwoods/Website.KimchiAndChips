@@ -14,10 +14,10 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
-	<img src="<?= $work_url_path ?>main.jpg" alt="link main" style="width:100%">
+	<?= render_image("main.jpg", 'alt="link main" style="width:100%"') ?>
 </div>
 
 
@@ -55,13 +55,13 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02">
-		<img src="<?= $work_url_path ?>enschede.jpg" alt="01" style="width:100%">
+		<?= render_image("enschede.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-30"></div>
 
 	<div class="works_03">
-		<img src="<?= $work_url_path ?>saopaulo.jpg" alt="02" style="width:100%">
+		<?= render_image("saopaulo.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
@@ -79,7 +79,7 @@
 	<div class="padding-80"></div>
 
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>athens.jpg" alt="03" style="width:100%">
+		<?= render_image("athens.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
 
@@ -108,4 +108,7 @@
 			<div class="padding-100"></div>
 		</div>
 	</div>
+</div>
+<div class="currentOuter">
+	<div class="current">| LINK | 2010.</div>
 </div>

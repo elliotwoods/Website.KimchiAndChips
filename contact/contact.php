@@ -6,11 +6,12 @@ function render_contact_begin() {
 	render_snippet('html_begin');
 	render_snippet('head');
 	render_snippet('body_begin');
-	//render_snippet('top_button');
+	render_snippet('top_button');
 	render_snippet('navigation_bar');
 }
 
 function render_contact_end() {
+	render_snippet('footer_nocolor');
 	render_snippet('body_end');
 	render_snippet('html_end');
 }

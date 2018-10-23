@@ -14,10 +14,10 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
-	<img src="<?= $work_url_path ?>main.jpg" alt="483 lines first edition main" style="width:100%">
+	<?= render_image("main.jpg", 'alt="483 lines first edition main" style="width:100%"') ?>
 </div>
 
 
@@ -63,7 +63,7 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02">
-		<img src="<?= $work_url_path ?>installation_01.jpg" alt="01" style="width:100%">
+		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
@@ -85,41 +85,42 @@
 	<div class="padding-80"></div>
 
 	<div class="works_03">
-		<img src="<?= $work_url_path ?>installation_02.jpg" alt="02" style="width:100%">
+		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
 
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>installation_03.jpg" alt="03" style="width:100%">
+		<?= render_image("installation_03.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>installation_04.jpg" alt="04" style="width:100%">
+		<?= render_image("installation_04.jpg", 'alt="04" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>installation_05.jpg" alt="05" style="width:100%">
+		<?= render_image("installation_05.jpg", 'alt="05" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<img src="<?= $work_url_path ?>process.gif" alt="06" style="width:100%">
+		<?= render_image("process.gif", 'alt="06" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
 
 	<div class="threeCol">
 		<div class="leftwork">
-			<img id="myImg" src="<?= $work_url_path ?>jejumuseum_01.jpg" alt="06" style="width:100%">
+			<?= render_image("jejumuseum_01.jpg", 'alt="06" style="width:100%"') ?>
 		</div>
 		<div class="centerwork">
-			<img src="<?= $work_url_path ?>jejumuseum_02.jpg" alt="07" style="width:100%">
+			<?= render_image("jejumuseum_02.jpg", 'alt="07" style="width:100%"') ?>
 		</div>
 		<div class="rightwork">
 		</div>
 	</div>
 
 	<div class="padding-100"></div>
+	<div class="padding-1"></div>
 
 	<!-- Ackhowledgements -->
 
@@ -167,4 +168,6 @@
 		</div>
 	</div>
 </div>
-
+<div class="currentOuter">
+	<div class="current">| 483 LINES FIRST EDITION | 2014. Jeju Museum of Art, Jeju.</div>
+</div>

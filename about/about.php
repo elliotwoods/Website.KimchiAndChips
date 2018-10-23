@@ -6,11 +6,12 @@ function render_about_begin() {
 	render_snippet('html_begin');
 	render_snippet('head');
 	render_snippet('body_begin');
-	//render_snippet('top_button');
+	render_snippet('top_button');
 	render_snippet('navigation_bar');
 }
 
 function render_about_end() {
+	render_snippet('footer');
 	render_snippet('body_end');
 	render_snippet('html_end');
 }

@@ -1,5 +1,7 @@
 <?php
 
+$page_name = "about";
+
 include './about.php';
 
 render_about_begin();

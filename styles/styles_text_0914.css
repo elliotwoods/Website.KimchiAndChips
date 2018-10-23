@@ -1,49 +1,12 @@
 /* Common */
 
-/*
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 1;
-    transition: .5s ease;
-    background-color: rgb(219, 219, 219);
-  }
-  */
-
-
-
-.top-navi a{
-    font-family: 'Fira Sans', sans-serif;
-    font-size: 12.5px;
-    font-weight: 400;
-    font-stretch: normal;
-    letter-spacing: 1.5px;
-    line-height: 0.5;
-    color: #000000;
-    transition: 0.2s;
-    white-space: nowrap;   
-}
-
-
-
-.top-navi a:hover{
-    color: #a0a0a0;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
 
 .footer,
 .footer_nocolor{
     font-family: Helvetica, sans-serif;
     font-size: 12px;
     font-weight: normal;
-    color: #414141;
+    color: #ffffff;
     text-align: right;
 }   
 
@@ -153,6 +116,19 @@
     word-break: keep-all;
 }
 
+.text_kr_works_02{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 13.5px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: 0.3px;
+    line-height: 1.95;
+    text-align: left;
+    color: #000000;
+    word-break: keep-all;
+}
+
 @media screen and (max-width: 620px) {
     
     .text_en{
@@ -167,8 +143,6 @@
         color: #000000  
     }
     
-    
-    
     .text_kr{
         font-family: 'Gothic A1', sans-serif;
         font-size: 14px;
@@ -178,6 +152,19 @@
         line-height: 2;
         text-align: left;
         color: #a0a0a0;
+        word-break: keep-all;
+    }
+    
+    .text_kr_works_02{
+        font-family: 'Gothic A1', sans-serif;
+        font-size: 12.5px;
+        font-weight: 300;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: 0.3px;
+        line-height: 2;
+        text-align: left;
+        color: #000000;
         word-break: keep-all;
     }
 
@@ -257,32 +244,6 @@
 }
 
 
-#view_image_01,
-#view_image_02,
-#view_image_03,
-#view_image_04,
-#view_image_05,
-#view_image_06,
-#view_image_07,
-#view_image_08,
-#view_image_09,
-#view_image_10,
-#view_image_11,
-#view_image_12,
-#view_image_13,
-#view_image_14,
-#view_image_15,
-#view_image_16,
-#view_image_17,
-#view_image_18,
-#view_image_19,
-#view_image_20,
-#view_image_21,
-#view_image_22{
-    color: #000000;
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 .hoverGrey{
     color: #000000;

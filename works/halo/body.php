@@ -1,4 +1,5 @@
 <style>
+	
 	@media screen and (max-width: 650px) {
 		.description_title,
 		.description_detail{
@@ -14,7 +15,7 @@
 	}
 </style>
 
-<div class="padding-159"></div>
+<div class="padding-120"></div>
 
 <div class="full_image">
 	<?= render_image("main.jpg", 'alt="halo main" style="width:100%"') ?>
@@ -176,10 +177,20 @@
 
 	<div class="padding-80"></div>
 
+	<div class="works_03">
+		<div style="padding:56.25% 0 0 0;position:relative;">
+			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://sketchfab.com/models/ff8b8a6f2c6c446cacb99eaaecc88cc4/embed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		</div>
+		<div class="padding-10"></div>
+		<div class="main-subtext" style="font-style: italic">Somerset House Scan. 2017 </div>
+	</div>
+
+	<div class="padding-80"></div>
+
 	<div class="works_03 text_kr">
-		시간은 직선처럼 먼 곳을 향해 걷는 듯하지만 멀리 돌아 다시 제자리를 찾는 모습은 마치 원과 같다.
-		<p></p>
-		시간을 따라 선을 그으면 종국에는 커다란 원이 될 것만 같다.
+	시간은 직선처럼 먼 곳을 향해 걷는 듯하지만 멀리 돌아 다시 제자리를 찾는 모습은 마치 원과 같다.
+	<p></p>
+	시간을 따라 선을 그으면 종국에는 커다란 원이 될 것만 같다.
 	</div>
 
 	<div class="padding-80"></div>
@@ -246,6 +257,7 @@
 		</div>
 
 	<div class="padding-100"></div>
+	<div class="padding-1"></div>
 
 	<!-- Ackhowledgements -->
 
@@ -260,8 +272,11 @@
 				2017 Gwangju Design Biennale
 				<p></p>
 				<span class="text_description_detail_bold">Presented by</span><br>
-				Somerset House <br />
+				Somerset House <br/>
 				Korean Cultural Centre UK
+				<p></p>
+				<span class="text_description_detail_bold">Fabricated by</span><br>
+				Studio Sungshin
 				<p></p>
 				<span class="text_description_detail_bold">Mathematical modelling in collaboration with</span><br>
 				Improbable
@@ -297,4 +312,7 @@
 			<div class="padding-100"></div>
 		</div>
 	</div>
+</div>
+<div class="currentOuter">
+	<div class="current">| HALO | 2018. Somerset House, UK.</div>
 </div>
