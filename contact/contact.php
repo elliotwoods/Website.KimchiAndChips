@@ -30,8 +30,7 @@ function handle_mailform() {
 
 			require_once '../libs/recaptcha/src/autoload.php';
 			$recaptcha = new \ReCaptcha\ReCaptcha($secret);
-			$response = $recaptcha->setExpectedHostname('staging.kimchiandchips.com')
-				->verify($g_response, $remote_ip);
+			$response = $recaptcha->verify($g_response, $remote_ip);
 			
 			var_dump($response);
 	
