@@ -1,6 +1,6 @@
 #cookie_policy {
 	position: fixed;
-	width: 30%;
+	width: 100%;
 	bottom: 0px;
 	right:0px;
 
@@ -12,7 +12,9 @@
 	
 	color: black;
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 10.5px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
 
 	z-index: 1000;
 	visibility: hidden;
@@ -23,7 +25,37 @@
 	color: white;
 	display: inline-block;
 	text-align: center;
-	padding: 5px 10px;
+	padding: 3x 10px;
 	margin: 5px;
 	border: none;
+}
+
+.main_element {
+	min-height: 100%;
+	margin-bottom: -100px;
+}
+
+.footer{
+	position: relative;
+	height: 100px;
+	left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 8%;  
+    font-family: Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    color: #1a1a1a;
+	text-align: right;
+	background-color: transparent;
+	z-index: 15;
+}
+
+html, body {
+	height: 100%;
+}
+
+a.black_link, a.black_link:visited, a.black_link:active, a.black_link:hover {
+	color: black;
 }

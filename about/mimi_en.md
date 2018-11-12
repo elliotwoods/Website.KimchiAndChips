@@ -1,0 +1,3 @@
+**Mimi Son** (KR) was born in Seoul where currently she lives and works.  
+
+An obsession with geometry and Buddhist philosophy inspires her to articulate space and time from various perspectives. This continuous experiment has allowed her to create installation that aims to depict an intersection of art and technology, material and immaterial, real and virtual, presence and absence. Over the past decade she has worked as a designer, professor, storyteller, curator, and artistic director in various countries and institutions. 

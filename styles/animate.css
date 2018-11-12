@@ -2785,8 +2785,8 @@
 }
 
 .hinge {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration:.4s;
+  animation-duration:.4s;
   -webkit-animation-name: hinge;
   animation-name: hinge;
 }
@@ -3573,9 +3573,9 @@
   animation-delay: 1s;
 }
 
-.animated.delay-2s {
-  -webkit-animation-delay: 2s;
-  animation-delay: 2s;
+.animated.delay.4s {
+  -webkit-animation-delay:.4s;
+  animation-delay:.4s;
 }
 
 .animated.delay-3s {
@@ -3604,8 +3604,8 @@
 }
 
 .animated.slow {
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
+  -webkit-animation-duration:.4s;
+  animation-duration:.4s;
 }
 
 .animated.slower {

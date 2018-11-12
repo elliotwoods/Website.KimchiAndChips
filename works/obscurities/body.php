@@ -1,19 +1,3 @@
-<style>
-	@media screen and (max-width: 650px) {
-		.description_title,
-		.description_detail{
-			position: relative;
-			padding-left: 16%;
-		}
-
-		.description_nobg{
-			display: block;
-			position: relative;
-			padding-left: 0%;
-		}
-	}
-</style>
-
 <div class="padding-120"></div>
 
 <div class="full_image">
@@ -25,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> OBSCURITIES : Another view of things </div>
-		<div class="year_location_materials"> 2017. <br> Sub-millimeter scale, microscope </div>
+		<div class="year_location_materials"> 2017 <br> Sub-millimeter scale, microscope </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -35,7 +19,8 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02 text_en">
-	An experiment animated on the sub-millimeter scale and filmed with a microscope. </br>
+	An experiment animated on the sub-millimeter scale and filmed with a microscope.
+	<p></p>
 	The film talks of dépaysement, extracting uncanny image of things outside of their ordinary usage. </br>
 	No digital effects were used.
 	<p></p>
@@ -43,7 +28,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<div class="works_01">
@@ -55,7 +40,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02">
 		<?= render_image("screencap_01.jpg", 'alt="01" style="width:100%"') ?>
@@ -67,7 +52,7 @@
 		<?= render_image("screencap_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="main_image">
 		<?= render_image("screencap_03.jpg", 'alt="03" style="width:100%"') ?>
@@ -82,30 +67,27 @@
 	</div>
 
 	<div class="padding-100"></div>
-	<div class="padding-1"></div>
+
 
 <!-- Ackhowledgements -->
 
 	<div class="description">
+	<div class="padding-30"></div>
 		<div class="description_title">
 			<span class="text_en_bold">Acknowledgements</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-                <span class="text_description_detail_bold">Videography by</span><br>
-				Kimchi and Chips               
-				<p></p>
-                <span class="text_description_detail_bold">Music by</span><br>
-				Murcof (Hugo II)
+				<?= render_markdown_file("acknowledgements.md") ?>
 			</div>
+			<div class="padding-90"></div>
 			<div class="padding-100"></div>
 		</div>
 	</div>
 </div>
 
-<!-- Exhibition -->
-
-<!-- Articles -->
+<!-- Related links -->
 
 <div class="currentOuter">
 	<div class="current">| ASSEMBLY | 2012, Permanent. Busan.</div>

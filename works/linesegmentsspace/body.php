@@ -1,19 +1,3 @@
-<style>
-	@media screen and (max-width: 650px) {
-		.description_title,
-		.description_detail{
-			position: relative;
-			padding-left: 16%;
-		}
-
-		.description_nobg{
-			display: block;
-			position: relative;
-			padding-left: 0%;
-		}
-	}
-</style>
-
 <div class="padding-120"></div>
 
 <div class="full_image">
@@ -25,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LINE SEGMENTS SPACE </div>
-		<div class="year_location_materials"> 2013. Seoul. <br> Digital emulsion, nylon string </div>
+		<div class="year_location_materials"> 2013 <br> Whanki Museum, Seoul KR <br> Digital emulsion, nylon string <br> Dimensions variable </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -42,7 +26,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<div class="works_01">
@@ -54,27 +38,29 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02">
 		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02 text_en">
-        A 2D canvas is reduced from a surface piece into a line segment, but then constructed into another dimension, a volume. Light creates contrast and order on the lines to articulate digital matter. Digital forms inhabit the interconnected boundaries of space, moulding visual mass,
+		A 2D canvas is reduced from a surface piece into a line segment, but then constructed into another dimension, a volume. 
+		Light creates contrast and order on the lines to articulate digital matter. 
+		Digital forms inhabit the interconnected boundaries of space, moulding visual mass.
         <p></p>
         The artists reference Picasso’s light painting, and Reticuláreas of Gego who’s work offers a contemplation of the material and immaterial, time and space, origin and encounter and art and technology.
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_03">
 		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="main_image">
 		<?= render_image("installation_03.jpg", 'alt="03" style="width:100%"') ?>
@@ -84,7 +70,7 @@
 		<?= render_image("audience_01.jpg", 'alt="04" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="threeCol">
 		<div class="leftwork">
@@ -98,44 +84,29 @@
 	</div>
 
 	<div class="padding-100"></div>
-	<div class="padding-1"></div>
+
 
 	<!-- Ackhowledgements -->
 
 	<div class="description">
+	<div class="padding-30"></div>
 		<div class="description_title">
 			<span class="text_en_bold">Acknowledgements</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-                <span class="text_description_detail_bold">Sound design by</span><br>
-				Junghoon Pi               
-				<p></p>
-                <span class="text_description_detail_bold">Production assistant</span><br>
-                Chamsae
+				<?= render_markdown_file("acknowledgements.md") ?>
 			</div>
 		</div>
 	</div>
 
-	<!-- Exhibition -->
+<!-- Related links -->
 
 	<div class="description">
 		<div class="description_title">
-			<span class="text_en_bold">Exhibition</span>
-		</div>
-		<div class="description_detail">
-			<div class="text_description_detail">
-				Seoul Art Space Gumcheon. 2013<br>
-            	Line Of Sight (a ‘live install’ edition of Line Segments Space). Resonate. 2014    
-			</div>
-		</div>
-	</div>
-
-<!-- Articles -->
-
-	<div class="description">
-		<div class="description_title">
-			<span class="text_en_bold">Articles</span>
+			<span class="text_en_bold">Related links</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
@@ -145,8 +116,13 @@
 				<p></p>
 				<span class="press-link"><a href="https://www.booooooom.com/2014/04/11/line-segments-space-kimchi-chips/"> 
                 “Line Segments Space” by Kimchi and Chips</a></span> <br>
-				booooooom.com / April 2014
+				Booooooom / April 2014
+				<p></p>
+				<span class="press-link"><a href="http://resonate.io/2014/programme"> 
+				Line of Sight (a ‘live install’ edition of Line Segments Space)</a></span> <br>
+				Resonate 2014
 			</div>
+			<div class="padding-90"></div>
 			<div class="padding-100"></div>
 		</div>
 	</div>

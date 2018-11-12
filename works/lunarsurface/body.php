@@ -1,19 +1,3 @@
-<style>
-	@media screen and (max-width: 650px) {
-		.description_title,
-		.description_detail{
-			position: relative;
-			padding-left: 16%;
-		}
-
-		.description_nobg{
-			display: block;
-			position: relative;
-			padding-left: 0%;
-		}
-	}
-</style>
-
 <div class="padding-120"></div>
 
 <div class="full_image">
@@ -25,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LUNAR SURFACE </div>
-		<div class="year_location_materials"> 2014, 2015. Bucheon Incinerator, Bucheon. <br> Digital photo print 1500 x 1000mm, live scanning installation [dimensions variable] <br> In collaboration with photographer Eunyoung Kim. </div>
+		<div class="year_location_materials"> 2014, 2015 <br> Bucheon Incinerator, Bucheon KR <br> Digital photo print 1500 x 1000mm, live scanning installation [dimensions variable] <br> In collaboration with photographer Eunyoung Kim </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -42,11 +26,12 @@
 		Breathing over 50 tonnes of new air into the building, the artists create a wind which blows a 20 meter flag of silk which is activated by digital light. 
 		This process renders a virgin moon into the post-industrial cavern.
 		<p></p>
-		At locations within the building, the artists collaborated with photographer Eunyoung Kim to capture moments of the moon being birthed. Long exposure photography trades the dimension of time for a dimension of space, extruding the moon into existence on a set of photographic prints, capturing a painting enacted by the details of the wind.
+		At locations within the building, the artists collaborated with photographer Eunyoung Kim to capture moments of the moon being birthed. 
+		Long exposure photography trades the dimension of time for a dimension of space, extruding the moon into existence on a set of photographic prints, capturing a painting enacted by the details of the wind.
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<div class="works_01">
@@ -72,7 +57,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02 text_en">
 		Inspired by the 2 moons of Haruki Murakami's 1Q84 and the flags of space travel, the artists present a portal into another existence where another moon orbits. 
@@ -82,7 +67,7 @@
 		The fabric is tracked by a 3D camera whilst a projector replays a response onto it according to its evolving shape
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
     <div class="works_02">
         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/135237504?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;background-color: black" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
@@ -108,7 +93,7 @@
 		<?= render_image("exhibition_03.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="main_image">
 		<?= render_image("lunar_2015_01.jpg", 'alt="04" style="width:100%"') ?>
@@ -118,7 +103,7 @@
 		<?= render_image("lunar_2015_02.jpg", 'alt="05" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<!-- process photos -->
@@ -136,29 +121,17 @@
 	</div>
 
 	<div class="padding-100"></div>
-	<div class="padding-1"></div>
+
 
 	<!-- Ackhowledgements -->
 
-	<!-- Exhibition -->
-	<div class="description">
-		<div class="description_title">
-			<span class="text_en_bold">Exhibition</span>
-		</div>
-		<div class="description_detail">
-			<div class="text_description_detail">
-				TETEM Kunstruimte, Netherlands. September-November 2015<br/>
-                Bucheon Incinerator. July / August 2015<br/>
-                Seoul Art Space Geumcheon. 2014
-			</div>
-		</div>	
-	</div>
-
-	<!-- Articles -->
+	<!-- Related links -->
 
 	<div class="description">
+	<div class="padding-30"></div>
 		<div class="description_title">
-			<span class="text_en_bold">Articles</span>
+			<span class="text_en_bold">Related links</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
@@ -168,8 +141,9 @@
 				<p></p>
 				<span class="press-link"><a href="http://www.creativeapplications.net/featured/lunar-surface-drawing-digital-mass-in-physical-space/"> 
                 Lunar Surface – Drawing digital mass in physical space</a></span> <br>
-				creativeapplications.net / June 2014
+				Creative Applications / June 2014
 			</div>
+			<div class="padding-90"></div>
 			<div class="padding-100"></div>
 		</div>
 	</div>

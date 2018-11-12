@@ -2,12 +2,12 @@
 
 $page_name = "about";
 
-include './about.php';
+require_once '../main.php';
 
-render_about_begin();
+render_page_begin();
 
 include 'body.php';
 
-render_about_end();
+render_page_end();
 
 ?>

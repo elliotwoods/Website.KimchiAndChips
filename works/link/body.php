@@ -1,19 +1,3 @@
-<style>
-	@media screen and (max-width: 650px) {
-		.description_title,
-		.description_detail{
-			position: relative;
-			padding-left: 16%;
-		}
-
-		.description_nobg{
-			display: block;
-			position: relative;
-			padding-left: 0%;
-		}
-	}
-</style>
-
 <div class="padding-120"></div>
 
 <div class="full_image">
@@ -25,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LINK </div>
-		<div class="year_location_materials"> 2010. <br> Cardboard boxes, projection mapping </div>
+		<div class="year_location_materials"> 2010 <br> Cardboard boxes, projection mapping <br> Dimensions variable </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -40,7 +24,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<div class="works_01">
@@ -52,7 +36,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02">
 		<?= render_image("enschede.jpg", 'alt="01" style="width:100%"') ?>
@@ -64,7 +48,7 @@
 		<?= render_image("saopaulo.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02 text_en">
         Link was created for Design Korea 2010 as an interpretation of 'Convergence', the theme of the exhibition. 
@@ -76,7 +60,7 @@
         As before, Kimchi and Chips look into ways that people can store their memories inside boxes, and what intuitive agency individuals can have with media technologies.
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="main_image">
 		<?= render_image("athens.jpg", 'alt="03" style="width:100%"') ?>
@@ -85,15 +69,16 @@
 
 	<div class="padding-100"></div>
 
+
 <!-- Ackhowledgements -->
 
-<!-- Exhibition -->
-
-<!-- Articles -->
+<!-- Related links -->
 
 	<div class="description">
+	<div class="padding-30"></div>
 		<div class="description_title">
-			<span class="text_en_bold">Articles</span>
+			<span class="text_en_bold">Related links</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
@@ -103,8 +88,9 @@
 				<p></p>
 				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-and-chips-link/"> 
                 Kimchi and Chips creates a constantly evolving city of paper boxes for link</a></span> <br>
-                designboom.com / January 2011
+                Designboom / January 2011
 			</div>
+			<div class="padding-90"></div>
 			<div class="padding-100"></div>
 		</div>
 	</div>

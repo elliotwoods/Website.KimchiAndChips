@@ -1,19 +1,3 @@
-<style>
-	@media screen and (max-width: 650px) {
-		.description_title,
-		.description_detail{
-			position: relative;
-			padding-left: 16%;
-		}
-
-		.description_nobg{
-			display: block;
-			position: relative;
-			padding-left: 0%;
-		}
-	}
-</style>
-
 <div class="padding-120"></div>
 
 <div class="full_image">
@@ -25,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIT TREE </div>
-		<div class="year_location_materials"> 2011. <br> Natural tree, digital emulsion </div>
+		<div class="year_location_materials"> 2011 <br> Natural tree, digital emulsion <br> Dimensions variable </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -42,7 +26,7 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<div class="works_01">
@@ -54,13 +38,13 @@
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02">
 		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02 text_en">
         The projection triggers photosynthesis effects which affect tree growth, suggesting the possibility of 3D printing a tree, and of visitors feeding the tree through interaction with it.
@@ -68,7 +52,7 @@
         Lit Tree uses structured light projection techniques developed by Kimchi and Chips which they have made available online for free.
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="main_image">
 		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
@@ -83,17 +67,17 @@
 	</div>
 
 	<div class="padding-100"></div>
-	<div class="padding-1"></div>
+
 
 <!-- Ackhowledgements -->
 
-<!-- Exhibition -->
-
-<!-- Articles -->
+<!-- Related links -->
 
 	<div class="description">
+	<div class="padding-30"></div>
 		<div class="description_title">
-			<span class="text_en_bold">Articles</span>
+			<span class="text_en_bold">Related links</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
@@ -107,12 +91,13 @@
 				<p></p>
                 <span class="press-link"><a href="https://www.designboom.com/art/kimchi-and-chips-lit-tree/"> 
                 Kimchi and Chips maps human hands onto lit tree</a></span> <br>
-                designboom.com / May 2011
+                Designboom / May 2011
             	<p></p>
                 <span class="press-link"><a href="https://www.bewaremag.com/lit-tree-conversation-avec-un-arbre/"> 
                 Lit Tree, conversation avec un arbre</a></span> <br>
-				bewaremag.com / June 2011
+				BEWARE / June 2011
 			</div>
+			<div class="padding-90"></div>
 			<div class="padding-100"></div>
 		</div>
 	</div>

@@ -7,12 +7,12 @@
 
 
 .description{
-	display: flex;
+	display: inline-block;
 	position: relative;
 	width: 100%;
-	padding-top: 100px;
-	padding-left: 16%;
-	background-color: #ececec80;
+	padding-top: 60px;
+	padding-left: 16.25%;
+	background-color: #ececec60;
 }
 
 
@@ -49,7 +49,7 @@
 	display: block;
 	z-index: 98;
 	width: 100%;
-	padding-left:16%;
+	padding-left:16.25%;
 	padding-right:0%;
 	border: none;
 	outline: none;
@@ -124,10 +124,10 @@
 /* Contact */
 
 .description_nobg{
-	display:flex;
+	display:inline-block;
 	width: 100%;
 	padding-top: 0px;
-	padding-left: 16%;
+	padding-left: 16.25%;
 	padding-right: 4%;
 }
 
@@ -174,76 +174,20 @@
 	color: #000000
 }
 
-
 @media screen and (max-width: 740px) {
 
-	.main_image{
-		display: block;
-		position: relative;
-		width: 96%;
-		padding-right: 4%;
-	}
-	
-
-	.works_02,
-	.works_03{
-		display: block;
-		position: relative;
-		float: none;
-		width: 80%;
-		padding-right: 4%;
-	}
-
-	.threeCol{
-		display: block;
-		position: relative;
-		width: 80%;
-		padding-right: 4%;
-	}
-
-	.leftwork,
-	.centerwork{
-		display: block;
-		position: relative;
-		width: 100%;
-		padding-bottom: 5px;
-	}
-
-	.leftwork-main,
-	.centerwork-main{
-		display: block;
-		position: relative;
-		width: 100%;
-		padding-bottom: 120px;
-	}
-
-	.rightwork,
-	.rightwork-main{
-		display: block;
-		position: relative;
-		width: 100%;
-		padding-bottom: 0px;
-	}
-
-	.othertext_center{
-		display: block;
-		position: relative;
-		width: 96%;
-		padding-left: 16%;
-		padding-right:4%;
-	}
 
 	.description{
-		display: block;
+		display: inline-block;
 		position: relative;
 		width: 100%;
-		padding-top: 100px;
+		padding-top: 80px;
 		padding-left: 0px;
 		background-color: #ececec80;
 	}
 	
 	.description_nobg{
-		display:block;
+		display:inline-block;
 		position: relative;
 		width: 100%;
 		padding-top: 0px;
@@ -252,20 +196,21 @@
 	}
 	
 	.description_title{
-		display: block;
+		display: inline-block;
 		position: relative;
 		float: none;
 		width: 80%;
 		margin-left:0%;
-		padding-left: 16%;
+		padding-left: 16.25%;
 		padding-right: 8%;
 	}
 	
 	.description_detail{
-		display: block;
+		display: inline-block;
 		position: relative;
 		float: none;
 		width: 100%;
+		padding-left: 16.25%;
 		padding-right: 8%;
 	}
 
@@ -274,4 +219,24 @@
 		margin-right: 8%;
 	}
 
+}
+
+.mail_send_error {
+	position: fixed;
+	left: 50px;
+	right: 50px;
+	bottom: 50px;
+	width: 30%;
+	opacity:0.9;
+	background: lightgray;
+	z-index: 1000;
+	padding: 30px;
+}
+
+.mail_send_error_detail {
+	height: 10em;
+	overflow: scroll;
+	width: 90%;
+	background: lightgrey;
+	font-size: 10pt;
 }

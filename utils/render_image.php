@@ -1,6 +1,6 @@
 <?php
 
-include("utils.php");
+include_once("utils.php");
 
 function render_image($url, $parameter_string = "") {
 	global $path_to_image_cache, $path_to_base_url, $url_to_fetch_script, $current_page_folder_path;
@@ -95,6 +95,11 @@ function render_image($url, $parameter_string = "") {
 		echo '<source media="(min-width: ' . floor($pyramid_width * 3 / 4) .  'px)" srcset="' . $pyramid_url . '">' . "\n";
 
 		$pyramid_width = $pyramid_width / sqrt(2);
+
+		// If the file type is a GIF, break out of the loop after first iteration
+		if(strtoupper(pathinfo($raw_image_path, PATHINFO_EXTENSION)) == "GIF") {
+			break;
+		}
 	} while ($pyramid_width > 256);
 	
 	echo '<img src="' . $url . '" class="fadeInOnLoad" ' . $parameter_string . '/>';

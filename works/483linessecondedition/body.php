@@ -1,19 +1,3 @@
-<style>
-	@media screen and (max-width: 650px) {
-		.description_title,
-		.description_detail{
-			position: relative;
-			padding-left: 16%;
-		}
-
-		.description_nobg{
-			display: block;
-			position: relative;
-			padding-left: 0%;
-		}
-	}
-</style>
-
 <div class="padding-120"></div>
 
 <div class="full_image">
@@ -25,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> 483 LINES SECOND EDITION </div>
-		<div class="year_location_materials"> 2015. Asian Cultural Centre, Gwangju. <br> Kevlar string(1.5mm thickness, 16m length), projection <br> 16,000 x 2,500 x 10,000 WHD </div>
+		<div class="year_location_materials"> 2015 <br> Asian Cultural Centre, Gwangju KR <br> Kevlar string (1.5mm thickness, 16m length), projection <br> 16,000mm x 2,500mm x 10,000mm [dimensions variable] </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -35,15 +19,18 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02 text_en">
-		The second edition of 483 lines revisits the non-imaging phenomena of analogue television, presenting two opposing scenes of 483 lines. The signal artefacts become a stream of visual mass.
+		The second edition of 483 lines revisits the non-imaging phenomena of analogue television, presenting two opposing scenes of 483 lines. 
+		The signal artefacts become a stream of visual mass.
         <p></p>
-        Two scenes of kevlar rope face one another tensioned to 5000kg. The audience is presented with highly parallel lines which contrast the darker space, building panoramic moire patterns. Video projection is used to address each line with digital pixels, activating visual matter within the volume of string.
+		Two scenes of kevlar rope face one another tensioned to 5000kg. 
+		The audience is presented with highly parallel lines which contrast the darker space, building panoramic moire patterns. 
+		Video projection is used to address each line with digital pixels, activating visual matter within the volume of string.
         <p></p>   
         This second edition of the 483 Lines was commissioned by the ACT Festival, Gwangju 2015, continuing to celebrate and interpret the non-constructive aspects of the NTSC television format.        
 	</div>
 
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 
 	<div class="works_01">
@@ -54,7 +41,7 @@
 		<script src="https://player.vimeo.com/api/player.js"></script>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="works_02">
 		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
@@ -66,13 +53,13 @@
 		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<div class="main_image">
 		<?= render_image("installation_03.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-80"></div>
+	<div class="padding-60"></div>
 
 	<!-- process photos -->
 	
@@ -101,40 +88,28 @@
     </div>
 
 	<div class="padding-100"></div>
-	<div class="padding-1"></div>
+
 
 	<!-- Ackhowledgements -->
 
 	<div class="description">
+	<div class="padding-30"></div>
 		<div class="description_title">
 			<span class="text_en_bold">Acknowledgements</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-                <span class="text_description_detail_bold">Curated by</span><br>
-                HOLO 
-                <p></p>
-                <span class="text_description_detail_bold">Commissioned by</span><br>
-                Asian Cultural Centre, Gwangju
-                <p></p>
-                <span class="text_description_detail_bold">Sound design by</span><br>
-                Junghoon Pi
-                <p></p>
-                <span class="text_description_detail_bold">Videography by</span><br>
-				Kimchi and Chips 
-				<p></p>
-				<span class="text_description_detail_bold">Thanks to</span><br>
-                Julian Ott, the students of Yonsei digital media design course,<br> 
-                Soyoung Lee, Yoona Yang, Jin-Yo Mok, Filip Visnjic
+				<?= render_markdown_file("acknowledgements.md") ?>
 			</div>
-		</div>	
+		</div>
 	</div>
 
-	<!-- Exhibition -->
-	<!-- Articles -->
+	<!-- Related links -->
 	<div class="description">
 		<div class="description_title">
-			<span class="text_en_bold">Articles</span>
+			<span class="text_en_bold">Related links</span>
+			<div class="padding-30"></div>
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
@@ -144,8 +119,9 @@
 				<p></p>
 				<span class="press-link"><a href="https://www.creativeapplications.net/news/483-lines-second-edition-kimchi-and-chips/">
 				483 Lines Second Edition – Kimchi and Chips / ACT Festival 2015</a></span> <br>
-				creativeapplications.net / October 2016
+				Creative Applications / October 2016
 			</div>
+			<div class="padding-90"></div>
 			<div class="padding-100"></div>
 		</div>
 	</div>

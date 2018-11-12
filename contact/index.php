@@ -4,12 +4,13 @@ $page_name = "contact";
 
 include './contact.php';
 
-handle_mailform();
+// Mail form is disabled for the time being
+//handle_mailform();
 
-render_contact_begin();
+render_page_begin();
 
 include 'body.php';
 
-render_contact_end();
+render_page_end();
 
 ?>

@@ -11,41 +11,14 @@ body {
 
 
 .mainbody{
-    padding-top: 80px;
+    padding-top: 100px;
     width: 100%;
 }
 
 
-.footer{
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding-top: 30px;
-    padding-right: 8%;  
-    background-color: #1a1a1afa;
-    border-top: 1px solid #1a1a1a;
-}
-
-.footer_nocolor{
-    left: 0;
-    bottom: 0;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    width: 100%;
-    padding-top: 30px;
-    padding-right: 8%;  
-    background-color: #1a1a1afa;
-    border-top: 1px solid #1a1a1a;
-}
 
 
 /* padding */
-
-.padding-159{
-    height: 159px;
-    width: 100%;
-    display: inline-block;
-}
 
 .padding-120{
     height: 120px;
@@ -55,6 +28,12 @@ body {
 
 .padding-100{
     height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-90{
+    height: 90px;
     width: 100%;
     display: inline-block;
 }
@@ -89,6 +68,11 @@ body {
     display: inline-block;
 }
 
+.padding-36{
+    height: 36px;
+    width: 100%;
+    display: inline-block;
+}
 
 .padding-30{
     height: 30px;
@@ -96,23 +80,30 @@ body {
     display: inline-block;
 }
 
-.padding-15{
-    height: 15px;
+.padding-20{
+    height: 20px;
     width: 100%;
     display: inline-block;
 }
 
+
 .padding-10{
     height: 10px;
     width: 100%;
-    display: block;
+    display: inline-block;
 }
 
 
 .padding-5{
     height: 5px;
     width: 100%;
-    display: block;
+    display: inline-block;
+}
+
+.padding-2{
+    height: 2px;
+    width: 100%;
+    display: inline-block;
 }
 
 .padding-1{
@@ -121,16 +112,34 @@ body {
     margin-left: 0%;
     padding-right: 0%;
     margin-right: 0%;
-    background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 1));
+    background-color: #ececec
+}
 
+.padding-1-black{
+    height: 1px;
+    display: block;
+    margin-left: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+    background-color: #ececec60;
 }
 
 .padding-1-noleft{
     height: 1px;
     display: block;
+    padding-left: 0%;
     padding-right: 0%;
+    margin-left: 41.7%;
+    margin-right: 8%;
+    background-color: #ececec
+}
+
+.othertext_left{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin-left: 16.25%;
     margin-right: 0%;
-    background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 1));
 }
 
 .othertext_center{
@@ -146,7 +155,7 @@ body {
 
 .main_image{
     width: 100%;
-    padding-left:16%;
+    padding-left:16.25%;
     padding-right:8%;
 }
 
@@ -161,31 +170,54 @@ body {
 
 .works_01 {
     position: relative;
+    width: 75.5%;
     padding-left: 0%;
-    padding-right: 8%;
-    margin-left: 16%;
+    padding-right: 0%;
+    margin-left: 16.25%;
     margin-right: 0%;
+    opacity: 1;
+    filter: grayscale(0%);
 }
 
 .works_02{
+    display: inline-block;
     position: relative;
-    float: left;
-    width: 58.4%;
+    width: 50.5%;
     padding-left: 0%;
-    padding-right: 8%;
-    margin-left: 16%;
+    padding-right: 0%;
+    margin-left: 16.25%;
     margin-right: 0%;
+    opacity: 1;
+    filter: grayscale(0%);
+
 }
 
 .works_03{
+    display: block;
     position: relative;
-    float: right;
-    width: 58.4%;
+    width: 50.2%;
     padding-left: 0%;
-    padding-right: 8%;
-    margin-left: 16%;
+    padding-right: 0%;
+    margin-left: 41.68%;
     margin-right: 0%;
+    opacity: 1;
+    filter: grayscale(0%);
 }
+
+.works_03_contact{
+    display: block;
+    position: relative;
+    width: 50.2%;
+    margin-top: -5px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 41.4%;
+    margin-right: 0%;
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+
 
 .threeCol{
     display: inline-flex;
@@ -193,34 +225,50 @@ body {
     justify-content: space-between;
     padding-left: 0%;
     padding-right: 8%;
-    margin-left: 16%;
+    margin-left: 16.25%;
     margin-right: 0%;
+    opacity: 1;
+    filter: grayscale(0%);
 }
+
 
 .leftwork, 
 .centerwork, 
-.rightwork,
+.rightwork{
+    width: 32.5%;
+}
 .leftwork-main,
 .centerwork-main,
-.rightwork-main 
- {
+.rightwork-main{
+    padding-bottom: 0px;
+    margin-bottom: 30px;
     width: 32.5%;
 }
 
 
 .main-name{
     position: absolute;
+    top: 0px;
+    min-width: 100px;
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
     color: #000000;
-    visibility: hidden;
+    visibility: visible;
     opacity: 0;
-    transition: opacity .7s, visibility .7s; /* transition effect. not necessary */
+    transition: opacity .5s, visibility .5s;
+    
 }
   
 
 .works_01:hover .main-name {
     visibility: visible;
     opacity: 1;
+    transition: opacity .5s, visibility .5s;
+
 }
 
 .works_02:hover .main-name {
@@ -228,20 +276,24 @@ body {
     opacity: 1;
 }
 
+
 .works_03:hover .main-name {
     visibility: visible;
     opacity: 1;
 }
+
 
 .leftwork-main:hover .main-name {
     visibility: visible;
     opacity: 1;
 }
 
+
 .centerwork-main:hover .main-name {
     visibility: visible;
     opacity: 1;
 }
+
 
 .rightwork-main:hover .main-name {
     visibility: visible;
@@ -249,63 +301,86 @@ body {
 }
 
 
+
+
 @media screen and (max-width: 740px) {
 
-    .main_image{
-        display: block;
-        position: relative;
-        width: 96%;
-        padding-right: 4%;
-    }
+.main_image{
+    display: block;
+    position: relative;
+    width: 96%;
+    padding-right: 4%;
+}
     
-
-    .works_02,
-    .works_03{
-        display: block;
-        position: relative;
-        float: none;
-        width: 80%;
-        padding-right: 4%;
-    }
-
-    .threeCol{
-        display: block;
-        position: relative;
-        width: 80%;
-        padding-right: 4%;
-    }
-
-    .leftwork,
-    .centerwork,
-    .rightwork,
-    .leftwork-main,
-    .centerwork-main,
-    .rightwork-main{
-        width: 100%;
-        padding-bottom: 5px;
-    }
-
-    .othertext_center{
-        display: block;
-        position: relative;
-        width: 96%;
-        padding-left: 16%;
-        padding-right:8%;
-    }
-
-
-.footer{
-    padding-right: 8%;  
+.works_01{
+    display: block;
+    width: 80%;
+    padding-right: 4%;
 }
 
-.footer_nocolor{
-    padding-right: 8%;  
-}
-
+.works_02{
+    display: inline-block;
+    width: 80%;
+    padding-right: 4%;
 }
 
 
+.works_03{
+    display: inline-block;
+    width: 80%;
+    padding-right: 4%;
+    margin-left: 16.25%;
+}
 
-@media screen and (max-width: 360px) {
+
+.works_03_contact{
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    padding-right: 4%;
+    margin-left: 16.25%;
+}
+
+.threeCol{
+    display: inline-block;
+    position: relative;
+    width: 80%;
+    padding-right: 4%;
+}
+
+.leftwork,
+.centerwork,
+.rightwork{
+    position: relative;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+.leftwork-main,
+.centerwork-main,
+.rightwork-main{
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 80px;
+    width: 100%;
+}
+
+.othertext_center{
+    display: block;
+    position: relative;
+    width: 96%;
+    padding-left: 16.25%;
+    padding-right:8%;
+}
+
+.padding-1-noleft{
+    height: 1px;
+    display: block;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-left: 16.25%;
+    margin-right: 8%;
+    background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 1));
+}
 
 }
