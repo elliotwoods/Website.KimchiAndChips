@@ -22,7 +22,7 @@
 	<div class="works_02 text_en">
 		Halo forms a circle of light suspended in the air above the courtyard at Somerset House, created by an array of 99 robotic mirrors which track the sun throughout the day like sunflowers. It is the first project where the artists worked with natural light as a material, and collaborated with the unpredictability of the weather.
 		<p></p>
-		Each mirror reflects a line of sunlight into the mist of water. The straight beams are focused together, creating a halo of light which appears when the sun, wind and water coincide. The project creates an image of the sun brought down to earth, formed with the intensity of 100 suns - the 99 reflections plus the sun itself directly,
+		Each mirror reflects a line of sunlight into the mist of water. The straight beams are focused together, creating a halo of light which appears when the sun, wind and water coincide. The project creates an image of the sun brought down to earth, formed with the intensity of 100 suns - the 99 reflections plus the sun itself directly.
 	</div>
 
 	<div class="padding-60"></div>
