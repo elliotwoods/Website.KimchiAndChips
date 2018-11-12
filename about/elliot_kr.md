@@ -1,0 +1,3 @@
+**Elliot Woods** (UK) is a digital media artist from Manchester UK. 
+
+He tests alternative futures between humans and visual design technologies (e.g. cameras, projectors, computation). He has created large scale light field art installations which draw floating images of the sun out of sunlight, or moons from hundreds of calibrated projector beams. Often these experiments involve developing new techniques, and these techniques have become encapsulated in the computer code of over over 100 open source libraries which Elliot has created and released for free on GitHub.

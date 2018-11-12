@@ -1,0 +1,8 @@
+
+[2018-10-26 16:45:38] Traceback (most recent call last):
+  File "apps/include/screenshot.py", line 244, in <module>
+    main()
+  File "apps/include/screenshot.py", line 63, in main
+    os.remove(SCREENSHOT_PATH)
+PermissionError: [WinError 5] Access is denied: 'C:\\Users\\kimchips\\Dropbox (Kimchi and Chips)\\Kimchi and Chips - Studio\\website\\Website.KimchiAndChips_develop\\apps\\include\\screenshot.png'
+

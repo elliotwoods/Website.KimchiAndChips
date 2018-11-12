@@ -1,0 +1,1 @@
+**Soyoung Lee** (KR) observes a relation between artwork and people. This curiosity led her to art production and she has worked with Kimchi and Chips as a studio producer.
