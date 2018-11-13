@@ -71,9 +71,6 @@
 }
 
 .top-navi-selected {
-    border-bottom: 1px solid;
-    border-image-slice: 1;
-    border-image: linear-gradient(to right,rgba(160, 160, 160, 1),rgba(160, 160, 160, 1),rgba(160, 160, 160, 0));
     color: #000000;
     margin-top: 0px;
     padding-left:0px;

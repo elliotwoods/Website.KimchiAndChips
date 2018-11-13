@@ -95,6 +95,7 @@
 	text-decoration: none;
 	transition: 0.4s;
 }
+
 .tag_selected:link {
 	background: #222222;
 	color: #ffffff;
@@ -116,6 +117,7 @@
 	text-decoration: none;
 	transition: 0.4s;
 }
+
 .tag_selected:visited {
 	color: white;
 }
@@ -154,6 +156,17 @@
 
 	#archive_container {
 		margin-left: 0px;
+	}
+
+	.tag_selected:hover {
+		color: #ffffff;
+		background: #222222;
+		border-top:1px #ffffff00 solid;
+		border-bottom:1px #ffffff00 solid;
+		border-left:1px #222222 solid;
+		border-right: 1px #222222 solid;
+		text-decoration: none;
+		transition: 0.4s;
 	}
 
 
