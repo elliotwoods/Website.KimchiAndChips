@@ -1,9 +1,10 @@
 **2018**  
-HALO - Somerset House Edmond J. Safra Fountain Court, London UK  
-Aucoustic Vessel Odyssey - SxSW Sony Pavilion, Austin US
+Light Barrier Second Edition - Times Art Museum, Beijing CN  
+Halo - Somerset House Edmond J. Safra Fountain Court, London UK  
+Acoustic Vessel Odyssey - SxSW Sony Pavilion, Austin US
 
 **2017**  
-HALO - Gwangju Design Biennale, Gwangju KR  
+Halo - Gwangju Design Biennale, Gwangju KR  
 Light Barrier Second Edition - Ars Electronica, Linz AT  
 Line Segments Space - QUAD Gallery, Derby UK
 
