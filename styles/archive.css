@@ -72,8 +72,8 @@
 	background: transparent;
 	text-decoration: none;
 	transition: 0.4s;
-
 }
+
 .tag:active {
 	background: #222222;
 	color: #ffffff;
@@ -86,12 +86,12 @@
 }
 
 .tag_selected {
-	color: #ccc;
-	background: transparent;
-	border-top:1px #ffffff00 solid;
-	border-bottom:1px #ffffff00 solid;
-	border-left:1px #ccc solid;
-	border-right: 1px #ccc solid;
+	background: #222222;
+	color: #ffffff;
+	border-top:1px #222222 solid;
+	border-bottom:1px #222222 solid;
+	border-left:1px #222222 solid;
+	border-right: 1px #222222 solid;
 	text-decoration: none;
 	transition: 0.4s;
 }
