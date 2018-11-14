@@ -31,7 +31,7 @@
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 10.5px;
 	line-height: 1.4em;
-	color: #000000;
+	color: #222222;
 	border-top:1px #ffffff00 solid;
 	border-bottom:1px #ffffff00 solid;
 	border-left:1px #222222 solid;
@@ -64,12 +64,12 @@
 	transition: 0.4s;
 }
 .tag:visited {
-	color: #ccc;
-	background: transparent;
+	color: #222222;
 	border-top:1px #ffffff00 solid;
 	border-bottom:1px #ffffff00 solid;
-	border-left:1px #ccc solid;
-	border-right: 1px #ccc solid;
+	border-left:1px #222222 solid;
+	border-right: 1px #222222 solid;
+	background: transparent;
 	text-decoration: none;
 	transition: 0.4s;
 
