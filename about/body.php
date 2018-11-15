@@ -89,6 +89,19 @@
     <div class="description">   
     <div class="padding-30"></div> 
         <div class="description_title">
+            <span class="text_en_bold">Awards</span> 
+            <div class="padding-30"></div>
+        </div>
+        <div class="description_detail">
+            <div class="text_description_detail">
+                <?= render_markdown_file("awards.md") ?>
+            </div>
+        </div>
+    </div>
+
+    <div class="description">   
+    <div class="padding-30"></div> 
+        <div class="description_title">
             <span class="text_en_bold">Selected Exhibitions</span> 
             <div class="padding-30"></div>
         </div>
