@@ -97,7 +97,7 @@
 
 <div class="padding-60"></div>
 
-	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:10px; color: black;">Whanki Museum, Seoul KR. 2014</div>
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Whanki Museum, Seoul KR. 2014 ↓</div>
 	
 	<div class="main_image">
 		<?= render_image("whanki_museum_1.jpeg", 'alt="07" style="width:100%"') ?>
@@ -107,7 +107,7 @@
 
 	<div class="padding-60"></div>
 	
-	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:10px; color: black;">Scopitone Festival, Nants FR. 2014</div>
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Scopitone Festival, Nants FR. 2014 ↓</div>
 
 	<div class="works_02">
 		<?= render_image("Scopitone festival 2014_1.jpg", 'alt="09" style="width:100%"') ?>
@@ -118,7 +118,7 @@
 	</div>
 
 	<div class="padding-60"></div>
-	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:10px; color: black;">QUAD Gallery, Derby UK. 2017</div>
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">QUAD Gallery, Derby UK. 2017 ↓</div>
 
 	<div class="works_02">
 		<?= render_image("quad_3.jpeg", 'alt="11" style="width:100%"') ?>
