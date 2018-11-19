@@ -82,12 +82,12 @@
 		<div class="description_detail">
 			<div class="text_description_detail">
 				<span class="press-link"><a href="https://creators.vice.com/en_us/article/gvdkd3/communicate-with-a-potted-plant-using-projected-light" target="_blank"> 
-                Lit Tree [openFrameworks, Kinect]</a></span> <br>
-				Creative Applications  / May 2011
+                Communicate With A Potted Plant Using Projected Light</a></span> <br>
+				The Creators Project  / May 2011 
 				<p></p>
 				<span class="press-link"><a href="https://www.creativeapplications.net/openframeworks/lit-tree-openframeworks-kinect/" target="_blank"> 
-                Augmented Reality: Kimchi and Chips, ‘Lit Tree’</a></span> <br>
-				WIRED / May 2011
+                Lit Tree [openFrameworks, Kinect]</a></span> <br>
+				Creative Applications  / May 2011
 				<p></p>
 				<span class="press-link"><a href="https://www.wired.com/2011/05/augmented-reality-kimchi-and-chips-lit-tree/" target="_blank"> 
                 Augmented Reality: Kimchi and Chips, ‘Lit Tree’</a></span> <br>
