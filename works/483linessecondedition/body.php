@@ -58,10 +58,18 @@
 	<div class="main_image">
 		<?= render_image("installation_03.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
+	
+	<!-- process photos -->
+	<div class="padding-80"></div>
+	<div class="works_01">
+	<div class="padding-1"></div> 
+	</div>
 
 	<div class="padding-60"></div>
 
-	<!-- process photos -->
+	<div class="othertext_left">making of</div>
+	
+	<div class="padding-100-halo_makingof"></div>
 	
     <div class="threeCol">  
         <div class="leftwork">
@@ -113,11 +121,11 @@
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="https://creators.vice.com/en_us/article/nz4p8q/ntsc-tv-recreated-rope-video-projection">
+				<span class="press-link"><a href="https://creators.vice.com/en_us/article/nz4p8q/ntsc-tv-recreated-rope-video-projection" target="_blank">
 				Ropes and Video Projections Recreate an Analog TV</a></span> <br>
 				The Creators Project / October 2016
 				<p></p>
-				<span class="press-link"><a href="https://www.creativeapplications.net/news/483-lines-second-edition-kimchi-and-chips/">
+				<span class="press-link"><a href="https://www.creativeapplications.net/news/483-lines-second-edition-kimchi-and-chips/" target="_blank">
 				483 Lines Second Edition – Kimchi and Chips / ACT Festival 2015</a></span> <br>
 				Creative Applications / October 2016
 			</div>

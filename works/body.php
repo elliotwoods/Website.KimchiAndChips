@@ -78,7 +78,7 @@
     </div>
     <div class="rightwork-main">
         <a href="/works/linesegmentsspace/">
-            <?= render_image("/works/linesegmentsspace/line_segments4_edit.jpg", 'alt="Line Segments Space" style="width:100%" class="image"') ?>
+            <?= render_image("/works/linesegmentsspace/main_edit.jpg", 'alt="Line Segments Space" style="width:100%" class="image"') ?>
             <div class="main-name"> LINE SEGMENTS SPACE  <p></p>
             2013</div>
         </a>    

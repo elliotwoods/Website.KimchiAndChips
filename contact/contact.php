@@ -1,6 +1,5 @@
 <?php
 
-require_once dirname(__DIR__).'/main.php';
 require_once '../libs/PHPMailer/src/PHPMailer.php';
 require_once '../libs/PHPMailer/src/Exception.php';
 require_once '../libs/PHPMailer/src/SMTP.php';

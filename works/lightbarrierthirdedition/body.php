@@ -82,6 +82,72 @@
 		<?= render_image("installation_back.jpg", 'alt="03" style="width:100%"') ?>
 	</div>
 
+	<div class="padding-80"></div>
+	<div class="works_01">
+	<div class="padding-1"></div> 
+	</div>
+
+	<div class="padding-60"></div>
+
+	<div class="othertext_left">making of</div>
+
+	<div class="works_03">
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/177651793?autoplay=1&title=0&byline=0&portrait=0"
+			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
+			 mozallowfullscreen allowfullscreen></iframe>
+		</div>
+		<script src="https://player.vimeo.com/api/player.js"></script>
+	</div>
+
+	<div class="padding-60"></div>
+
+	<div class="works_03">
+		<?= render_image("process_01.jpeg", 'alt="04" style="width:100%"') ?>
+	</div>
+	<div class="works_03">  
+		<div class="main-subtext" style="font-style:italic; padding-top:10px;">
+		Fabricating : metal structure
+		</div>
+	</div>
+
+	<div class="padding-30"></div>
+
+	<div class="threeCol">
+		<div class="leftwork">
+		<?= render_image("process_02.jpeg", 'alt="05" style="width:100%"') ?>
+		</div>
+		<div class="centerwork">
+		<?= render_image("process_03.jpeg", 'alt="06" style="width:100%"') ?>
+		</div>
+		<div class="rightwork">
+		<?= render_image("process_04.jpeg", 'alt="07" style="width:100%"') ?>
+		</div>
+	</div>
+	<div class="works_02">  
+		<div class="main-subtext" style="font-style:italic; padding-top:10px;">
+		Fabricating : mirror cutting
+		</div>
+	</div>
+
+	<div class="padding-30"></div>
+
+<div class="threeCol">
+	<div class="leftwork">
+	<?= render_image("process_05.jpeg", 'alt="08" style="width:100%"') ?>
+	</div>
+	<div class="centerwork">
+	<?= render_image("process_06.jpeg", 'alt="09" style="width:100%"') ?>
+	</div>
+	<div class="rightwork">
+	<?= render_image("process_07.jpeg", 'alt="10" style="width:100%"') ?>
+	</div>
+</div>
+<div class="works_02">  
+	<div class="main-subtext" style="font-style:italic; padding-top:10px;">
+	Installing
+	</div>
+</div>
+
 	<div class="padding-100"></div>
 
 
@@ -109,11 +175,19 @@
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="https://www.creativeapplications.net/vvvv/the-light-barrier-third-edition-drawings-volumes-in-the-air-with-light/">
+				<span class="press-link"><a href="http://archive.aec.at/prix/showmode/55667/" target="_new">
+				Award of Distinction</a></span> <br>
+				Prix Ars Electronica 2017
+				<p></p>
+				<span class="press-link"><a href="http://www.kimchiandchips.com/archive/2017/1125%20-%20prix%20ars%20electronica%20%202017/PrixArs.pdf" target="_new">
+				CyberArts 2017 [pdf]</a></span> <br>
+				Prix Ars Electronica 2017 
+				<p></p>
+				<span class="press-link"><a href="https://www.creativeapplications.net/vvvv/the-light-barrier-third-edition-drawings-volumes-in-the-air-with-light/" target="_blank">
 				The Light Barrier, Third Edition – Drawing volumes in the air with light</a></span> <br>
 				Creative Applications / May 2017
 				<p></p>
-				<span class="press-link"><a href="https://www.booooooom.com/2017/05/26/light-barrier-by-artists-kimchi-and-chips/"> 
+				<span class="press-link"><a href="https://www.booooooom.com/2017/05/26/light-barrier-by-artists-kimchi-and-chips/" target="_blank"> 
                 “Light Barrier” by Artists Kimchi and Chips</a></span> <br>
 				Booooooom / May 2017
 			</div>

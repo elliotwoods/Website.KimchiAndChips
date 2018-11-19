@@ -97,13 +97,19 @@ body {
 .padding-5{
     height: 5px;
     width: 100%;
-    display: inline-block;
+    display: block;
 }
 
 .padding-2{
     height: 2px;
     width: 100%;
     display: inline-block;
+}
+
+.padding-threeCol{
+    height:0.9em;
+    width: 100%;
+    display: block;
 }
 
 .padding-1{
@@ -134,12 +140,20 @@ body {
     background-color: #ececec
 }
 
+.padding-100-halo_makingof{
+    height: 100px;
+    width: 100%;
+    display: inline-block;
+}
+
+
 .othertext_left{
-    position: relative;
+    position: absolute;
     z-index: 10;
     width: 100%;
     margin-left: 16.25%;
     margin-right: 0%;
+    padding-bottom: 0px;
 }
 
 .othertext_center{
@@ -224,9 +238,9 @@ body {
     position: relative;
     justify-content: space-between;
     padding-left: 0%;
-    padding-right: 8%;
+    padding-right: 0%;
     margin-left: 16.25%;
-    margin-right: 0%;
+    margin-right: 8%;
     opacity: 1;
     filter: grayscale(0%);
 }
@@ -365,6 +379,15 @@ body {
     width: 100%;
 }
 
+.othertext_left{
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    margin-left: 16.25%;
+    margin-right: 0%;
+    padding-bottom: 60px;
+}
+
 .othertext_center{
     display: block;
     position: relative;
@@ -381,6 +404,18 @@ body {
     margin-left: 16.25%;
     margin-right: 8%;
     background-image: linear-gradient(to right,rgba(236, 236, 236, 1),rgba(236, 236, 236, 1),rgba(236, 236, 236, 1));
+}
+
+.padding-100-halo_makingof{
+    height: 0px;
+    width: 100%;
+    display: inline-block;
+}
+
+.padding-threeCol{
+    height:0.5px;
+    width: 100%;
+    display: block;
 }
 
 }

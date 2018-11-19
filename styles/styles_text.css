@@ -31,7 +31,7 @@
 
 .works_name {
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 26px;
+	font-size: 30px;
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -56,26 +56,26 @@
 
 .othertext_left{
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 26px;
-	font-weight: 300;
+	font-size: 30px;
+	font-weight: 100;
 	font-style: normal;
 	font-stretch: normal;
-	letter-spacing: 4.1px;
+	letter-spacing: 0.3px;
 	line-height: 1.5;
 	text-align: left;
-	color: #ececec
+	color: #a0a0a0d8
 }
 
 .othertext_center{
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 26px;
-	font-weight: 300;
+	font-size: 30px;
+	font-weight: 100;
 	font-style: normal;
 	font-stretch: normal;
-	letter-spacing: 4.1px;
+	letter-spacing: 0.3px;
 	line-height: 1.5;
 	text-align: left;
-	color: #ececec
+	color: #a0a0a0d8
 }
 
 .text_en{
@@ -131,6 +131,10 @@
 
 
 @media screen and (max-width: 620px) {
+
+	.works_name {
+		font-size: 26px;
+	}
 	
 	.text_en{
 		font-family: 'Fira Sans', sans-serif;
@@ -169,17 +173,15 @@
 		word-break: keep-all;
 	}
 
-	.othertext_center{
-		font-family: 'Fira Sans', sans-serif;
+	.othertext_left{
 		font-size: 26px;
-		font-weight: 300;
-		font-style: normal;
-		font-stretch: normal;
-		letter-spacing: 4.1px;
-		line-height: 1.5;
-		text-align: right;
-		color: #ececec
 	}
+	
+	.othertext_center{
+		font-size: 26px;
+		text-align: right;
+	}
+
 	
 	
 }

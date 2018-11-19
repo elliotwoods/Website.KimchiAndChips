@@ -9,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIGHT BARRIER SECOND EDITION </div>
-		<div class="year_location_materials"> 2015 <br> Einthoven NL <br> Concave mirrors, projection, scanning <br> 5,000mm x 3,700mm x 3,500mm </div>
+		<div class="year_location_materials"> 2015 <br> STRP Festival, Einthoven NL <br> Concave mirrors, projection, scanning <br> 5,000mm x 3,700mm x 3,500mm </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -98,11 +98,11 @@
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="https://creators.vice.com/en_us/article/wnpgb4/mirrors-morph-light-in-a-haunting-new-installation">
+				<span class="press-link"><a href="https://creators.vice.com/en_us/article/wnpgb4/mirrors-morph-light-in-a-haunting-new-installation" target="_blank">
 				Mirrors Morph Light in a Haunting New Installation</a></span> <br>
 				The Creators Project / June 2015
 				<p></p>
-				<span class="press-link"><a href="https://www.booooooom.com/2015/06/09/installation-light-barrier-second-edition/"> 
+				<span class="press-link"><a href="https://www.booooooom.com/2015/06/09/installation-light-barrier-second-edition/" target="_blank"> 
                 Installation: Light Barrier – Second Edition</a></span> <br>
 				Booooooom / June 2015
 			</div>

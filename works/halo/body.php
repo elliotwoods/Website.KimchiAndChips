@@ -33,7 +33,7 @@
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_center">TRANSIENT AND ETERNAL</div>
+	<div class="othertext_center">transient and eternal</div>
 
 
 	<div class="padding-60"></div>
@@ -72,11 +72,11 @@
 			<?= render_image("installation_03.jpg", 'alt="03" style="width:100%"') ?>
 		</div>
 	</div>
-
+	
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_center">BRING THE SUN DOWN TO EARTH</div>
+	<div class="othertext_center">bring the sun down to earth</div>
 
 	<div class="padding-60"></div>
 
@@ -126,15 +126,15 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<?= render_image("audience_04.jpg", 'alt="07" style="width:100%"') ?>
+		<?= render_image("audience_04.jpg", 'alt="09" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<?= render_image("audience_05.jpg", 'alt="08" style="width:100%"') ?>
+		<?= render_image("audience_05.jpg", 'alt="10" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<?= render_image("audience_06.jpg", 'alt="09" style="width:100%"') ?>
+		<?= render_image("audience_06.jpg", 'alt="11" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-80"></div>
@@ -144,13 +144,13 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_left">MAKING OF</div>
+	<div class="othertext_left">making of</div>
 
-	<div class="padding-60"></div>
+	<div class="padding-100-halo_makingof"></div>
 
 
 	<div class="works_02">
-		<?= render_image("data_visualisation_of_sun.png", 'alt="10" style="width:100%"') ?>
+		<?= render_image("data_visualisation_of_sun.png", 'alt="12" style="width:100%"') ?>
 		<div class="main-subtext" style="font-style: italic; padding-top:10px;">Simulated data visualisation of sun’s movement in Somerset House. August. 2017 </div>
 	</div>
 
@@ -165,7 +165,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_center">TIME AND CIRCLE</div>
+	<div class="othertext_center">time and circle</div>
 
 	<div class="padding-60"></div>
 
@@ -181,10 +181,10 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 		<div class="leftwork">
 		</div>
 		<div class="centerwork">
-			<?= render_image("sketch_halo_01.jpg", 'alt="11" style="width:100%"') ?>
+			<?= render_image("sketch_halo_01.jpg", 'alt="13" style="width:100%"') ?>
 		</div>
 		<div class="rightwork">
-			<?= render_image("sketch_halo_02.jpg", 'alt="12" style="width:100%"') ?>
+			<?= render_image("sketch_halo_02.jpg", 'alt="14" style="width:100%"') ?>
 		<div class="main-subtext" style="font-style: italic; padding-top:10px;"> Drawing lines and circle. 2017 </div>
 		</div>
 	</div>
@@ -192,15 +192,15 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 	<div class="padding-60"></div>
 		
 	<div class="works_03">
-			<?= render_image("simulation_01.png", 'alt="13" style="width:100%"') ?>
-			<?= render_image("simulation_02.png", 'alt="14" style="width:100%"') ?>
+			<?= render_image("simulation_01.png", 'alt="15" style="width:100%"') ?>
+			<?= render_image("simulation_02.png", 'alt="16" style="width:100%"') ?>
 		<div class="main-subtext" style="font-style: italic; padding-top:10px;"> 3D simulation. May. 2017 </div>
 	</div>
 
 	<div class="padding-30"></div>
 		
 	<div class="works_03">
-		<?= render_image("simulation_03.png", 'alt="15" style="width:100%"') ?>
+		<?= render_image("simulation_03.png", 'alt="17" style="width:100%"') ?>
 		<div class="main-subtext" style="font-style: italic; padding-top:10px;"> Simulation. 2018  </div>
 	</div>
 
@@ -262,11 +262,11 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="http://www.creativeapplications.net/environment/halo-sculpting-the-sunlight-into-immaterial-form/"> 
+				<span class="press-link"><a href="http://www.creativeapplications.net/environment/halo-sculpting-the-sunlight-into-immaterial-form/" target="_blank"> 
                 HALO – Sculpting the sunlight into (im)material form</a></span> <br>
 				Creative Applications / June 2018
 				<p></p>
-				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-chips-halo-london-07-19-18/">
+				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-chips-halo-london-07-19-18/" target="_blank">
 				Seoul studio Kimchi and Chips sculpt with sunlight to create HALO</a></span> <br>
 				Designboom / July 2018
 			</div>
@@ -279,3 +279,19 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 	<div class="current">| HALO | 2018. Somerset House, UK.</div>
 </div>
 
+<style>
+$(function () {
+    "use strict";
+    
+    $(".popup img").click(function () {
+        var $src = $(this).attr("src");
+        $(".show").fadeIn();
+        $(".img-show img").attr("src", $src);
+    });
+    
+    $("span, .overlay").click(function () {
+        $(".show").fadeOut();
+    });
+    
+});
+</style>

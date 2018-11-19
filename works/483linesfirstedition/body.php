@@ -9,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> 483 LINES FIRST EDITION </div>
-		<div class="year_location_materials"> 2014 <br> Jeju Museum of Art, Jeju KR <br> Nylon string, projection </div>
+		<div class="year_location_materials"> 2014 <br> Jeju Museum of Art, Jeju KR <br> Nylon string, projection <br> 16,000mm x 2,500mm x 10,000mm [dimensions variable] </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -97,17 +97,17 @@
 
 	<div class="threeCol">
 		<div class="leftwork">
-			<?= render_image("jejumuseum_01.jpg", 'alt="06" style="width:100%"') ?>
+			<?= render_image("jejumuseum_01.jpg", 'alt="07" style="width:100%"') ?>
 		</div>
 		<div class="centerwork">
-			<?= render_image("jejumuseum_02.jpg", 'alt="07" style="width:100%"') ?>
+			<?= render_image("jejumuseum_02.jpg", 'alt="08" style="width:100%"') ?>
 		</div>
 		<div class="rightwork">
 		</div>
 	</div>
 
 	<div class="works_02">
-		<div class="main-subtext" style="font-style: italic; padding-top: 10px;"> Jeju Museum of Art </div>
+		<div class="main-subtext" style="font-style:italic;"> Jeju Museum of Art </div>
 	</div>
 
 	<div class="padding-100"></div>
@@ -138,11 +138,15 @@
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="https://www.creativeapplications.net/openframeworks/483-lines-projecting-analogue-video-picture-on-483-nylon-threads/">
+				<span class="press-link"><a href="http://kimchiandchips.com/archive/2014/1219%20-%20483linesfirstedition%20From%20Moment%20To%20Moment/from%20moment%20to%20moment.pdf" target="_blank">
+				483 LINES FIRST EDITION : From Moment To Moment 시시각각 [pdf]</a></span> <br>
+				Jeju Museum of Art
+				<p></p>
+				<span class="press-link"><a href="https://www.creativeapplications.net/openframeworks/483-lines-projecting-analogue-video-picture-on-483-nylon-threads/" target="_blank">
 				483 Lines – Projecting analogue video picture on 483 nylon threads</a></span> <br>
 				Creative Applications / June 2015
 				<p></p>
-				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-chips-483-lines-jeju-museum-of-art-07-13-2015/">
+				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-chips-483-lines-jeju-museum-of-art-07-13-2015/" target="_blank">
 				Kimchi and Chips project depth with 483 lines of nylon string</a></span> <br>
 				Designboom / July 2015
 			</div>

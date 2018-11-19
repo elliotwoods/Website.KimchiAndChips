@@ -44,12 +44,12 @@
 
 	<div class="works_03_contact">
 		<div class="text_description_detail">
-		<span class="press-link" ><a href="https://goo.gl/maps/Bxegk238QH32">Google Maps</a></span>,
-		<span class="press-link" ><a href="http://naver.me/xFX2jIPY">Naver Maps</a></span>
+		<span class="press-link" ><a href="https://goo.gl/maps/Bxegk238QH32" target="_blank">Google Maps</a></span>,
+		<span class="press-link" ><a href="http://naver.me/xFX2jIPY" target="_blank">Naver Maps</a></span>
 		<p></p>
-		<span class="press-link"><a href="https://www.facebook.com/kimchiandchips/">Facebook</a></span>,
-		<span class="press-link"><a href="https://www.instagram.com/studiokimchiandchips/">Instagram</a></span>,
-		<span class="press-link"><a href="https://vimeo.com/mimison">Vimeo</a></span>
+		<span class="press-link"><a href="https://www.facebook.com/kimchiandchips/" target="_blank">Facebook</a></span>,
+		<span class="press-link"><a href="https://www.instagram.com/studiokimchiandchips/" target="_blank">Instagram</a></span>,
+		<span class="press-link"><a href="https://vimeo.com/mimison" target="_blank">Vimeo</a></span>
 		<p></p>
 		<span class="press-link"><a href="mailto:info@kimchiandchips.com">info@kimchiandchips.com</a></span>
 		</div>

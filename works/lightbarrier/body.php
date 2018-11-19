@@ -9,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIGHT BARRIER </div>
-		<div class="year_location_materials"> 2014 <br> Convex mirrors, projection, scanning </div>
+		<div class="year_location_materials"> 2014 <br> New Media Night Festival, Nikola-Lenivets RU<br> Convex mirrors, projection, scanning </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -107,19 +107,23 @@
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="http://www.creativeapplications.net/featured/10-most-memorable-projects-of-2014/"> 
+				<span class="press-link"><a href="http://kimchiandchips.com/archive/2014/0925%20-%20SPACE%20magazine%20%20vol.%20563%20-%20October%202014/spacemagazine_563.pdf" target="_blank"> 
+				IMAGINEER - Light Barrier [pdf]</a></span> <br>
+				SPACE magazine vol. 563
+				<p></p>
+				<span class="press-link"><a href="http://www.creativeapplications.net/featured/10-most-memorable-projects-of-2014/" target="_blank"> 
                 No.1 Most Memorable Projects of 2014</a></span> <br>
 				Creative Applications / July 2014
 				<p></p>
-				<span class="press-link"><a href="http://www.creativeapplications.net/vvvv/light-barrier-millions-of-calibrated-light-beams-create-floating-phantoms-in-the-air/"> 
+				<span class="press-link"><a href="http://www.creativeapplications.net/vvvv/light-barrier-millions-of-calibrated-light-beams-create-floating-phantoms-in-the-air/" target="_blank"> 
                 Light Barrier – Millions of calibrated light beams create floating phantoms in the air</a></span> <br>
 				Creative Applications / July 2014
 				<p></p>
-				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-and-chips-light-installation-barrier-08-04-2014/">
+				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-and-chips-light-installation-barrier-08-04-2014/" target="_blank">
 				Kimchi and Chips materializes 3-dimensional sculptures from light</a></span> <br>
 				Designboom / August 2014
 				<p></p>
-                <span class="press-link"><a href="http://www.wired.com/2014/08/these-are-probably-the-coolest-smoke-rings-ever-made/"> 
+                <span class="press-link"><a href="http://www.wired.com/2014/08/these-are-probably-the-coolest-smoke-rings-ever-made/" target="_blank"> 
                 These are probably the coolest smoke rings ever made</a></span> <br>
                 WIRED / August 2014
 			</div>

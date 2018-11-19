@@ -9,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> LIT TREE </div>
-		<div class="year_location_materials"> 2011 <br> Natural tree, digital emulsion <br> Dimensions variable </div>
+		<div class="year_location_materials"> 2011 <br> FutureEverything 2011, Manchester UK <br> Natural tree, digital emulsion <br> Dimensions variable </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -81,19 +81,23 @@
 		</div>
 		<div class="description_detail">
 			<div class="text_description_detail">
-				<span class="press-link"><a href="https://www.wired.com/2011/05/augmented-reality-kimchi-and-chips-lit-tree/"> 
+				<span class="press-link"><a href="https://creators.vice.com/en_us/article/gvdkd3/communicate-with-a-potted-plant-using-projected-light" target="_blank"> 
+                Lit Tree [openFrameworks, Kinect]</a></span> <br>
+				Creative Applications  / May 2011
+				<p></p>
+				<span class="press-link"><a href="https://www.creativeapplications.net/openframeworks/lit-tree-openframeworks-kinect/" target="_blank"> 
                 Augmented Reality: Kimchi and Chips, ‘Lit Tree’</a></span> <br>
 				WIRED / May 2011
 				<p></p>
-				<span class="press-link"><a href="https://creators.vice.com/en_us/article/gvdkd3/communicate-with-a-potted-plant-using-projected-light"> 
-                Communicate With A Potted Plant Using Projected Light</a></span> <br>
-				The Creators Project / May 2011
+				<span class="press-link"><a href="https://www.wired.com/2011/05/augmented-reality-kimchi-and-chips-lit-tree/" target="_blank"> 
+                Augmented Reality: Kimchi and Chips, ‘Lit Tree’</a></span> <br>
+				WIRED / May 2011
 				<p></p>
-                <span class="press-link"><a href="https://www.designboom.com/art/kimchi-and-chips-lit-tree/"> 
+                <span class="press-link"><a href="https://www.designboom.com/art/kimchi-and-chips-lit-tree/" target="_blank"> 
                 Kimchi and Chips maps human hands onto lit tree</a></span> <br>
                 Designboom / May 2011
             	<p></p>
-                <span class="press-link"><a href="https://www.bewaremag.com/lit-tree-conversation-avec-un-arbre/"> 
+                <span class="press-link"><a href="https://www.bewaremag.com/lit-tree-conversation-avec-un-arbre/" target="_blank"> 
                 Lit Tree, conversation avec un arbre</a></span> <br>
 				BEWARE / June 2011
 			</div>

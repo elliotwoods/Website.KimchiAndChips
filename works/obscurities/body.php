@@ -9,7 +9,7 @@
 
 	<div class="works_02">
 		<div class="works_name"> OBSCURITIES : Another view of things </div>
-		<div class="year_location_materials"> 2017 <br> Sub-millimeter scale, microscope </div>
+		<div class="year_location_materials"> 2017 <br> Short film experiment (1m 41s) <br> Sub-millimeter scale, microscope </div>
 	</div>
 	<div class="padding-80"></div>
 
@@ -59,11 +59,11 @@
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<?= render_image("screencap_04.jpg", 'alt="03" style="width:100%"') ?>
+		<?= render_image("screencap_04.jpg", 'alt="04" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<?= render_image("screencap_05.jpg", 'alt="03" style="width:100%"') ?>
+		<?= render_image("screencap_05.jpg", 'alt="05" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-100"></div>
