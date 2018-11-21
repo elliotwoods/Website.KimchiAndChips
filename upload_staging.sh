@@ -1,0 +1,1 @@
+rsync -urltv --delete --exclude '.git' -e ssh ./** kimchiandchips@kimchiandchips.com:~/kimchiandchips_staging
