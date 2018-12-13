@@ -20,7 +20,7 @@
 
 	<div class="works_02 text_en">
         Kimchi and Chips' new work commissioned by STRP Festival continues the work of the original                     
-        <span class="press-link"><a href="http://www.kimchiandchips.com/works.html#lightbarrier"> 
+        <span class="press-link"><a href="http://www.kimchiandchips.com/works/lightbarrier/"> 
         「Light Barrier, 2014」</a></span> into a new story with new physical techniques.
         <p></p>
 		The visual story follows the journey of a digital form. 
