@@ -64,7 +64,7 @@
 		This other place is made material by the fabric of the flag.
 		<p></p>
 		Lunar Surface begins a new line of enquiry for drawing into the air for studio Kimchi and Chips, forming artistic collaborations between technology and nature. 
-		The fabric is tracked by a 3D camera whilst a projector replays a response onto it according to its evolving shape
+		The fabric is tracked by a 3D camera whilst a projector replays a response onto it according to its evolving shape.
 	</div>
 
 	<div class="padding-60"></div>
