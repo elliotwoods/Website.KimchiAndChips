@@ -1,4 +1,4 @@
-<button onclick="goToTop()" id="goToTopButton" title="Go to top"> &#8593 </button>
+<button onclick="goToTop()" id="goToTopButton" title="Go to top"> &#8593; </button>
 
 <script>
 	// When the user scrolls down 20px from the top of the document, show the button

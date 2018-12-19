@@ -21,13 +21,13 @@ function setCookie(cname, cvalue, exdays) {
 	document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
-$(document).ready(() => {
+$(document).ready(function() {
 	var accepted_cookie = getCookie("accept_cookies");
 	if(accepted_cookie == "") {
 		$("#cookie_policy").css("visibility", "visible");
 	}
 
-	$("#accept_cookies_button").click(() => {
+	$("#accept_cookies_button").click(function() {
 		setCookie("accept_cookies", true, 365);
 		$("#cookie_policy").css("visibility", "hidden");
 	})

@@ -1,12 +1,14 @@
 <script>
-function testLoaded(iteration = 0) {
+function testLoaded(iteration) {
 	try {
 		var imageElements = $("img.fadeInOnLoad");
 		
 		imageElements.each(function() {
 			// Manually call the load function
 			if(this.complete) {
-				$(this).load();
+				$(this).fadeTo(1500, 1.0);
+				
+				//$(this).load();
 			}
 		});
 	}
@@ -25,8 +27,8 @@ $(document).ready(function() {
 		$(this).fadeTo(1500, 1.0);
 	});
 
-	// Test each if it is already leaded
-	testLoaded();
+	// Test each if it is already loaded
+	testLoaded(0);
 
 	$(window).on("load", function() {
 		//everything is loaded - just in case
