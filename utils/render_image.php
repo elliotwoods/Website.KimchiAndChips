@@ -102,7 +102,16 @@ function render_image($url, $parameter_string = "") {
 		}
 	} while ($pyramid_width > 256);
 	
-	echo '<img src="' . $url . '" class="fadeInOnLoad" ' . $parameter_string . '/>';
+	// we also include the image source as a fallback for older browsers (let's ensure it's not too big)
+	$url_for_legacy_browsers = "";
+	if ($image_size[0] > 1024) {
+		$url_for_legacy_browsers = $url_to_fetch_script . "?url=" . urlencode($abs_url) . '&width=1024';
+	}
+	else {
+		$url_for_legacy_browsers = $url;
+	}
+	echo '<img src="' . $url_for_legacy_browsers . '" class="fadeInOnLoad" ' . $parameter_string . '/>';
+
 	echo "</picture>";
 }
 ?>
