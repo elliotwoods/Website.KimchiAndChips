@@ -218,6 +218,10 @@
 		margin-right: 8%;
 	}
 
+	.subscribeField {
+		height: 2em;
+	}
+
 }
 
 .mail_send_error {
