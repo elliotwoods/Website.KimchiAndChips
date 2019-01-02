@@ -81,7 +81,7 @@
 	<div class="padding-60"></div>
 
 	<div class="works_02 text_en">
-	The installation allows the audience to contemplatediverse time scales. The eternal sunshine which is outside the timeline of humanity. The evolving month long public exhibition which oscillates as the weather of the city changes. The day cycle denoted by the passage of the sun across the sky. The chaotic wind patterns changing every second which catch the mist and carry it into the focused sunlight, drawing the halo. The moment that Halo emerges in the air briefly superimposes the transience of life and eternal nature of the sun.
+	The installation allows the audience to contemplate diverse time scales. The eternal sunshine which is outside the timeline of humanity. The evolving month long public exhibition which oscillates as the weather of the city changes. The day cycle denoted by the passage of the sun across the sky. The chaotic wind patterns changing every second which catch the mist and carry it into the focused sunlight, drawing the halo. The moment that Halo emerges in the air briefly superimposes the transience of life and eternal nature of the sun.
 	<p></p>
 	Halo was presented in the public square of Somerset House allowing the work to have a continuous public relationship with the people of London in the month of the Summer Solstice.
 The square metallic structures of Halo are activated by the colour of the sunlight in the courtyard echoing reflections from the surrounding building and sky helping them to disappear.
