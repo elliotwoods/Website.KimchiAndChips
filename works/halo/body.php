@@ -20,9 +20,7 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02 text_en">
-		Halo forms a circle of light suspended in the air above the courtyard at Somerset House, created by an array of 99 robotic mirrors which track the sun throughout the day like sunflowers. It is the first project where the artists worked with natural light as a material, and collaborated with the unpredictability of the weather.
-		<p></p>
-		Each mirror reflects a line of sunlight into the mist of water. The straight beams are focused together, creating a halo of light which appears when the sun, wind and water coincide. The project creates an image of the sun brought down to earth, formed with the intensity of 100 suns - the 99 reflections plus the sun itself directly.
+		 <?= render_markdown_file("description_en.md") ?>
 	</div>
 
 	<div class="padding-60"></div>
@@ -81,9 +79,7 @@
 	<div class="padding-60"></div>
 
 	<div class="works_02 text_en">
-	The installation allows the audience to contemplate diverse time scales. The eternal sunshine which is outside the timeline of humanity. The evolving month long public exhibition which oscillates as the weather of the city changes. The day cycle denoted by the passage of the sun across the sky. The chaotic wind patterns changing every second which catch the mist and carry it into the focused sunlight, drawing the halo. The moment that Halo emerges in the air briefly superimposes the transience of life and eternal nature of the sun.
-	<p></p>
-	Halo was presented in the public square of Somerset House allowing the work to have a continuous public relationship with the people of London in the month of the Summer Solstice.
+		Halo was presented in the public square of Somerset House allowing the work to have a continuous public relationship with the people of London in the month of the Summer Solstice.
 The square metallic structures of Halo are activated by the colour of the sunlight in the courtyard echoing reflections from the surrounding building and sky helping them to disappear.
 The surrounding buildings create an isolated volume of calmness, natural light and wind, which offers visitors a moment of meditation in contrast to the heart of London beyond the walls.
 	</div>
