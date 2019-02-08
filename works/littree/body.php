@@ -22,7 +22,7 @@
 		A small potted tree is augmented with video projection, creating volumetric light patterns using itʼs own leaves as voxels. 
      	This technique allows a tree to have a visceral conversation with human visitors, and to become a new type of aesthetic object.
 		<p></p>
-		The tree that can display digital media’ is a provocation against a current asymptote of outdoor digital media that champions media facades, we instead suggest interventions in reaction to existing unscripted entities within the environment such as trees.
+		The tree that can display digital media is a provocation against a current asymptote of outdoor digital media that champions media facades, we instead suggest interventions in reaction to existing unscripted entities within the environment such as trees.
 	</div>
 
 
