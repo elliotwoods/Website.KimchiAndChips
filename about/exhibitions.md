@@ -1,4 +1,5 @@
 **2018**  
+483 Lines Second Edition - Guangtang Art Museum, Beijing CN
 Light Barrier Second Edition - Times Art Museum, Beijing CN  
 Halo - Somerset House Edmond J. Safra Fountain Court, London UK  
 Acoustic Vessel Odyssey - SxSW Sony Pavilion, Austin US
