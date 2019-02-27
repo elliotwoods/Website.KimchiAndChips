@@ -1,4 +1,5 @@
 **2018**  
+Keynote talk - Resonate Festival, Berlin DE
 Keynote talk - Den Frie Udstilling, Copenhagen DK  
 Keynote talk - Emergent Vision, SG  
 
