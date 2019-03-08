@@ -10,4 +10,7 @@ DARC Awards, Winner of Light Art Category
 
 **2014**  
 Media Architecture Biennale, Winner of Spatial Media Art  
-18th Japan Media Art Festival, Jury Selection
+18th Japan Media Art Festival, Jury Selection  
+
+**2012**  
+Imagine Science Films Festival, Official Selection
