@@ -1,5 +1,5 @@
 **2018**  
-Talk - Korean Internation Art Fair, Seoul KR  
+Talk - Korean International Art Fair, Seoul KR  
 Keynote talk - Retune Festival, Berlin DE  
 Keynote talk - IALD Annual Forum, Shanghai CN  
 Keynote talk - Emergent Visions, SG  
@@ -20,7 +20,7 @@ Artist talk - ACT Festival, Asian Culture Centre, Gwangju KR
 Artist talk - DDP Design Talk, DDP, Seoul KR  
 Workshop - Seoul Art Space Geumchoeom, Seoul KR  
 Keynote talk - Semi Permanent, Wellington NZ  
-Workshop, keynote talk - Coded Matter(s), Amsterda, NL  
+Workshop, keynote talk - Coded Matter(s), Amsterdam, NL  
 Workshop - STRP Festival, Eindhoven NL  
 Keynote talk - Resonate Festival, Belgrade RS  
 Keynote talk - Museums and the Web, Chicago US  
