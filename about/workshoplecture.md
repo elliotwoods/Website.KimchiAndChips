@@ -1,3 +1,6 @@
+**2019**  
+Talk - Urban Media Art Academy Symposium, SG    
+
 **2018**  
 Talk - Korean International Art Fair, Seoul KR  
 Keynote talk - Retune Festival, Berlin DE  
