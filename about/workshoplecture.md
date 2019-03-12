@@ -13,7 +13,7 @@ Talk - Campus D, Seoul KR
 
 **2016**  
 Talk - MMCA, Seoul KR  
-Talk - RAT, Seoul KR  
+Talk - RAT school of ART, Seoul KR  
 Talk - Hyundai Understage, Seoul KR  
 Workshop, talk - Resonate Festival, Belgrade RS  
 Workshop - Opendot, Milan IT  

@@ -23,7 +23,7 @@ Light Barrier - SIGNAL Festival, Praha CZ
 Line Segments Space (Molecular Cloud) - Scopitone Festival, Nantes FR  
 Light Barrier - New Media Night, Nikola-Lenivets Art Park, Kaluga RU  
 Lunar Surface - Artspace Geumcheon, Seoul KR  
-Line Segments Space Install Workshop - Resonate, Belgrade RS  
+Line Segments Space - Install Workshop, Resonate, Belgrade RS  
 483 Lines - Jeju museum of Art, Jeju KR  
 
 **2013**  
@@ -40,7 +40,7 @@ Lit Tree - SIGGRAPH Asia, HK
 Link - TETEM Kunstruimte, Enschede NL  
 Lit Tree - The Creators Project, Seoul KR  
 Link - File Festival, São Paulo BR  
-Link, Athens Video Art Festival, Athens GR  
+Link - Athens Video Art Festival, Athens GR  
 Lit Tree - Future Everything, Manchester UK
 
 **2010**  
