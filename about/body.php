@@ -48,12 +48,20 @@
         <div class="text_en">
             <?= render_markdown_file("mimi_en.md") ?>
         </div>  
+        <div class="padding-30"></div> 
+        <div class="text_kr">
+            <?= render_markdown_file("mimi_kr.md") ?>
+        </div>
     </div>
     <div class="padding-60"></div>
     <div class="works_03">
         <div class="text_en">
             <?= render_markdown_file("elliot_en.md") ?>
         </div>  
+        <div class="padding-30"></div> 
+        <div class="text_kr">
+            <?= render_markdown_file("elliot_kr.md") ?>
+        </div>
     </div>
 
 	<div class="padding-60"></div>

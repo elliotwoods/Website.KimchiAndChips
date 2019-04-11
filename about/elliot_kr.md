@@ -1,3 +1,1 @@
-**Elliot Woods** (UK) is a digital media artist from Manchester UK. 
-
-He tests alternative futures between humans and visual design technologies (e.g. cameras, projectors, computation). He has created large scale light field art installations which draw floating images of the sun out of sunlight, or moons from hundreds of calibrated projector beams. Often these experiments involve developing new techniques, and these techniques have become encapsulated in the computer code of over over 100 open source libraries which Elliot has created and released for free on GitHub.
+물리학과 천문학을 전공한 엘리엇우즈는 김치앤칩스의 작품 수행을 통해 이미지와 실재 사이에 존재하는 관계에 대해 연구해오고 있다. 컴퓨터 비전, 머신러닝, 로봇공학 기술을 아우르며 예술적 개념과 기술적 설계가 만나는 접점의 균형을 실험하고, 온라인 오픈소스 플랫폼을 통해 그가 개발해온 코딩 및 소스 등을 공유함으로써 기술이 미치는 사회적 가치 실천에 노력해오고 있다.  
