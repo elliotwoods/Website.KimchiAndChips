@@ -1,4 +1,5 @@
 **2019**  
+Workshop, talk - The United States Institute for Theatre Technology, Louisville US
 Talk - Urban Media Art Academy Symposium, SG    
 
 **2018**  
