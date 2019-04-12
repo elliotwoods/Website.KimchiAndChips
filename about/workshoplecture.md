@@ -1,6 +1,6 @@
 **2019**  
-Workshop, talk - The United States Institute for Theatre Technology, Louisville US
-Talk - Urban Media Art Academy Symposium, SG    
+Workshop, talk - The United States Institute for Theatre Technology, Louisville US  
+Talk - Urban Media Art Academy Symposium, SG  
 
 **2018**  
 Talk - Korean International Art Fair, Seoul KR  
