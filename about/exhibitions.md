@@ -1,3 +1,6 @@
+**2019**  
+Line Segments Space - Negative Space, ZKM, Karlsruhe DE  
+
 **2018**  
 483 Lines Second Edition - Guangtang Art Museum, Beijing CN  
 Light Barrier Second Edition - Times Art Museum, Beijing CN  
