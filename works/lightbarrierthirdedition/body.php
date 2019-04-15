@@ -91,7 +91,7 @@
 
 	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Making of ↓</div>
 
-	<div class="works_03">
+	<div class="works_02">
 		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/177651793?=1&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
@@ -101,10 +101,10 @@
 
 	<div class="padding-60"></div>
 
-	<div class="works_03">
+	<div class="works_02">
 		<?= render_image("process_01.jpeg", 'alt="04" style="width:100%"') ?>
 	</div>
-	<div class="works_03">  
+	<div class="works_02">  
 		<div class="main-subtext" style="font-style:italic; padding-top:10px;">
 		Fabricating : metal structure
 		</div>
