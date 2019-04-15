@@ -25,24 +25,12 @@
 
 	<div class="padding-60"></div>
 	<div class="works_02 text_kr">
-		99개의 로보틱 거울들은 태양의 움직임을 따라 정교하게 움직이며 허공의 한 곳으로 태양 빛을 반사한다. <br>
-		미스트가 흐르는 허공에 안착한 99가닥의 빛줄기들은 원을 그리며 태양을 형상화한다.
+		<?= render_markdown_file("description_kr.md") ?>
 	</div>
 
 	<div class="padding-60"></div>
 
 	<div class="othertext_center">transient and eternal</div>
-
-
-	<div class="padding-60"></div>
-
-	<div class="works_03 text_kr">
-		헤일로는 김치앤칩스의 실천적 개념, ‘drawing in the air’의 연장선에서 탄생했다.
-		<p></p>
-		그간 일련의 작품들이 철저히 계획되고 제어 가능한 구조 안에서 제작되었다면, 헤일로는 우연과 필연이라는 구조 안에서 자연과 기술의 조우를 통해 심미적 조화를 발현하고자 했다.
-		<p></p>
-		태양과 바람, 기술과 관객의 기다림이 한 지점을 관통할 때, 헤일로는 그 모습을 삶의 찰라처럼, 자연의 영속처럼 드러내며 사라지기를 반복한다.
-	</div>
 
 
 	<div class="padding-60"></div>
@@ -78,7 +66,7 @@
 
 	<div class="padding-60"></div>
 
-	<div class="works_02 text_en">
+	<div class="works_03 text_en">
 		Halo was presented in the public square of Somerset House allowing the work to have a continuous public relationship with the people of London in the month of the Summer Solstice.
 The square metallic structures of Halo are activated by the colour of the sunlight in the courtyard echoing reflections from the surrounding building and sky helping them to disappear.
 The surrounding buildings create an isolated volume of calmness, natural light and wind, which offers visitors a moment of meditation in contrast to the heart of London beyond the walls.
@@ -95,16 +83,6 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 		<?= render_image("audience_01.jpg", 'alt="05" style="width:100%"') ?>
 		<div class="main-subtext" style="font-style: italic; padding-top:10px;"> Halo at Edmond J. Safra Fountain Court Somerset House. June.
 			2018 </div>
-	</div>
-
-
-	<div class="padding-60"></div>
-
-	<div class="works_03 text_kr">
-		김치앤칩스의 예술적 실험은 물질과 비물질, 존재와 부재, 실재와 가상의 경계에서 수행되어 왔다.
-		이 경계는 차원이 다른 시공간과 같다. 스스로 확장하고 변이하는 유기체와 같으며 그것의 실체는 주변의 관계에 의해서 끊임없이 변화한다.
-		<p></p>
-		김치앤칩스는 이러한 경계에서 발생하는 다양한 유기적 현상을 ‘원’이라는 단순 시각물로 귀결시킴으로써 존재하는 것들에 대한 실체, 발생하는 현상에 대한 실체에 의문을 던지는 작업을 하고 있다.
 	</div>
 
 	<div class="padding-60"></div>
