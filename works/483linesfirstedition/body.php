@@ -61,13 +61,6 @@
         The strictly arranged lines can be illusionary, creating a confusing architecture of horizons, whilst the video played through it displays a parallel past, present and future.
 	</div>
 
-	<div class="padding-60"></div>
-
-	<div class="works_03 text_kr">
-		483개의 선들은 정밀한 형태로 배열되어 수평의 건축 구조물에 시각적 혼란을 야기한다. 
-        <p></p>
-        이러한 환영 위에 투영된 비디오는 평행한 과거, 현재 그리고 미래를 이야기 한다. 
-	</div>
 
 	<div class="padding-60"></div>
 
