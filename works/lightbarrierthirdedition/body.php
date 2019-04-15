@@ -35,7 +35,7 @@
 
 
 	<div class="works_01">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/218354021?autoplay=1&title=0&byline=0&portrait=0"
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/218354021?=1&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -89,10 +89,10 @@
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_left">making of</div>
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Making of ↓</div>
 
 	<div class="works_03">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/177651793?autoplay=1&title=0&byline=0&portrait=0"
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/177651793?=1&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
