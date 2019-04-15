@@ -70,7 +70,7 @@
 	<div class="padding-60"></div>
 
     <div class="works_02">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/135237504?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;background-color: black" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/135237504?&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;background-color: black" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div><script src="https://player.vimeo.com/api/player.js"></script>  
     </div>
 
@@ -114,7 +114,7 @@
 
 
 	<div class="works_02">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98665216?autoplay=1&title=0&byline=0&portrait=0"
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98665216?&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -125,7 +125,7 @@
 	</div>
 	<div class="padding-30"></div>
 	<div class="works_02">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98662281?autoplay=1&title=0&byline=0&portrait=0"
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98662281?&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -143,7 +143,7 @@
 	<?= render_image("lunar_2014_01.jpg", 'alt="09" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-10"></div>
+	<div class="padding-5"></div>
 
 	<div class="padding-threeCol"></div>
 
