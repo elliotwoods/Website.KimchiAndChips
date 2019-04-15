@@ -118,10 +118,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_left">making of</div>
-
-	<div class="padding-100-halo_makingof"></div>
-
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Making of ↓</div>
 
 	<div class="works_02">
 		<?= render_image("data_visualisation_of_sun.png", 'alt="12" style="width:100%"') ?>
