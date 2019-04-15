@@ -35,7 +35,7 @@
 
 
 	<div class="works_01">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/141405962?autoplay=1&title=0&byline=0&portrait=0"
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/141405962?&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -110,10 +110,10 @@
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_left">making of</div>
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Making of ↓</div>
 
 
-	<div class="works_03">
+	<div class="works_02">
 		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98665216?autoplay=1&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
@@ -124,7 +124,7 @@
 		</div>
 	</div>
 	<div class="padding-30"></div>
-	<div class="works_03">
+	<div class="works_02">
 		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/98662281?autoplay=1&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
@@ -139,7 +139,7 @@
 
 	<!-- process photos -->
 	
-	<div class="works_03">
+	<div class="works_02">
 	<?= render_image("lunar_2014_01.jpg", 'alt="09" style="width:100%"') ?>
 	</div>
 
@@ -147,16 +147,16 @@
 
     <div class="threeCol">  
 		<div class="leftwork">
+			<?= render_image("lunar_2014_03.jpg", 'alt="10" style="width:100%"') ?>
 		</div>
         <div class="centerwork">
-			<?= render_image("lunar_2014_03.jpg", 'alt="10" style="width:100%"') ?>
+			<?= render_image("lunar_2014_02.jpg", 'alt="11" style="width:100%"') ?>
         </div>
         <div class="rightwork">
-			<?= render_image("lunar_2014_02.jpg", 'alt="11" style="width:100%"') ?>
 		</div>
 	</div>
 	
-	<div class="works_03">  
+	<div class="works_02">  
 		<div class="main-subtext" style="font-style:italic; padding-top:10px;">
 		Seoul Art Space Geumcheon 2014	
 		</div>
