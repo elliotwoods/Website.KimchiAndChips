@@ -32,7 +32,7 @@
 
 
 	<div class="works_01">
-		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274897214?autoplay=1&title=0&byline=0&portrait=0"
+		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274897214?&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
@@ -124,7 +124,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 
 	<div class="works_03">
 		<div style="padding:56.25% 0 0 0;position:relative;">
-			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://sketchfab.com/models/ff8b8a6f2c6c446cacb99eaaecc88cc4/embed" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://sketchfab.com/models/ff8b8a6f2c6c446cacb99eaaecc88cc4/embed" frameborder="0" allowfullscreen></iframe>
 		</div>
 		<div class="main-subtext" style="font-style: italic; padding-top:10px;">Somerset House Scan. 2017 </div>
 	</div>
@@ -174,7 +174,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 
 	<div class="works_01">
 		<div style="padding:56.25% 0 0 0;position:relative;">
-			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/q7nzL44CfF0?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/q7nzL44CfF0?rel=0" frameborder="0" allowfullscreen></iframe>
 		</div>
 	</div>
 
