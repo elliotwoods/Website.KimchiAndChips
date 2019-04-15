@@ -24,14 +24,9 @@
 	</div>
 
 	<div class="padding-60"></div>
-	<div class="works_02 text_kr">
+	<div class="works_02 text_kr" style="color: #000000;">
 		<?= render_markdown_file("description_kr.md") ?>
 	</div>
-
-	<div class="padding-60"></div>
-
-	<div class="othertext_center">transient and eternal</div>
-
 
 	<div class="padding-60"></div>
 
