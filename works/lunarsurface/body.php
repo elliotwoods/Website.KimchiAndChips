@@ -143,6 +143,8 @@
 	<?= render_image("lunar_2014_01.jpg", 'alt="09" style="width:100%"') ?>
 	</div>
 
+	<div class="padding-10"></div>
+
 	<div class="padding-threeCol"></div>
 
     <div class="threeCol">  
