@@ -67,9 +67,7 @@
 
 	<div class="padding-60"></div>
 
-	<div class="othertext_left">making of</div>
-	
-	<div class="padding-100-halo_makingof"></div>
+	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Making of ↓</div>
 	
     <div class="threeCol">  
         <div class="leftwork">
