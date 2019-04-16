@@ -55,32 +55,6 @@
 
 	<div class="padding-60"></div>
 
-    <div class="works_02">
-        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/135237504?&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;background-color: black" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-        </div><script src="https://player.vimeo.com/api/player.js"></script>  
-    </div>
-
-    <div class="padding-30"></div>        
-
-    <div class="threeCol">  
-        <div class="leftwork">
-			<?= render_image("exhibition_01.jpg", 'alt="04" style="width:100%"') ?>
-        </div>
-        <div class="centerwork">
-			<?= render_image("exhibition_02.jpg", 'alt="05" style="width:100%"') ?>
-        </div>
-        <div class="rightwork">
-        </div>
-	</div>
-
-	<div class="padding-threeCol"></div>   
-
-	<div class="works_03">
-		<?= render_image("exhibition_03.jpg", 'alt="06" style="width:100%"') ?>
-	</div>
-
-	<div class="padding-60"></div>
-
 	<div class="works_03 text_en">
 		Inspired by the 2 moons of Haruki Murakami's 1Q84 and the flags of space travel, the artists present a portal into another existence where another moon orbits. 
 		This other place is made material by the fabric of the flag.
@@ -89,6 +63,31 @@
 		The fabric is tracked by a 3D camera whilst a projector replays a response onto it according to its evolving shape.
 	</div>
 
+	<div class="padding-60"></div>
+
+    <div class="works_03">
+        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/135237504?&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;background-color: black" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div><script src="https://player.vimeo.com/api/player.js"></script>  
+    </div>
+
+    <div class="padding-30"></div>        
+
+    <div class="threeCol">  
+        <div class="leftwork">
+        </div>
+        <div class="centerwork">
+			<?= render_image("exhibition_01.jpg", 'alt="04" style="width:100%"') ?>
+        </div>
+        <div class="rightwork">
+			<?= render_image("exhibition_02.jpg", 'alt="05" style="width:100%"') ?>
+        </div>
+	</div>
+
+	<div class="padding-threeCol"></div>   
+
+	<div class="works_02">
+		<?= render_image("exhibition_03.jpg", 'alt="06" style="width:100%"') ?>
+	</div>
 
 	<div class="padding-60"></div>
 	
