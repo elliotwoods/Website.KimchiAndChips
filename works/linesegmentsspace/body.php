@@ -53,7 +53,7 @@
 		</div>
 	</div>
 
-<div class="padding-60"></div>
+<div class="padding-30"></div>
 
 
 	<div class="works_03">
