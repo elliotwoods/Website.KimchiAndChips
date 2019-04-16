@@ -18,18 +18,14 @@
 	<div class="padding-80"></div>
 
 	<div class="works_02 text_en">
-		A vertical flag of fabric is stroked by the wind, displaced by curves of air, swinging back and forth. 
-		As it sweeps, it leaves a trail of light which draws a heavy fragile moon floating in space. 
-		The flag renders this moon from another reality, the silk surface acting as an intermediating manifold between reality and virtuality.
-		<p></p>
-		The artists worked within the concrete chambers of Bucheon city Incinerator (소각장), a stagnant industrial processing plant decommissioned in 2010. 
-		Breathing over 50 tonnes of new air into the building, the artists create a wind which blows a 20 meter flag of silk which is activated by digital light. 
-		This process renders a virgin moon into the post-industrial cavern.
-		<p></p>
-		At locations within the building, the artists collaborated with photographer Eunyoung Kim to capture moments of the moon being birthed. 
-		Long exposure photography trades the dimension of time for a dimension of space, extruding the moon into existence on a set of photographic prints, capturing a painting enacted by the details of the wind.
+		<?= render_markdown_file("description_en.md") ?>
 	</div>
 
+	<div class="padding-60"></div>
+
+	<div class="works_02 text_kr" style="color: #000000;">
+		<?= render_markdown_file("description_kr.md") ?>
+	</div>
 
 	<div class="padding-60"></div>
 
@@ -59,16 +55,6 @@
 
 	<div class="padding-60"></div>
 
-	<div class="works_02 text_en">
-		Inspired by the 2 moons of Haruki Murakami's 1Q84 and the flags of space travel, the artists present a portal into another existence where another moon orbits. 
-		This other place is made material by the fabric of the flag.
-		<p></p>
-		Lunar Surface begins a new line of enquiry for drawing into the air for studio Kimchi and Chips, forming artistic collaborations between technology and nature. 
-		The fabric is tracked by a 3D camera whilst a projector replays a response onto it according to its evolving shape.
-	</div>
-
-	<div class="padding-60"></div>
-
     <div class="works_02">
         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/135237504?&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;background-color: black" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         </div><script src="https://player.vimeo.com/api/player.js"></script>  
@@ -94,6 +80,18 @@
 	</div>
 
 	<div class="padding-60"></div>
+
+	<div class="works_03 text_en">
+		Inspired by the 2 moons of Haruki Murakami's 1Q84 and the flags of space travel, the artists present a portal into another existence where another moon orbits. 
+		This other place is made material by the fabric of the flag.
+	<p></p>
+		Lunar Surface begins a new line of enquiry for drawing into the air for studio Kimchi and Chips, forming artistic collaborations between technology and nature. 
+		The fabric is tracked by a 3D camera whilst a projector replays a response onto it according to its evolving shape.
+	</div>
+
+
+	<div class="padding-60"></div>
+	
 
 	<div class="main_image">
 		<?= render_image("lunar_2015_01.jpg", 'alt="07" style="width:100%"') ?>
