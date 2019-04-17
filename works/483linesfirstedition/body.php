@@ -23,7 +23,7 @@
 
 	<div class="padding-60"></div>
 
-	<div class="works_02 text_kr">
+	<div class="works_03 text_kr">
 		<?= render_markdown_file("description_kr.md") ?>
 	</div>
 
