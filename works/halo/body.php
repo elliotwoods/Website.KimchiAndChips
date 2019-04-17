@@ -24,7 +24,7 @@
 	</div>
 
 	<div class="padding-60"></div>
-	<div class="works_02 text_kr" style="color: #000000;">
+	<div class="works_03 text_kr">
 		<?= render_markdown_file("description_kr.md") ?>
 	</div>
 
@@ -135,7 +135,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 
 	<div class="padding-60"></div>
 
-	<div class="works_03 text_kr" style="color: #000000;">
+	<div class="works_03 text_kr">
 	시간은 직선처럼 먼 곳을 향해 걷는 듯하지만 멀리 돌아 다시 제자리를 찾는 모습은 마치 원과 같다.
 	<p></p>
 	시간을 따라 선을 그으면 종국에는 커다란 원이 될 것만 같다.
