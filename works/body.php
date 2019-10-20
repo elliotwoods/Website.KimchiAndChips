@@ -2,7 +2,21 @@
 
 <div class="mainbody animated fadeIn">
         
+// Recent 1st work(main), 2nd work, 3rd work with a big image from here ------------------------
+
 <div class="works_01">
+    <a href="/works/differenceandrepetition/"> 
+        <?= render_image("/works/halo/main.jpg", 'alt="Difference and Repetition" style="width:100%" class="image"') ?> 
+        <div class="main-name"> Difference and Repetition <p></p>
+        2019</div>
+    </a>    
+</div>
+
+
+<div class="padding-80"></div>
+
+
+<div class="works_02">
     <a href="/works/halo/"> 
         <?= render_image("/works/halo/main.jpg", 'alt="Halo" style="width:100%" class="image"') ?> 
         <div class="main-name"> HALO <p></p>
@@ -12,27 +26,26 @@
 
 <div class="padding-80"></div>
 
-<div class="works_02">
-    <a href="/works/lightbarrierthirdedition/">
+<div class="works_03">
+    <a href="/works//">
         <?= render_image("/works/lightbarrierthirdedition/head.jpg", 'alt="Light Barrier Third Edition" style="width:100%" class="image"') ?>
         <div class="main-name"> LIGHT BARRIER <br> THIRD EDITION <p></p>
         2016</div>
     </a> 
-</div>
-
-<div class="padding-80"></div>
-
-<div class="works_03">
-    <a href="/works/483linessecondedition/">
+     /*   
+     <a href="/works/483linessecondedition/">
         <?= render_image("/works/483linessecondedition/main.jpg", 'alt="483 Lines Second Edition"  style="width:100%" class="image"') ?>
         <div class="main-name"> 483 LINES <br> SECOND EDITION <p></p>
         2015</div>
     </a> 
+    */
 </div>
 
 
 <div class="padding-80"></div>
 
+
+// other works with the three columns from here --------------------------------
 
 <div class="threeCol">
 
