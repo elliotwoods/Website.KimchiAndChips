@@ -2,7 +2,6 @@
 
 <div class="mainbody animated fadeIn">
         
-// Recent 1st work(main), 2nd work, 3rd work with a big image from here ------------------------
 
 <div class="works_01">
     <a href="/works/differenceandrepetition/"> 
@@ -45,7 +44,6 @@
 <div class="padding-80"></div>
 
 
-// other works with the three columns from here --------------------------------
 
 <div class="threeCol">
 
