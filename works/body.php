@@ -38,24 +38,24 @@
 
 <div class="threeCol">
     <div class="leftwork-main">
+        <a href="/works/obscurities/"> 
+            <?= render_image("/works/obscurities/head.jpg", 'alt="Obscurities"  style="width:100%" class="image"') ?>
+            <div class="main-name"> OBSCURITIES  <p></p>
+            2017</div>
+        </a>  
+    </div>
+    <div class="centerwork-main">
         <a href="/works/483linessecondedition/">
          <?= render_image("/works/483linessecondedition/main.jpg", 'alt="483 Lines Second Edition"  style="width:100%" class="image"') ?>
             <div class="main-name"> 483 LINES <br> SECOND EDITION <p></p>
             2015</div>
         </a> 
     </div>
-    <div class="centerwork-main">
+    <div class="rightwork-main">
         <a href="/works/lightbarriersecondedition/"> 
             <?= render_image("/works/lightbarriersecondedition/main.jpg", 'alt="Light Barrier Second Edition"  style="width:100%" class="image"') ?>
             <div class="main-name"> LIGHT BARRIER <br> SECOND EDITION  <p></p>
             2015</div>
-        </a>  
-    </div>
-    <div class="rightwork-main">
-        <a href="/works/obscurities/"> 
-            <?= render_image("/works/obscurities/head.jpg", 'alt="Obscurities"  style="width:100%" class="image"') ?>
-            <div class="main-name"> OBSCURITIES  <p></p>
-            2017</div>
         </a>  
     </div>
 </div>
