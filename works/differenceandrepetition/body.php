@@ -1,12 +1,16 @@
 <div class="padding-120"></div>
 <div class="padding-10"></div>
 
+<!-- work main image -->
+
 <div class="full_image">
 	<?= render_image("main.jpg", 'alt="halo main" style="width:100%"') ?>
 </div>
 
 
 <div class="mainbody animated fadeIn">
+
+<!-- works detail -->
 
 	<div class="works_02">
 		<div class="works_name"> DIFFERENCE AND REPETITION </div>
@@ -19,6 +23,8 @@
 
 	<div class="padding-80"></div>
 
+<!-- works description -->
+
 	<div class="works_02 text_en">
 		 <?= render_markdown_file("description_en.md") ?>
 	</div>
@@ -30,6 +36,7 @@
 
 	<div class="padding-60"></div>
 
+<!-- works main video -->
 
 	<div class="works_01">
 		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/274897214?&title=0&byline=0&portrait=0"
@@ -39,6 +46,7 @@
 		<script src="https://player.vimeo.com/api/player.js"></script>
 	</div>
 
+<!-- works contents (can include images, texts etc..) -->
 
 	<div class="padding-30"></div>
 
@@ -112,6 +120,8 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 	</div>
 
 	<div class="padding-60"></div>
+
+<!-- process contents (can include images, texts etc..) -->
 
 	<div class="othertext_left" style="font-size: 14px; font-weight: 400; position:relative; padding-bottom:30px; color: black;">Making of ↓</div>
 
@@ -204,7 +214,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 	<div class="padding-100"></div>
 
 
-	<!-- Ackhowledgements -->
+<!-- Ackhowledgements -->
 
 	<div class="description">
 	<div class="padding-30"></div>
@@ -219,7 +229,7 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 		</div>
 	</div>
 
-	<!-- Related links -->
+<!-- Related links -->
 
 	<div class="description">
 		<div class="description_title">
@@ -241,23 +251,3 @@ The surrounding buildings create an isolated volume of calmness, natural light a
 		</div>
 	</div>
 </div>
-<div class="currentOuter">
-	<div class="current">| HALO | 2018. Somerset House, UK.</div>
-</div>
-
-<style>
-$(function () {
-    "use strict";
-    
-    $(".popup img").click(function () {
-        var $src = $(this).attr("src");
-        $(".show").fadeIn();
-        $(".img-show img").attr("src", $src);
-    });
-    
-    $("span, .overlay").click(function () {
-        $(".show").fadeOut();
-    });
-    
-});
-</style>

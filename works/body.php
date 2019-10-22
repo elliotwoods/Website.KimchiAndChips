@@ -3,6 +3,8 @@
 <div class="mainbody animated fadeIn">
         
 
+<!-- recent three works -->
+
 <div class="works_01">
     <a href="/works/differenceandrepetition/"> 
         <?= render_image("/works/differenceandrepetition/main.jpg", 'alt="Difference and Repetition" style="width:100%" class="image"') ?> 
@@ -35,6 +37,9 @@
 
 
 <div class="padding-80"></div>
+
+
+<!-- other past works -->
 
 <div class="threeCol">
     <div class="leftwork-main">

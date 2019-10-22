@@ -60,7 +60,7 @@
 	<div class="padding-100"></div>
 
 
-	<!-- Ackhowledgements -->
+<!-- Ackhowledgements -->
 
 	<div class="description">
 	<div class="padding-30"></div>
