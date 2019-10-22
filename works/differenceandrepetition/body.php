@@ -51,13 +51,13 @@
 	<div class="padding-60"></div>
 
 	<div class="works_02">
-		<?= render_image("installation_02.jpg", 'alt="01" style="width:100%"') ?>
+		<?= render_image("audience_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-30"></div>
 
 	<div class="works_03">
-		<?= render_image("audience_01.jpg", 'alt="02" style="width:100%"') ?>
+		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-60"></div>
