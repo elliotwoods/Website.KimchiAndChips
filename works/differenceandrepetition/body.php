@@ -96,28 +96,12 @@
 			<div class="text_description_detail">
 				<?= render_markdown_file("acknowledgements.md") ?>
 			</div>
+			<div class="padding-90"></div>
+			<div class="padding-100"></div>
 		</div>
 	</div>
 
 <!-- Related links -->
 
-	<div class="description">
-		<div class="description_title">
-			<span class="text_en_bold">Related links</span>
-			<div class="padding-30"></div>
-		</div>
-		<div class="description_detail">
-			<div class="text_description_detail">
-				<span class="press-link"><a href="http://www.creativeapplications.net/environment/halo-sculpting-the-sunlight-into-immaterial-form/" target="_blank"> 
-                HALO – Sculpting the sunlight into (im)material form</a></span> <br>
-				Creative Applications / June 2018
-				<p></p>
-				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-chips-halo-london-07-19-18/" target="_blank">
-				Seoul studio Kimchi and Chips sculpt with sunlight to create HALO</a></span> <br>
-				Designboom / July 2018
-			</div>
-			<div class="padding-90"></div>
-			<div class="padding-100"></div>
-		</div>
-	</div>
+	
 </div>
