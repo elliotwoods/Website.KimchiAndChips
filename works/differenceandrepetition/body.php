@@ -36,51 +36,92 @@
 
 	<div class="padding-60"></div>
 
-<!-- works main video -->
 
-	<div class="works_01">
+<!-- works contents (can include images, texts etc..) -->
+
+<div class="threeCol">
+		<div class="leftwork">
+		<?= render_image("installation_06.jpg", 'alt="05" style="width:100%"') ?>
+		</div>
+		<div class="centerwork">
+		<?= render_image("installation_07.jpg", 'alt="06" style="width:100%"') ?>
+		</div>
+		<div class="rightwork">
+		<?= render_image("installation_08.jpg", 'alt="07" style="width:100%"') ?>
+		</div>
+	</div>
+
+	<div class="padding-60"></div>
+
+	<!-- works main video -->
+
+	<div class="works_03">
 		<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/346172620?&title=0&byline=0&portrait=0"
 			 style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen
 			 mozallowfullscreen allowfullscreen></iframe>
 		</div>
 		<script src="https://player.vimeo.com/api/player.js"></script>
 	</div>
-
-<!-- works contents (can include images, texts etc..) -->
-
+	<div class="works_03">  
+		<div class="main-subtext" style="font-style:italic; padding-top:10px;">
+		Working video, April 2019
+		</div>
+	</div>
 	<div class="padding-60"></div>
 
 	<div class="works_02">
+		<?= render_image("prototype.jpg", 'alt="04" style="width:100%"') ?>
+	</div>
+	<div class="works_02">  
+		<div class="main-subtext" style="font-style:italic; padding-top:10px;">
+		Scaled prototype March 2019
+		</div>
+	</div>
+
+	<div class="padding-30"></div>
+
+	
+	<div class="works_03">
 		<?= render_image("audience_01.jpg", 'alt="01" style="width:100%"') ?>
 	</div>
 
 	<div class="padding-30"></div>
 
+
+	<div class="works_02">
+		<?= render_image("installation_01.jpg", 'alt="01" style="width:100%"') ?>
+	</div>
+
+	<div class="padding-30"></div>
+
+
 	<div class="works_03">
 		<?= render_image("installation_02.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
 
-	<div class="padding-60"></div>
+	<div class="padding-5"></div>
 
-	<div class="main_image">
-		<?= render_image("installation_01.jpg", 'alt="03" style="width:100%"') ?>
+	<div class="works_03">
+		<?= render_image("installation_03.jpg", 'alt="02" style="width:100%"') ?>
 	</div>
+
+	<div class="padding-30"></div>
+	
+	
+
+	
 	<div class="padding-5"></div>
 	<div class="main_image">
-		<?= render_image("installation_03.jpg", 'alt="04" style="width:100%"') ?>
-	</div>
-	<div class="padding-5"></div>
-	<div class="main_image">
-		<?= render_image("installation_04.jpg", 'alt="05" style="width:100%"') ?>
+		<?= render_image("installation_04.jpg", 'alt="04" style="width:100%"') ?>
 	</div>
 	<div class="padding-5"></div>
 	<div class="main_image">
 		<?= render_image("installation_05.jpg", 'alt="05" style="width:100%"') ?>
 	</div>
-	<div class="padding-5"></div>
-	<div class="main_image">
-		<?= render_image("installation_06.jpg", 'alt="05" style="width:100%"') ?>
-	</div>
+	
+
+
+	
 
 	<div class="padding-100"></div>
 

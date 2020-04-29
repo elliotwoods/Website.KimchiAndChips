@@ -66,6 +66,19 @@
 	transition: 0.4s;
 }
 
+<<<<<<< Updated upstream
+=======
+tag:visited {
+    color: #222222;
+    border-top: 1px #ffffff00 solid;
+    border-bottom: 1px #ffffff00 solid;
+    border-left: 1px #222222 solid;
+    border-right: 1px #222222 solid;
+    background: transparent;
+    text-decoration: none;
+	transition: 0.4s;
+}
+>>>>>>> Stashed changes
 
 .tag:active {
 	background: #222222;
@@ -168,5 +181,21 @@
 		text-decoration: none;
 		transition: 0.4s;
 	}
+<<<<<<< Updated upstream
 	
+=======
+
+	.tag:hover {
+		color: #222222;
+		background: transparent;
+		border-top:1px #ffffff00 solid;
+		border-bottom:1px #ffffff00 solid;
+		border-left:1px #222222 solid;
+		border-right: 1px #222222 solid;
+		text-decoration: none;
+		transition: 0.4s;
+	}
+
+
+>>>>>>> Stashed changes
 }

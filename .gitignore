@@ -1,3 +1,4 @@
 archive/**/
 archive/*_cache.json
 image_cache/
+.DS_Store

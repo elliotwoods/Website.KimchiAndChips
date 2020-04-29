@@ -1,5 +1,8 @@
 <?php
 
+// PROGRAMMING ONLY - NOT FOR EDITING
+// THIS IS A LAYOUT SCRIPT FOR DEALING WITH RENDERING A WORK
+
 $doc_path = realpath(getcwd());
 $works_path = realpath(__DIR__);
 
