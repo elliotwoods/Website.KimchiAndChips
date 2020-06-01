@@ -127,11 +127,7 @@
 
 	
 
-	<div class="works_01">
-		<div style="padding:56.25% 0 0 0;position:relative;">
-			<iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://www.youtube-nocookie.com/embed/q7nzL44CfF0?rel=0" frameborder="0" allowfullscreen></iframe>
-		</div>
-	</div>
+
 
 	<div class="padding-30"></div>
 
@@ -154,31 +150,9 @@
 			</div>
 		</div>
 	</div>
-
-<!-- Related links -->
-
-	<div class="description">
-		<div class="description_title">
-			<span class="text_en_bold">Related links</span>
-			<div class="padding-30"></div>
-		</div>
-		<div class="description_detail">
-			<div class="text_description_detail">
-				<span class="press-link"><a href="http://www.creativeapplications.net/environment/halo-sculpting-the-sunlight-into-immaterial-form/" target="_blank"> 
-                HALO – Sculpting the sunlight into (im)material form</a></span> <br>
-				Creative Applications / June 2018
-				<p></p>
-				<span class="press-link"><a href="https://www.designboom.com/art/kimchi-chips-halo-london-07-19-18/" target="_blank">
-				Seoul studio Kimchi and Chips sculpt with sunlight to create HALO</a></span> <br>
-				Designboom / July 2018
-			</div>
-			<div class="padding-90"></div>
-			<div class="padding-100"></div>
-		</div>
-	</div>
 </div>
 <div class="currentOuter">
-	<div class="current">| HALO | 2018. Somerset House, UK.</div>
+	<div class="current">| COLLECTIVE BEHAVIOUR | 2019. KPH VOLUME, DK.</div>
 </div>
 
 <style>
